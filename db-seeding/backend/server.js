@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use('/api/events', require('./routes/eventRoutes'))
+app.use('/api/eclipses', require('./routes/eventRoutes'))
 
 app.use(errorHandler)
 

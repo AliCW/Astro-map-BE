@@ -1,9 +1,9 @@
 const asyncHandler = require("express-async-handler");
 
-const Event = require("../models/eventModel");
+const Eclipse = require("../models/eclipse-schema");
 
 const getEvents = async (req, res) => {
-  const events = await Event.find();
+  const events = await Eclipse.find({ type: "hybrid" });
   res.status(200).json(events);
 };
 
