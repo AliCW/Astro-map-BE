@@ -23,19 +23,19 @@ const client = new MongoClient(url);
          console.log("Connected correctly to server");
          const db = client.db(dbName);
 
-        const total = db.collection("total");
+        const total = db.collection("totals");
 
         await total.deleteMany({})
         const p = await total.insertMany(totalEclipses);
         const myDoc1 = await total.find();
 
-        const annular = db.collection("annular");
+        const annular = db.collection("annulars");
          
         await annular.deleteMany({})
         const q = await annular.insertMany(annularEclipses);
         const myDoc2 = await annular.find();
         
-        const hybrid = db.collection("hybrid");
+        const hybrid = db.collection("hybrids");
          
         await hybrid.deleteMany({})
         const r = await hybrid.insertMany(hybridEclipses);
