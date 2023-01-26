@@ -10,22 +10,24 @@ require('dotenv').config({
     path: `${__dirname}/.env`,
 });
 
-mongoose.connect(process.env.MONGOURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-}).then(() => {
-    console.log('connected to server')
-    Eclipse.collection.drop()
-    // maps over the schema and for each saves it to the database
-    return allArraysSchema.map((eclipse) => {
-        return eclipse.save()
-    })
-}).then(() => {
-    console.log('saved to database')
-}).catch((err) => {
-    console.log(err)
-})
+function runSeed(array) {
 
+    mongoose.connect(process.env.MONGOURI, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    }).then(() => {
+        console.log('connected to server')
+        Eclipse.collection.drop()
+        // maps over the schema and for each saves it to the database
+        return array.map((eclipse) => {
+            return eclipse.save()
+        })
+    }).then(() => {
+        console.log('saved to database')
+    }).catch((err) => {
+        console.log(err)
+    })
+}
 // creates objects from raw data 
 // and concats all arrays together
 
@@ -45,29 +47,4 @@ const allArraysSchema = allArrays.map((object) => {
     return newObj
 })
 
-// const hybridEclipseSchema = hybridEclipseObjects.map((object) => {
-//     const newObj = new Hybrid({
-//         'date': object.date,
-//         'type': object.type,
-//         'coordinateData': object.coordinateData
-//     })
-//     return newObj
-// })
-
-// const totalEclipseSchema = totalEclipseObjects.map((object) => {
-//     const newObj = new Total({
-//         'date': object.date,
-//         'type': object.type,
-//         'coordinateData': object.coordinateData
-//     })
-//     return newObj
-// })
-
-// const annularEclipseSchema = annularEclipseObjects.map((object) => {
-//     const newObj = new Annular({
-//         'date': object.date,
-//         'type': object.type,
-//         'coordinateData': object.coordinateData
-//     })
-//     return newObj
-// })
+module.exports = runSeed();

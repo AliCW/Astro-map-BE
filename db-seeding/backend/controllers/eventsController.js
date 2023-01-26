@@ -7,6 +7,12 @@ const getEvents = async (req, res) => {
   res.status(200).json(events);
 };
 
+const getEventsInNextYear = async (req, res) => {
+
+  const events = await Eclipse.find({});
+  res.status(200).json(events);
+};
+
 const getEventsById = async (req, res) => {
   const events = await Event.find({ _id: req.params.id });
   res.status(200).json(events);
