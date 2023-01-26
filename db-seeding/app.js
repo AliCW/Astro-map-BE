@@ -38,9 +38,9 @@ mongoose.connect(process.env.MONGOURI)
     console.log(err)
 })
 
-const Model = mongoose.model('Annular', new mongoose.Schema({}));
+const Model = mongoose.model('Hybrid', new mongoose.Schema({}));
 
-Model.find({type: 'annular'}).then((result) => {
+Model.find({type: 'hybrid'}).then((result) => {
         console.log(result)
     }).catch((err) => {
         console.log(err)

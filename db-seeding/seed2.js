@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const Hybrid = require('./eclipse-schema')
+const { Hybrid, Total, Annular } = require('./eclipse-schema')
 const { convertArrayOfStringsToJson } = require('./convertArrayToJson')
 const { hybridArrays } = require('./hybrid-arrays-all/hybrid-arrays-all')
 const { totalArrays } = require('./total-arrays-all/total-arrays-all')
@@ -15,25 +15,58 @@ mongoose.connect(process.env.MONGOURI, {
     useUnifiedTopology: true
 }).then(() => {
     console.log('connected to server')
-    return hybridEclipses.insertMany()
+    Hybrid.collection.drop()
+    // maps over the schema and for each saves it to the database
+    return hybridEclipseSchema.map((eclipse) => {
+        return eclipse.save()
+    })
 }).then(() => {
-    console.log('saved to database')
+    Total.collection.drop()
+    console.log('saved hybrids to database')
+    return totalEclipseSchema.map((eclipse) => {
+        return eclipse.save()
+    })
+}).then(() => {
+    Annular.collection.drop()
+    console.log('saved totals to database')
+    return annularEclipseSchema.map((eclipse) => {
+        return eclipse.save()
+    })
+}).then(() => {
+    console.log('saved annulars to database')
 }).catch((err) => {
     console.log(err)
 })
 
-// const hybridEclipses = convertArrayOfStringsToJson(hybridArrays, 'hybrid')
+// creates objects from raw data
+const hybridEclipseObjects = convertArrayOfStringsToJson(hybridArrays, 'hybrid')
+const totalEclipseObjects = convertArrayOfStringsToJson(totalArrays, 'total')
+const annularEclipseObjects = convertArrayOfStringsToJson(annularArrays, 'annular')
 
-const hybridEclipses = new Hybrid(convertArrayOfStringsToJson(hybridArrays))
-console.log(hybridEclipses.date)
+// maps over the objects and creates schema from those objects
+const hybridEclipseSchema = hybridEclipseObjects.map((object) => {
+    const newObj =  new Hybrid({
+        'date': object.date,
+        'type': object.type,
+        'coordinateData': object.coordinateData
+    })
+    return newObj
+})
 
+const totalEclipseSchema = totalEclipseObjects.map((object) => {
+    const newObj =  new Total({
+        'date': object.date,
+        'type': object.type,
+        'coordinateData': object.coordinateData
+    })
+    return newObj
+})
 
-// Hybrid.save(hybridEclipses).then(() => {
-//     console.log('data inserted')
-// }).catch((err) => {
-//     console.log(err, 'error')
-// }).finally(() => {
-//     mongoose.connection.close()
-// })
-
-
+const annularEclipseSchema = annularEclipseObjects.map((object) => {
+    const newObj =  new Annular({
+        'date': object.date,
+        'type': object.type,
+        'coordinateData': object.coordinateData
+    })
+    return newObj
+})
