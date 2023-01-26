@@ -19,4 +19,9 @@ Model.find({type: 'hybrid'}).then((result) => {
         console.log(err)
     })
 
+//mongoose.close()
 
+// connects OK
+// must find a way to end connection using mongoose
+// look at async await notes
+// get endpoints working first before hosting
