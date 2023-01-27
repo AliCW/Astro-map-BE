@@ -6,6 +6,7 @@ const { convertArrayOfStringsToJson } = require('./utils/convertArrayToJson')
 const { hybridArrays } = require('./data/hybrid-arrays-all/hybrid-arrays-all')
 const { totalArrays } = require('./data/total-arrays-all/total-arrays-all')
 const { annularArrays } = require('./data/annular-arrays-all/annular-arrays')
+const fs = require('fs/promises')
 require('dotenv').config({
     path: `${__dirname}/.env`,
 });
@@ -47,4 +48,14 @@ const allArraysSchema = allArrays.map((object) => {
     return newObj
 })
 
+
+const smallArraysSchema = [allArraysSchema[0], allArraysSchema[10], allArraysSchema[27], allArraysSchema[100], allArraysSchema[130], allArraysSchema[201]]
+
+const writeAllSchema = () => {
+    fs.writeFile('./testData/testData.js', JSON.stringify(smallArraysSchema, null, 2))
+}
+
+writeAllSchema()
+
 module.exports = runSeed();
+
