@@ -6,25 +6,26 @@ const { convertArrayOfStringsToJson } = require('./utils/convertArrayToJson')
 const { hybridArrays } = require('./data/hybrid-arrays-all/hybrid-arrays-all')
 const { totalArrays } = require('./data/total-arrays-all/total-arrays-all')
 const { annularArrays } = require('./data/annular-arrays-all/annular-arrays')
+const fs = require('fs/promises')
 require('dotenv').config({
     path: `${__dirname}/.env`,
 });
 
-mongoose.connect(process.env.MONGOURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-}).then(() => {
-    console.log('connected to server')
-    Eclipse.collection.drop()
-    // maps over the schema and for each saves it to the database
-    return allArraysSchema.map((eclipse) => {
-        return eclipse.save()
-    })
-}).then(() => {
-    console.log('saved to database')
-}).catch((err) => {
-    console.log(err)
-})
+// mongoose.connect(process.env.MONGOURI, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true
+// }).then(() => {
+//     console.log('connected to server')
+//     Eclipse.collection.drop()
+//     // maps over the schema and for each saves it to the database
+//     return allArraysSchema.map((eclipse) => {
+//         return eclipse.save()
+//     })
+// }).then(() => {
+//     console.log('saved to database')
+// }).catch((err) => {
+//     console.log(err)
+// })
 
 // creates objects from raw data 
 // and concats all arrays together
@@ -45,29 +46,10 @@ const allArraysSchema = allArrays.map((object) => {
     return newObj
 })
 
-// const hybridEclipseSchema = hybridEclipseObjects.map((object) => {
-//     const newObj = new Hybrid({
-//         'date': object.date,
-//         'type': object.type,
-//         'coordinateData': object.coordinateData
-//     })
-//     return newObj
-// })
+const smallArraysSchema = [allArraysSchema[0], allArraysSchema[10], allArraysSchema[27], allArraysSchema[100], allArraysSchema[130], allArraysSchema[201]]
 
-// const totalEclipseSchema = totalEclipseObjects.map((object) => {
-//     const newObj = new Total({
-//         'date': object.date,
-//         'type': object.type,
-//         'coordinateData': object.coordinateData
-//     })
-//     return newObj
-// })
+const writeAllSchema = () => {
+    fs.writeFile('./testData/testData.js', JSON.stringify(smallArraysSchema, null, 2))
+}
 
-// const annularEclipseSchema = annularEclipseObjects.map((object) => {
-//     const newObj = new Annular({
-//         'date': object.date,
-//         'type': object.type,
-//         'coordinateData': object.coordinateData
-//     })
-//     return newObj
-// })
+writeAllSchema()
