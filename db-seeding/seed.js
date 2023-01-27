@@ -11,21 +11,21 @@ require('dotenv').config({
     path: `${__dirname}/.env`,
 });
 
-// mongoose.connect(process.env.MONGOURI, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true
-// }).then(() => {
-//     console.log('connected to server')
-//     Eclipse.collection.drop()
-//     // maps over the schema and for each saves it to the database
-//     return allArraysSchema.map((eclipse) => {
-//         return eclipse.save()
-//     })
-// }).then(() => {
-//     console.log('saved to database')
-// }).catch((err) => {
-//     console.log(err)
-// })
+mongoose.connect(process.env.MONGOURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}).then(() => {
+    console.log('connected to server')
+    Eclipse.collection.drop()
+    // maps over the schema and for each saves it to the database
+    return allArraysSchema.map((eclipse) => {
+        return eclipse.save()
+    })
+}).then(() => {
+    console.log('saved to database')
+}).catch((err) => {
+    console.log(err)
+})
 
 // creates objects from raw data 
 // and concats all arrays together
