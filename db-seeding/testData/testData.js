@@ -1,4 +1,4 @@
-[
+const testData = [
   {
     "date": "1912Apr17",
     "type": "hybrid",
@@ -3595,7 +3595,7 @@
         "kmDistance": 57.001449466254876
       }
     ],
-    "_id": "63d3caffdda50c3cdc57b019"
+    "_id": "63d3eb1b5599da37be158ef8"
   },
   {
     "date": "2031Nov14",
@@ -5594,7 +5594,7 @@
         "kmDistance": 17.255041003449854
       }
     ],
-    "_id": "63d3caffdda50c3cdc57b023"
+    "_id": "63d3eb1b5599da37be158f02"
   },
   {
     "date": "2026Aug12",
@@ -6510,7 +6510,7 @@
         "kmDistance": 273.3091957253507
       }
     ],
-    "_id": "63d3caffdda50c3cdc57b034"
+    "_id": "63d3eb1b5599da37be158f13"
   },
   {
     "date": "1910May09",
@@ -7801,7 +7801,7 @@
         "kmDistance": 506.64394845361505
       }
     ],
-    "_id": "63d3caffdda50c3cdc57b07d"
+    "_id": "63d3eb1b5599da37be158f5c"
   },
   {
     "date": "1995Oct24",
@@ -11646,7 +11646,7 @@
         "kmDistance": 22.03585007146199
       }
     ],
-    "_id": "63d3caffdda50c3cdc57b09b"
+    "_id": "63d3eb1b5599da37be158f7a"
   },
   {
     "date": "1990Jan26",
@@ -13000,6 +13000,8 @@
         "kmDistance": 512.600752576694
       }
     ],
-    "_id": "63d3caffdda50c3cdc57b0e2"
+    "_id": "63d3eb1b5599da37be158fc1"
   }
 ]
+
+module.exports = { testData }
