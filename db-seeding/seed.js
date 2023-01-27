@@ -14,21 +14,21 @@ require('dotenv').config({
 
 // function runSeed(array) {
 
-    mongoose.connect(process.env.MONGOURI, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    }).then(() => {
-        console.log('connected to server')
-        Eclipse.collection.drop()
-        // maps over the schema and for each saves it to the database
-        return allArraysSchema.map((eclipse) => {
-            return eclipse.save()
-        })
-    }).then(() => {
-        console.log('saved to database')
-    }).catch((err) => {
-        console.log(err)
-    })
+    // mongoose.connect(process.env.MONGOURI, {
+    //     useNewUrlParser: true,
+    //     useUnifiedTopology: true
+    // }).then(() => {
+    //     console.log('connected to server')
+    //     Eclipse.collection.drop()
+    //     // maps over the schema and for each saves it to the database
+    //     return allArraysSchema.map((eclipse) => {
+    //         return eclipse.save()
+    //     })
+    // }).then(() => {
+    //     console.log('saved to database')
+    // }).catch((err) => {
+    //     console.log(err)
+    // })
 // }
 // creates objects from raw data 
 // and concats all arrays together
@@ -50,13 +50,13 @@ const allArraysSchema = allArrays.map((object) => {
 })
 
 
-// const smallArraysSchema = [allArraysSchema[0], allArraysSchema[10], allArraysSchema[27], allArraysSchema[100], allArraysSchema[130], allArraysSchema[201]]
+const smallArraysSchema = [allArraysSchema[0], allArraysSchema[10], allArraysSchema[27], allArraysSchema[100], allArraysSchema[130], allArraysSchema[201]]
 
-// const writeAllSchema = () => {
-//     fs.writeFile('./testData/testData.js', JSON.stringify(smallArraysSchema, null, 2))
-// }
+const writeAllSchema = () => {
+    fs.writeFile('./testData/testData.js', JSON.stringify(smallArraysSchema, null, 2))
+}
 
-// writeAllSchema()
+writeAllSchema()
 
 // runSeed(allArraysSchema)
 

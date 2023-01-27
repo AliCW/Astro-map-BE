@@ -19,7 +19,8 @@
         "southCoordinates": {
           "latitude": 4.7689,
           "longitude": -61.0508
-        }
+        },
+        "kmDistance": 65.4612237902274
       },
       {
         "date": "1912Apr17",
@@ -37,7 +38,8 @@
         "southCoordinates": {
           "latitude": 5.9844,
           "longitude": -55.6669
-        }
+        },
+        "kmDistance": 448.06484289292894
       },
       {
         "date": "1912Apr17",
@@ -55,7 +57,8 @@
         "southCoordinates": {
           "latitude": 6.8506,
           "longitude": -52.6006
-        }
+        },
+        "kmDistance": 187.65493738210907
       },
       {
         "date": "1912Apr17",
@@ -73,7 +76,8 @@
         "southCoordinates": {
           "latitude": 7.5342,
           "longitude": -50.4683
-        }
+        },
+        "kmDistance": 136.35377416991963
       },
       {
         "date": "1912Apr17",
@@ -91,7 +95,8 @@
         "southCoordinates": {
           "latitude": 8.1347,
           "longitude": -48.7675
-        }
+        },
+        "kmDistance": 110.75520598121389
       },
       {
         "date": "1912Apr17",
@@ -109,7 +114,8 @@
         "southCoordinates": {
           "latitude": 8.685,
           "longitude": -47.3178
-        }
+        },
+        "kmDistance": 96.01380109758603
       },
       {
         "date": "1912Apr17",
@@ -127,7 +133,8 @@
         "southCoordinates": {
           "latitude": 9.2022,
           "longitude": -46.0358
-        }
+        },
+        "kmDistance": 85.22699954001826
       },
       {
         "date": "1912Apr17",
@@ -145,7 +152,8 @@
         "southCoordinates": {
           "latitude": 9.7008,
           "longitude": -44.9008
-        }
+        },
+        "kmDistance": 74.71906385280153
       },
       {
         "date": "1912Apr17",
@@ -163,7 +171,8 @@
         "southCoordinates": {
           "latitude": 10.1686,
           "longitude": -43.8522
-        }
+        },
+        "kmDistance": 69.01529469400056
       },
       {
         "date": "1912Apr17",
@@ -181,7 +190,8 @@
         "southCoordinates": {
           "latitude": 10.6336,
           "longitude": -42.9003
-        }
+        },
+        "kmDistance": 61.72802495463551
       },
       {
         "date": "1912Apr17",
@@ -199,7 +209,8 @@
         "southCoordinates": {
           "latitude": 11.0683,
           "longitude": -42.0014
-        }
+        },
+        "kmDistance": 58.287521905356016
       },
       {
         "date": "1912Apr17",
@@ -217,7 +228,8 @@
         "southCoordinates": {
           "latitude": 11.5014,
           "longitude": -41.1675
-        }
+        },
+        "kmDistance": 54.641648925462015
       },
       {
         "date": "1912Apr17",
@@ -235,7 +247,8 @@
         "southCoordinates": {
           "latitude": 11.9189,
           "longitude": -40.3836
-        }
+        },
+        "kmDistance": 51.059526853565835
       },
       {
         "date": "1912Apr17",
@@ -253,7 +266,8 @@
         "southCoordinates": {
           "latitude": 12.3347,
           "longitude": -39.6344
-        }
+        },
+        "kmDistance": 47.16605228324519
       },
       {
         "date": "1912Apr17",
@@ -271,7 +285,8 @@
         "southCoordinates": {
           "latitude": 12.7356,
           "longitude": -38.9192
-        }
+        },
+        "kmDistance": 45.186118238172654
       },
       {
         "date": "1912Apr17",
@@ -289,7 +304,8 @@
         "southCoordinates": {
           "latitude": 13.135,
           "longitude": -38.2514
-        }
+        },
+        "kmDistance": 41.84825819869436
       },
       {
         "date": "1912Apr17",
@@ -307,7 +323,8 @@
         "southCoordinates": {
           "latitude": 13.5336,
           "longitude": -37.6022
-        }
+        },
+        "kmDistance": 40.01196824337468
       },
       {
         "date": "1912Apr17",
@@ -325,7 +342,8 @@
         "southCoordinates": {
           "latitude": 13.9175,
           "longitude": -36.9853
-        }
+        },
+        "kmDistance": 37.67041493947859
       },
       {
         "date": "1912Apr17",
@@ -343,7 +361,8 @@
         "southCoordinates": {
           "latitude": 14.3003,
           "longitude": -36.4003
-        }
+        },
+        "kmDistance": 35.90075089020289
       },
       {
         "date": "1912Apr17",
@@ -361,7 +380,8 @@
         "southCoordinates": {
           "latitude": 14.6683,
           "longitude": -35.8189
-        }
+        },
+        "kmDistance": 34.67452559142434
       },
       {
         "date": "1912Apr17",
@@ -379,7 +399,8 @@
         "southCoordinates": {
           "latitude": 15.0358,
           "longitude": -35.2689
-        }
+        },
+        "kmDistance": 32.972139922314575
       },
       {
         "date": "1912Apr17",
@@ -397,7 +418,8 @@
         "southCoordinates": {
           "latitude": 15.4167,
           "longitude": -34.7356
-        }
+        },
+        "kmDistance": 32.1116020115775
       },
       {
         "date": "1912Apr17",
@@ -415,7 +437,8 @@
         "southCoordinates": {
           "latitude": 15.7689,
           "longitude": -34.2192
-        }
+        },
+        "kmDistance": 30.399163583546052
       },
       {
         "date": "1912Apr17",
@@ -433,7 +456,8 @@
         "southCoordinates": {
           "latitude": 16.1344,
           "longitude": -33.7192
-        }
+        },
+        "kmDistance": 28.77759378794865
       },
       {
         "date": "1912Apr17",
@@ -451,7 +475,8 @@
         "southCoordinates": {
           "latitude": 16.4856,
           "longitude": -33.2356
-        }
+        },
+        "kmDistance": 27.14926202441535
       },
       {
         "date": "1912Apr17",
@@ -469,7 +494,8 @@
         "southCoordinates": {
           "latitude": 16.8503,
           "longitude": -32.7681
-        }
+        },
+        "kmDistance": 24.95943781050963
       },
       {
         "date": "1912Apr17",
@@ -487,7 +513,8 @@
         "southCoordinates": {
           "latitude": 17.2006,
           "longitude": -32.3167
-        }
+        },
+        "kmDistance": 23.369722793685867
       },
       {
         "date": "1912Apr17",
@@ -505,7 +532,8 @@
         "southCoordinates": {
           "latitude": 17.5503,
           "longitude": -31.8672
-        }
+        },
+        "kmDistance": 23.163303200372834
       },
       {
         "date": "1912Apr17",
@@ -523,7 +551,8 @@
         "southCoordinates": {
           "latitude": 17.8856,
           "longitude": -31.4333
-        }
+        },
+        "kmDistance": 21.63915682945859
       },
       {
         "date": "1912Apr17",
@@ -541,7 +570,8 @@
         "southCoordinates": {
           "latitude": 18.2344,
           "longitude": -31.0014
-        }
+        },
+        "kmDistance": 21.417967817367877
       },
       {
         "date": "1912Apr17",
@@ -559,7 +589,8 @@
         "southCoordinates": {
           "latitude": 18.5692,
           "longitude": -30.5847
-        }
+        },
+        "kmDistance": 21.250628333267976
       },
       {
         "date": "1912Apr17",
@@ -577,7 +608,8 @@
         "southCoordinates": {
           "latitude": 18.9175,
           "longitude": -30.1839
-        }
+        },
+        "kmDistance": 19.08370194014853
       },
       {
         "date": "1912Apr17",
@@ -595,7 +627,8 @@
         "southCoordinates": {
           "latitude": 19.2514,
           "longitude": -29.7842
-        }
+        },
+        "kmDistance": 17.578486095961786
       },
       {
         "date": "1912Apr17",
@@ -613,7 +646,8 @@
         "southCoordinates": {
           "latitude": 19.585,
           "longitude": -29.3858
-        }
+        },
+        "kmDistance": 18.7670275184048
       },
       {
         "date": "1912Apr17",
@@ -631,7 +665,8 @@
         "southCoordinates": {
           "latitude": 19.9183,
           "longitude": -29.0167
-        }
+        },
+        "kmDistance": 15.959315583013334
       },
       {
         "date": "1912Apr17",
@@ -649,7 +684,8 @@
         "southCoordinates": {
           "latitude": 20.2514,
           "longitude": -28.6347
-        }
+        },
+        "kmDistance": 15.809364455824712
       },
       {
         "date": "1912Apr17",
@@ -667,7 +703,8 @@
         "southCoordinates": {
           "latitude": 20.5842,
           "longitude": -28.2678
-        }
+        },
+        "kmDistance": 15.6841523060402
       },
       {
         "date": "1912Apr17",
@@ -685,7 +722,8 @@
         "southCoordinates": {
           "latitude": 20.9167,
           "longitude": -27.9019
-        }
+        },
+        "kmDistance": 14.88919706055926
       },
       {
         "date": "1912Apr17",
@@ -703,7 +741,8 @@
         "southCoordinates": {
           "latitude": 21.235,
           "longitude": -27.5511
-        }
+        },
+        "kmDistance": 14.149618743774862
       },
       {
         "date": "1912Apr17",
@@ -721,7 +760,8 @@
         "southCoordinates": {
           "latitude": 21.5672,
           "longitude": -27.2011
-        }
+        },
+        "kmDistance": 13.299239251891132
       },
       {
         "date": "1912Apr17",
@@ -739,7 +779,8 @@
         "southCoordinates": {
           "latitude": 21.885,
           "longitude": -26.8519
-        }
+        },
+        "kmDistance": 13.186305396414488
       },
       {
         "date": "1912Apr17",
@@ -757,7 +798,8 @@
         "southCoordinates": {
           "latitude": 22.2167,
           "longitude": -26.5178
-        }
+        },
+        "kmDistance": 11.770334046480423
       },
       {
         "date": "1912Apr17",
@@ -775,7 +817,8 @@
         "southCoordinates": {
           "latitude": 22.5342,
           "longitude": -26.1842
-        }
+        },
+        "kmDistance": 11.661335776290207
       },
       {
         "date": "1912Apr17",
@@ -793,7 +836,8 @@
         "southCoordinates": {
           "latitude": 22.8514,
           "longitude": -25.8517
-        }
+        },
+        "kmDistance": 11.543438019008288
       },
       {
         "date": "1912Apr17",
@@ -811,7 +855,8 @@
         "southCoordinates": {
           "latitude": 23.1683,
           "longitude": -25.5336
-        }
+        },
+        "kmDistance": 10.223545348394449
       },
       {
         "date": "1912Apr17",
@@ -829,7 +874,8 @@
         "southCoordinates": {
           "latitude": 23.4853,
           "longitude": -25.2022
-        }
+        },
+        "kmDistance": 10.110822646969337
       },
       {
         "date": "1912Apr17",
@@ -847,7 +893,8 @@
         "southCoordinates": {
           "latitude": 23.8019,
           "longitude": -24.8856
-        }
+        },
+        "kmDistance": 10.00438881123001
       },
       {
         "date": "1912Apr17",
@@ -865,7 +912,8 @@
         "southCoordinates": {
           "latitude": 24.1186,
           "longitude": -24.5833
-        }
+        },
+        "kmDistance": 8.77578904882734
       },
       {
         "date": "1912Apr17",
@@ -883,7 +931,8 @@
         "southCoordinates": {
           "latitude": 24.435,
           "longitude": -24.2678
-        }
+        },
+        "kmDistance": 7.846027161503428
       },
       {
         "date": "1912Apr17",
@@ -901,7 +950,8 @@
         "southCoordinates": {
           "latitude": 24.7511,
           "longitude": -23.9667
-        }
+        },
+        "kmDistance": 7.735268026435548
       },
       {
         "date": "1912Apr17",
@@ -919,7 +969,8 @@
         "southCoordinates": {
           "latitude": 25.0672,
           "longitude": -23.6522
-        }
+        },
+        "kmDistance": 7.6599460221759665
       },
       {
         "date": "1912Apr17",
@@ -937,7 +988,8 @@
         "southCoordinates": {
           "latitude": 25.3833,
           "longitude": -23.3519
-        }
+        },
+        "kmDistance": 6.955554602892188
       },
       {
         "date": "1912Apr17",
@@ -955,7 +1007,8 @@
         "southCoordinates": {
           "latitude": 25.685,
           "longitude": -23.0525
-        }
+        },
+        "kmDistance": 7.480672130708289
       },
       {
         "date": "1912Apr17",
@@ -973,7 +1026,8 @@
         "southCoordinates": {
           "latitude": 26.0008,
           "longitude": -22.7669
-        }
+        },
+        "kmDistance": 6.258766053369834
       },
       {
         "date": "1912Apr17",
@@ -991,7 +1045,8 @@
         "southCoordinates": {
           "latitude": 26.3025,
           "longitude": -22.4683
-        }
+        },
+        "kmDistance": 6.180072309749099
       },
       {
         "date": "1912Apr17",
@@ -1009,7 +1064,8 @@
         "southCoordinates": {
           "latitude": 26.6178,
           "longitude": -22.1836
-        }
+        },
+        "kmDistance": 6.101081535331317
       },
       {
         "date": "1912Apr17",
@@ -1027,7 +1083,8 @@
         "southCoordinates": {
           "latitude": 26.9192,
           "longitude": -21.8856
-        }
+        },
+        "kmDistance": 6.0468231036634705
       },
       {
         "date": "1912Apr17",
@@ -1045,7 +1102,8 @@
         "southCoordinates": {
           "latitude": 27.2344,
           "longitude": -21.6019
-        }
+        },
+        "kmDistance": 5.205460075977496
       },
       {
         "date": "1912Apr17",
@@ -1063,7 +1121,8 @@
         "southCoordinates": {
           "latitude": 27.5356,
           "longitude": -21.3183
-        }
+        },
+        "kmDistance": 4.845715397468075
       },
       {
         "date": "1912Apr17",
@@ -1081,7 +1140,8 @@
         "southCoordinates": {
           "latitude": 27.8506,
           "longitude": -21.035
-        }
+        },
+        "kmDistance": 3.842420149996547
       },
       {
         "date": "1912Apr17",
@@ -1099,7 +1159,8 @@
         "southCoordinates": {
           "latitude": 28.1514,
           "longitude": -20.7519
-        }
+        },
+        "kmDistance": 3.817381413783537
       },
       {
         "date": "1912Apr17",
@@ -1117,7 +1178,8 @@
         "southCoordinates": {
           "latitude": 28.4525,
           "longitude": -20.4692
-        }
+        },
+        "kmDistance": 3.7222403685296648
       },
       {
         "date": "1912Apr17",
@@ -1135,7 +1197,8 @@
         "southCoordinates": {
           "latitude": 28.7669,
           "longitude": -20.2006
-        }
+        },
+        "kmDistance": 2.5951177398199214
       },
       {
         "date": "1912Apr17",
@@ -1153,7 +1216,8 @@
         "southCoordinates": {
           "latitude": 29.0678,
           "longitude": -19.9183
-        }
+        },
+        "kmDistance": 3.6302379024560962
       },
       {
         "date": "1912Apr17",
@@ -1171,7 +1235,8 @@
         "southCoordinates": {
           "latitude": 29.3683,
           "longitude": -19.65
-        }
+        },
+        "kmDistance": 2.5100440519438014
       },
       {
         "date": "1912Apr17",
@@ -1189,7 +1254,8 @@
         "southCoordinates": {
           "latitude": 29.6689,
           "longitude": -19.3678
-        }
+        },
+        "kmDistance": 2.482367964467954
       },
       {
         "date": "1912Apr17",
@@ -1207,7 +1273,8 @@
         "southCoordinates": {
           "latitude": 29.9692,
           "longitude": -19.1
-        }
+        },
+        "kmDistance": 2.4391810521223736
       },
       {
         "date": "1912Apr17",
@@ -1225,7 +1292,8 @@
         "southCoordinates": {
           "latitude": 30.2836,
           "longitude": -18.8181
-        }
+        },
+        "kmDistance": 1.6337181206551654
       },
       {
         "date": "1912Apr17",
@@ -1243,7 +1311,8 @@
         "southCoordinates": {
           "latitude": 30.5839,
           "longitude": -18.5503
-        }
+        },
+        "kmDistance": 1.6002425124071185
       },
       {
         "date": "1912Apr17",
@@ -1261,7 +1330,8 @@
         "southCoordinates": {
           "latitude": 30.8842,
           "longitude": -18.2689
-        }
+        },
+        "kmDistance": 1.5442494955679251
       },
       {
         "date": "1912Apr17",
@@ -1279,7 +1349,8 @@
         "southCoordinates": {
           "latitude": 31.1842,
           "longitude": -18.0011
-        }
+        },
+        "kmDistance": 1.5110523497706714
       },
       {
         "date": "1912Apr17",
@@ -1297,7 +1368,8 @@
         "southCoordinates": {
           "latitude": 31.4842,
           "longitude": -17.7336
-        }
+        },
+        "kmDistance": 0.20235342908700385
       },
       {
         "date": "1912Apr17",
@@ -1315,7 +1387,8 @@
         "southCoordinates": {
           "latitude": 31.7842,
           "longitude": -17.4519
-        }
+        },
+        "kmDistance": 1.4795663077838863
       },
       {
         "date": "1912Apr17",
@@ -1333,7 +1406,8 @@
         "southCoordinates": {
           "latitude": 32.0842,
           "longitude": -17.1844
-        }
+        },
+        "kmDistance": 0.14385524536587527
       },
       {
         "date": "1912Apr17",
@@ -1351,7 +1425,8 @@
         "southCoordinates": {
           "latitude": 32.3842,
           "longitude": -16.9169
-        }
+        },
+        "kmDistance": 0.10115924447970139
       },
       {
         "date": "1912Apr17",
@@ -1369,7 +1444,8 @@
         "southCoordinates": {
           "latitude": 32.6839,
           "longitude": -16.6353
-        }
+        },
+        "kmDistance": 1.3768716152565326
       },
       {
         "date": "1912Apr17",
@@ -1387,7 +1463,8 @@
         "southCoordinates": {
           "latitude": 32.9839,
           "longitude": -16.3678
-        }
+        },
+        "kmDistance": 0.05733882062911708
       },
       {
         "date": "1912Apr17",
@@ -1405,7 +1482,8 @@
         "southCoordinates": {
           "latitude": 33.2836,
           "longitude": -16.1
-        }
+        },
+        "kmDistance": 0.027886502579916164
       },
       {
         "date": "1912Apr17",
@@ -1423,7 +1501,8 @@
         "southCoordinates": {
           "latitude": 33.5833,
           "longitude": -15.8183
-        }
+        },
+        "kmDistance": 0
       },
       {
         "date": "1912Apr17",
@@ -1441,7 +1520,8 @@
         "southCoordinates": {
           "latitude": 33.8689,
           "longitude": -15.5503
-        }
+        },
+        "kmDistance": 0
       },
       {
         "date": "1912Apr17",
@@ -1459,7 +1539,8 @@
         "southCoordinates": {
           "latitude": 34.1686,
           "longitude": -15.2686
-        }
+        },
+        "kmDistance": 0.056823059498357406
       },
       {
         "date": "1912Apr17",
@@ -1477,7 +1558,8 @@
         "southCoordinates": {
           "latitude": 34.4681,
           "longitude": -15.0003
-        }
+        },
+        "kmDistance": 1.329689578416636
       },
       {
         "date": "1912Apr17",
@@ -1495,7 +1577,8 @@
         "southCoordinates": {
           "latitude": 34.7675,
           "longitude": -14.7181
-        }
+        },
+        "kmDistance": 0.06416007078943588
       },
       {
         "date": "1912Apr17",
@@ -1513,7 +1596,8 @@
         "southCoordinates": {
           "latitude": 35.0672,
           "longitude": -14.4358
-        }
+        },
+        "kmDistance": 0.0916089246890415
       },
       {
         "date": "1912Apr17",
@@ -1531,7 +1615,8 @@
         "southCoordinates": {
           "latitude": 35.3667,
           "longitude": -14.1672
-        }
+        },
+        "kmDistance": 2.1350827281372475
       },
       {
         "date": "1912Apr17",
@@ -1549,7 +1634,8 @@
         "southCoordinates": {
           "latitude": 35.6519,
           "longitude": -13.8844
-        }
+        },
+        "kmDistance": 0.11388324977688692
       },
       {
         "date": "1912Apr17",
@@ -1567,7 +1653,8 @@
         "southCoordinates": {
           "latitude": 35.9514,
           "longitude": -13.6014
-        }
+        },
+        "kmDistance": 0.13310637293503755
       },
       {
         "date": "1912Apr17",
@@ -1585,7 +1672,8 @@
         "southCoordinates": {
           "latitude": 36.2508,
           "longitude": -13.3181
-        }
+        },
+        "kmDistance": 0.13961489874562516
       },
       {
         "date": "1912Apr17",
@@ -1603,7 +1691,8 @@
         "southCoordinates": {
           "latitude": 36.55,
           "longitude": -13.0347
-        }
+        },
+        "kmDistance": 1.6393433329485028
       },
       {
         "date": "1912Apr17",
@@ -1621,7 +1710,8 @@
         "southCoordinates": {
           "latitude": 36.8356,
           "longitude": -12.7508
-        }
+        },
+        "kmDistance": 1.359312696123375
       },
       {
         "date": "1912Apr17",
@@ -1639,7 +1729,8 @@
         "southCoordinates": {
           "latitude": 37.1347,
           "longitude": -12.4669
-        }
+        },
+        "kmDistance": 1.3794664197282123
       },
       {
         "date": "1912Apr17",
@@ -1657,7 +1748,8 @@
         "southCoordinates": {
           "latitude": 37.4339,
           "longitude": -12.1686
-        }
+        },
+        "kmDistance": 1.6746656559893407
       },
       {
         "date": "1912Apr17",
@@ -1675,7 +1767,8 @@
         "southCoordinates": {
           "latitude": 37.7192,
           "longitude": -11.8839
-        }
+        },
+        "kmDistance": 1.377584140329495
       },
       {
         "date": "1912Apr17",
@@ -1693,7 +1786,8 @@
         "southCoordinates": {
           "latitude": 38.0183,
           "longitude": -11.585
-        }
+        },
+        "kmDistance": 0.19271426103435596
       },
       {
         "date": "1912Apr17",
@@ -1711,7 +1805,8 @@
         "southCoordinates": {
           "latitude": 38.3175,
           "longitude": -11.2858
-        }
+        },
+        "kmDistance": 1.6761420559498041
       },
       {
         "date": "1912Apr17",
@@ -1729,7 +1824,8 @@
         "southCoordinates": {
           "latitude": 38.6167,
           "longitude": -11
-        }
+        },
+        "kmDistance": 2.1861194844656335
       },
       {
         "date": "1912Apr17",
@@ -1747,7 +1843,8 @@
         "southCoordinates": {
           "latitude": 38.9019,
           "longitude": -10.7
-        }
+        },
+        "kmDistance": 1.3748758627631685
       },
       {
         "date": "1912Apr17",
@@ -1765,7 +1862,8 @@
         "southCoordinates": {
           "latitude": 39.2011,
           "longitude": -10.3856
-        }
+        },
+        "kmDistance": 1.7099907221741037
       },
       {
         "date": "1912Apr17",
@@ -1783,7 +1881,8 @@
         "southCoordinates": {
           "latitude": 39.5,
           "longitude": -10.0844
-        }
+        },
+        "kmDistance": 2.1754442517652213
       },
       {
         "date": "1912Apr17",
@@ -1801,7 +1900,8 @@
         "southCoordinates": {
           "latitude": 39.7853,
           "longitude": -9.7692
-        }
+        },
+        "kmDistance": 0.23117036673476724
       },
       {
         "date": "1912Apr17",
@@ -1819,7 +1919,8 @@
         "southCoordinates": {
           "latitude": 40.0844,
           "longitude": -9.4672
-        }
+        },
+        "kmDistance": 2.185809987115395
       },
       {
         "date": "1912Apr17",
@@ -1837,7 +1938,8 @@
         "southCoordinates": {
           "latitude": 40.3833,
           "longitude": -9.1508
-        }
+        },
+        "kmDistance": 2.1402389217125255
       },
       {
         "date": "1912Apr17",
@@ -1855,7 +1957,8 @@
         "southCoordinates": {
           "latitude": 40.6683,
           "longitude": -8.8339
-        }
+        },
+        "kmDistance": 1.3249075829889874
       },
       {
         "date": "1912Apr17",
@@ -1873,7 +1976,8 @@
         "southCoordinates": {
           "latitude": 40.9675,
           "longitude": -8.5167
-        }
+        },
+        "kmDistance": 2.162627231821195
       },
       {
         "date": "1912Apr17",
@@ -1891,7 +1995,8 @@
         "southCoordinates": {
           "latitude": 41.2525,
           "longitude": -8.1847
-        }
+        },
+        "kmDistance": 1.3050939365863943
       },
       {
         "date": "1912Apr17",
@@ -1909,7 +2014,8 @@
         "southCoordinates": {
           "latitude": 41.5514,
           "longitude": -7.8522
-        }
+        },
+        "kmDistance": 0.1807982132573065
       },
       {
         "date": "1912Apr17",
@@ -1927,7 +2033,8 @@
         "southCoordinates": {
           "latitude": 41.8506,
           "longitude": -7.5189
-        }
+        },
+        "kmDistance": 1.7052305917498913
       },
       {
         "date": "1912Apr17",
@@ -1945,7 +2052,8 @@
         "southCoordinates": {
           "latitude": 42.1356,
           "longitude": -7.1853
-        }
+        },
+        "kmDistance": 0.2094858973032667
       },
       {
         "date": "1912Apr17",
@@ -1963,7 +2071,8 @@
         "southCoordinates": {
           "latitude": 42.4344,
           "longitude": -6.8506
-        }
+        },
+        "kmDistance": 2.1056221938367963
       },
       {
         "date": "1912Apr17",
@@ -1981,7 +2090,8 @@
         "southCoordinates": {
           "latitude": 42.7333,
           "longitude": -6.5017
-        }
+        },
+        "kmDistance": 1.671839721681692
       },
       {
         "date": "1912Apr17",
@@ -1999,7 +2109,8 @@
         "southCoordinates": {
           "latitude": 43.0183,
           "longitude": -6.1517
-        }
+        },
+        "kmDistance": 0.15152032560119041
       },
       {
         "date": "1912Apr17",
@@ -2017,7 +2128,8 @@
         "southCoordinates": {
           "latitude": 43.3172,
           "longitude": -5.8011
-        }
+        },
+        "kmDistance": 1.6702968751162248
       },
       {
         "date": "1912Apr17",
@@ -2035,7 +2147,8 @@
         "southCoordinates": {
           "latitude": 43.6022,
           "longitude": -5.4358
-        }
+        },
+        "kmDistance": 0.13824054151031304
       },
       {
         "date": "1912Apr17",
@@ -2053,7 +2166,8 @@
         "southCoordinates": {
           "latitude": 43.9008,
           "longitude": -5.0836
-        }
+        },
+        "kmDistance": 1.1790885707679712
       },
       {
         "date": "1912Apr17",
@@ -2071,7 +2185,8 @@
         "southCoordinates": {
           "latitude": 44.1858,
           "longitude": -4.7167
-        }
+        },
+        "kmDistance": 1.1575133688029229
       },
       {
         "date": "1912Apr17",
@@ -2089,7 +2204,8 @@
         "southCoordinates": {
           "latitude": 44.4847,
           "longitude": -4.335
-        }
+        },
+        "kmDistance": 0.07318950431422284
       },
       {
         "date": "1912Apr17",
@@ -2107,7 +2223,8 @@
         "southCoordinates": {
           "latitude": 44.7833,
           "longitude": -3.9525
-        }
+        },
+        "kmDistance": 1.5685636008055772
       },
       {
         "date": "1912Apr17",
@@ -2125,7 +2242,8 @@
         "southCoordinates": {
           "latitude": 45.0683,
           "longitude": -3.5689
-        }
+        },
+        "kmDistance": 0.03239817786406449
       },
       {
         "date": "1912Apr17",
@@ -2143,7 +2261,8 @@
         "southCoordinates": {
           "latitude": 45.3669,
           "longitude": -3.1842
-        }
+        },
+        "kmDistance": 0
       },
       {
         "date": "1912Apr17",
@@ -2161,7 +2280,8 @@
         "southCoordinates": {
           "latitude": 45.6519,
           "longitude": -2.7847
-        }
+        },
+        "kmDistance": 0.023318105373395782
       },
       {
         "date": "1912Apr17",
@@ -2179,7 +2299,8 @@
         "southCoordinates": {
           "latitude": 45.9506,
           "longitude": -2.3842
-        }
+        },
+        "kmDistance": 0.027086045197827712
       },
       {
         "date": "1912Apr17",
@@ -2197,7 +2318,8 @@
         "southCoordinates": {
           "latitude": 46.2353,
           "longitude": -1.9686
-        }
+        },
+        "kmDistance": 0.07225439290611292
       },
       {
         "date": "1912Apr17",
@@ -2215,7 +2337,8 @@
         "southCoordinates": {
           "latitude": 46.5339,
           "longitude": -1.5522
-        }
+        },
+        "kmDistance": 1.112713430366635
       },
       {
         "date": "1912Apr17",
@@ -2233,7 +2356,8 @@
         "southCoordinates": {
           "latitude": 46.8186,
           "longitude": -1.1342
-        }
+        },
+        "kmDistance": 1.6356982254979544
       },
       {
         "date": "1912Apr17",
@@ -2251,7 +2375,8 @@
         "southCoordinates": {
           "latitude": 47.1172,
           "longitude": -0.7014
-        }
+        },
+        "kmDistance": 0.13647409763430313
       },
       {
         "date": "1912Apr17",
@@ -2269,7 +2394,8 @@
         "southCoordinates": {
           "latitude": 47.4019,
           "longitude": -0.2672
-        }
+        },
+        "kmDistance": 1.7032949561403965
       },
       {
         "date": "1912Apr17",
@@ -2287,7 +2413,8 @@
         "southCoordinates": {
           "latitude": 47.7003,
           "longitude": 0.1683
-        }
+        },
+        "kmDistance": 0.2064676425748344
       },
       {
         "date": "1912Apr17",
@@ -2305,7 +2432,8 @@
         "southCoordinates": {
           "latitude": 47.985,
           "longitude": 0.6192
-        }
+        },
+        "kmDistance": 1.7614284143398837
       },
       {
         "date": "1912Apr17",
@@ -2323,7 +2451,8 @@
         "southCoordinates": {
           "latitude": 48.2833,
           "longitude": 1.085
-        }
+        },
+        "kmDistance": 0.28500834487451754
       },
       {
         "date": "1912Apr17",
@@ -2341,7 +2470,8 @@
         "southCoordinates": {
           "latitude": 48.5678,
           "longitude": 1.5525
-        }
+        },
+        "kmDistance": 1.8289462199314315
       },
       {
         "date": "1912Apr17",
@@ -2359,7 +2489,8 @@
         "southCoordinates": {
           "latitude": 48.8522,
           "longitude": 2.0356
-        }
+        },
+        "kmDistance": 1.8645623429651368
       },
       {
         "date": "1912Apr17",
@@ -2377,7 +2508,8 @@
         "southCoordinates": {
           "latitude": 49.1506,
           "longitude": 2.5339
-        }
+        },
+        "kmDistance": 2.22566287609708
       },
       {
         "date": "1912Apr17",
@@ -2395,7 +2527,8 @@
         "southCoordinates": {
           "latitude": 49.4347,
           "longitude": 3.0339
-        }
+        },
+        "kmDistance": 2.290056488489261
       },
       {
         "date": "1912Apr17",
@@ -2413,7 +2546,8 @@
         "southCoordinates": {
           "latitude": 49.7192,
           "longitude": 3.5356
-        }
+        },
+        "kmDistance": 3.699108988284397
       },
       {
         "date": "1912Apr17",
@@ -2431,7 +2565,8 @@
         "southCoordinates": {
           "latitude": 50.0172,
           "longitude": 4.0667
-        }
+        },
+        "kmDistance": 2.9871595667712145
       },
       {
         "date": "1912Apr17",
@@ -2449,7 +2584,8 @@
         "southCoordinates": {
           "latitude": 50.3011,
           "longitude": 4.5856
-        }
+        },
+        "kmDistance": 3.810082433883252
       },
       {
         "date": "1912Apr17",
@@ -2467,7 +2603,8 @@
         "southCoordinates": {
           "latitude": 50.5853,
           "longitude": 5.1344
-        }
+        },
+        "kmDistance": 3.850643435915279
       },
       {
         "date": "1912Apr17",
@@ -2485,7 +2622,8 @@
         "southCoordinates": {
           "latitude": 50.8692,
           "longitude": 5.685
-        }
+        },
+        "kmDistance": 3.8693379574433022
       },
       {
         "date": "1912Apr17",
@@ -2503,7 +2641,8 @@
         "southCoordinates": {
           "latitude": 51.1669,
           "longitude": 6.2517
-        }
+        },
+        "kmDistance": 3.947309292576231
       },
       {
         "date": "1912Apr17",
@@ -2521,7 +2660,8 @@
         "southCoordinates": {
           "latitude": 51.4506,
           "longitude": 6.8342
-        }
+        },
+        "kmDistance": 4.381675978951534
       },
       {
         "date": "1912Apr17",
@@ -2539,7 +2679,8 @@
         "southCoordinates": {
           "latitude": 51.7342,
           "longitude": 7.4189
-        }
+        },
+        "kmDistance": 4.022917616316982
       },
       {
         "date": "1912Apr17",
@@ -2557,7 +2698,8 @@
         "southCoordinates": {
           "latitude": 52.0175,
           "longitude": 8.0336
-        }
+        },
+        "kmDistance": 5.889793216594231
       },
       {
         "date": "1912Apr17",
@@ -2575,7 +2717,8 @@
         "southCoordinates": {
           "latitude": 52.3008,
           "longitude": 8.6508
-        }
+        },
+        "kmDistance": 5.954207520433741
       },
       {
         "date": "1912Apr17",
@@ -2593,7 +2736,8 @@
         "southCoordinates": {
           "latitude": 52.5842,
           "longitude": 9.2842
-        }
+        },
+        "kmDistance": 5.9722271480729585
       },
       {
         "date": "1912Apr17",
@@ -2611,7 +2755,8 @@
         "southCoordinates": {
           "latitude": 52.8669,
           "longitude": 9.9342
-        }
+        },
+        "kmDistance": 6.060434888918652
       },
       {
         "date": "1912Apr17",
@@ -2629,7 +2774,8 @@
         "southCoordinates": {
           "latitude": 53.15,
           "longitude": 10.6006
-        }
+        },
+        "kmDistance": 6.076169388203888
       },
       {
         "date": "1912Apr17",
@@ -2647,7 +2793,8 @@
         "southCoordinates": {
           "latitude": 53.4186,
           "longitude": 11.2836
-        }
+        },
+        "kmDistance": 7.620972820600086
       },
       {
         "date": "1912Apr17",
@@ -2665,7 +2812,8 @@
         "southCoordinates": {
           "latitude": 53.7011,
           "longitude": 11.9836
-        }
+        },
+        "kmDistance": 7.681114070159575
       },
       {
         "date": "1912Apr17",
@@ -2683,7 +2831,8 @@
         "southCoordinates": {
           "latitude": 53.9833,
           "longitude": 12.7003
-        }
+        },
+        "kmDistance": 7.773485691346581
       },
       {
         "date": "1912Apr17",
@@ -2701,7 +2850,8 @@
         "southCoordinates": {
           "latitude": 54.2514,
           "longitude": 13.4339
-        }
+        },
+        "kmDistance": 9.340659770260777
       },
       {
         "date": "1912Apr17",
@@ -2719,7 +2869,8 @@
         "southCoordinates": {
           "latitude": 54.5192,
           "longitude": 14.185
-        }
+        },
+        "kmDistance": 9.269574796612636
       },
       {
         "date": "1912Apr17",
@@ -2737,7 +2888,8 @@
         "southCoordinates": {
           "latitude": 54.8008,
           "longitude": 14.9669
-        }
+        },
+        "kmDistance": 9.491812655502057
       },
       {
         "date": "1912Apr17",
@@ -2755,7 +2907,8 @@
         "southCoordinates": {
           "latitude": 55.0681,
           "longitude": 15.7525
-        }
+        },
+        "kmDistance": 9.417501455829832
       },
       {
         "date": "1912Apr17",
@@ -2773,7 +2926,8 @@
         "southCoordinates": {
           "latitude": 55.335,
           "longitude": 16.5836
-        }
+        },
+        "kmDistance": 11.171260351634585
       },
       {
         "date": "1912Apr17",
@@ -2791,7 +2945,8 @@
         "southCoordinates": {
           "latitude": 55.6014,
           "longitude": 17.4183
-        }
+        },
+        "kmDistance": 11.134946626526695
       },
       {
         "date": "1912Apr17",
@@ -2809,7 +2964,8 @@
         "southCoordinates": {
           "latitude": 55.8678,
           "longitude": 18.285
-        }
+        },
+        "kmDistance": 11.220029786805263
       },
       {
         "date": "1912Apr17",
@@ -2827,7 +2983,8 @@
         "southCoordinates": {
           "latitude": 56.1336,
           "longitude": 19.1836
-        }
+        },
+        "kmDistance": 11.31589070607045
       },
       {
         "date": "1912Apr17",
@@ -2845,7 +3002,8 @@
         "southCoordinates": {
           "latitude": 56.385,
           "longitude": 20.1008
-        }
+        },
+        "kmDistance": 12.975884792362146
       },
       {
         "date": "1912Apr17",
@@ -2863,7 +3021,8 @@
         "southCoordinates": {
           "latitude": 56.6358,
           "longitude": 21.0503
-        }
+        },
+        "kmDistance": 14.61102483857659
       },
       {
         "date": "1912Apr17",
@@ -2881,7 +3040,8 @@
         "southCoordinates": {
           "latitude": 56.9003,
           "longitude": 22.0186
-        }
+        },
+        "kmDistance": 13.21779766047525
       },
       {
         "date": "1912Apr17",
@@ -2899,7 +3059,8 @@
         "southCoordinates": {
           "latitude": 57.1503,
           "longitude": 23.0336
-        }
+        },
+        "kmDistance": 14.822772833391655
       },
       {
         "date": "1912Apr17",
@@ -2917,7 +3078,8 @@
         "southCoordinates": {
           "latitude": 57.3856,
           "longitude": 24.0681
-        }
+        },
+        "kmDistance": 16.522265652135186
       },
       {
         "date": "1912Apr17",
@@ -2935,7 +3097,8 @@
         "southCoordinates": {
           "latitude": 57.6342,
           "longitude": 25.1358
-        }
+        },
+        "kmDistance": 16.72432467358498
       },
       {
         "date": "1912Apr17",
@@ -2953,7 +3116,8 @@
         "southCoordinates": {
           "latitude": 57.8681,
           "longitude": 26.2514
-        }
+        },
+        "kmDistance": 16.889234592278115
       },
       {
         "date": "1912Apr17",
@@ -2971,7 +3135,8 @@
         "southCoordinates": {
           "latitude": 58.1014,
           "longitude": 27.4008
-        }
+        },
+        "kmDistance": 18.670425608244354
       },
       {
         "date": "1912Apr17",
@@ -2989,7 +3154,8 @@
         "southCoordinates": {
           "latitude": 58.3336,
           "longitude": 28.585
-        }
+        },
+        "kmDistance": 18.967894912194122
       },
       {
         "date": "1912Apr17",
@@ -3007,7 +3173,8 @@
         "southCoordinates": {
           "latitude": 58.5511,
           "longitude": 29.8181
-        }
+        },
+        "kmDistance": 20.814529676851127
       },
       {
         "date": "1912Apr17",
@@ -3025,7 +3192,8 @@
         "southCoordinates": {
           "latitude": 58.7675,
           "longitude": 31.1
-        }
+        },
+        "kmDistance": 21.00040314581718
       },
       {
         "date": "1912Apr17",
@@ -3043,7 +3211,8 @@
         "southCoordinates": {
           "latitude": 58.9686,
           "longitude": 32.4181
-        }
+        },
+        "kmDistance": 23.12594667662038
       },
       {
         "date": "1912Apr17",
@@ -3061,7 +3230,8 @@
         "southCoordinates": {
           "latitude": 59.1689,
           "longitude": 33.8
-        }
+        },
+        "kmDistance": 23.541537161014272
       },
       {
         "date": "1912Apr17",
@@ -3079,7 +3249,8 @@
         "southCoordinates": {
           "latitude": 59.3675,
           "longitude": 35.2192
-        }
+        },
+        "kmDistance": 24.305008374857593
       },
       {
         "date": "1912Apr17",
@@ -3097,7 +3268,8 @@
         "southCoordinates": {
           "latitude": 59.5508,
           "longitude": 36.7172
-        }
+        },
+        "kmDistance": 26.26500687697712
       },
       {
         "date": "1912Apr17",
@@ -3115,7 +3287,8 @@
         "southCoordinates": {
           "latitude": 59.7186,
           "longitude": 38.2678
-        }
+        },
+        "kmDistance": 28.54367385131739
       },
       {
         "date": "1912Apr17",
@@ -3133,7 +3306,8 @@
         "southCoordinates": {
           "latitude": 59.8844,
           "longitude": 39.8853
-        }
+        },
+        "kmDistance": 29.905041032131482
       },
       {
         "date": "1912Apr17",
@@ -3151,7 +3325,8 @@
         "southCoordinates": {
           "latitude": 60.0342,
           "longitude": 41.5847
-        }
+        },
+        "kmDistance": 32.291513595848336
       },
       {
         "date": "1912Apr17",
@@ -3169,7 +3344,8 @@
         "southCoordinates": {
           "latitude": 60.1678,
           "longitude": 43.3669
-        }
+        },
+        "kmDistance": 33.87328970205732
       },
       {
         "date": "1912Apr17",
@@ -3187,7 +3363,8 @@
         "southCoordinates": {
           "latitude": 60.2847,
           "longitude": 45.2336
-        }
+        },
+        "kmDistance": 36.84787108877409
       },
       {
         "date": "1912Apr17",
@@ -3205,7 +3382,8 @@
         "southCoordinates": {
           "latitude": 60.3847,
           "longitude": 47.2
-        }
+        },
+        "kmDistance": 39.1793735898544
       },
       {
         "date": "1912Apr17",
@@ -3223,7 +3401,8 @@
         "southCoordinates": {
           "latitude": 60.4672,
           "longitude": 49.2686
-        }
+        },
+        "kmDistance": 42.28126054917252
       },
       {
         "date": "1912Apr17",
@@ -3241,7 +3420,8 @@
         "southCoordinates": {
           "latitude": 60.5181,
           "longitude": 51.4692
-        }
+        },
+        "kmDistance": 46.69997665002342
       },
       {
         "date": "1912Apr17",
@@ -3259,7 +3439,8 @@
         "southCoordinates": {
           "latitude": 60.5503,
           "longitude": 53.8189
-        }
+        },
+        "kmDistance": 50.888909960841225
       },
       {
         "date": "1912Apr17",
@@ -3277,7 +3458,8 @@
         "southCoordinates": {
           "latitude": 60.5347,
           "longitude": 56.3358
-        }
+        },
+        "kmDistance": 57.66679137532268
       },
       {
         "date": "1912Apr17",
@@ -3295,7 +3477,8 @@
         "southCoordinates": {
           "latitude": 60.4847,
           "longitude": 59.0681
-        }
+        },
+        "kmDistance": 64.61567539942345
       },
       {
         "date": "1912Apr17",
@@ -3313,7 +3496,8 @@
         "southCoordinates": {
           "latitude": 60.3839,
           "longitude": 62.0517
-        }
+        },
+        "kmDistance": 73.69735938862213
       },
       {
         "date": "1912Apr17",
@@ -3331,7 +3515,8 @@
         "southCoordinates": {
           "latitude": 60.2019,
           "longitude": 65.3833
-        }
+        },
+        "kmDistance": 87.77405231576392
       },
       {
         "date": "1912Apr17",
@@ -3349,7 +3534,8 @@
         "southCoordinates": {
           "latitude": 59.9336,
           "longitude": 69.1853
-        }
+        },
+        "kmDistance": 110.88029047714008
       },
       {
         "date": "1912Apr17",
@@ -3367,7 +3553,8 @@
         "southCoordinates": {
           "latitude": 59.485,
           "longitude": 73.7858
-        }
+        },
+        "kmDistance": 157.3374600104839
       },
       {
         "date": "1912Apr17",
@@ -3385,7 +3572,8 @@
         "southCoordinates": {
           "latitude": 58.6839,
           "longitude": 80.1836
-        }
+        },
+        "kmDistance": 411.88322538165585
       },
       {
         "date": "1912Apr17",
@@ -3403,10 +3591,11 @@
         "southCoordinates": {
           "latitude": 57.0839,
           "longitude": 89.5681
-        }
+        },
+        "kmDistance": 57.001449466254876
       }
     ],
-    "_id": "63d399748db412d3660e1cfe"
+    "_id": "63d3caffdda50c3cdc57b019"
   },
   {
     "date": "2031Nov14",
@@ -3428,7 +3617,8 @@
         "southCoordinates": {
           "latitude": 25.6842,
           "longitude": 164.2833
-        }
+        },
+        "kmDistance": 22.819309925704182
       },
       {
         "date": "2031Nov14",
@@ -3443,7 +3633,8 @@
         "southCoordinates": {
           "latitude": 25.1347,
           "longitude": 165.9008
-        }
+        },
+        "kmDistance": 83.24630434379057
       },
       {
         "date": "2031Nov14",
@@ -3461,7 +3652,8 @@
         "southCoordinates": {
           "latitude": 21.8192,
           "longitude": 174.8683
-        }
+        },
+        "kmDistance": 15.024181468487418
       },
       {
         "date": "2031Nov14",
@@ -3479,7 +3671,8 @@
         "southCoordinates": {
           "latitude": 20.2017,
           "longitude": 178.8336
-        }
+        },
+        "kmDistance": 7.5564411159569636
       },
       {
         "date": "2031Nov14",
@@ -3497,7 +3690,8 @@
         "southCoordinates": {
           "latitude": 18.95,
           "longitude": -178.25
-        }
+        },
+        "kmDistance": 2.5781042433382755
       },
       {
         "date": "2031Nov14",
@@ -3515,7 +3709,8 @@
         "southCoordinates": {
           "latitude": 17.8689,
           "longitude": -175.8675
-        }
+        },
+        "kmDistance": 1.6012069436814695
       },
       {
         "date": "2031Nov14",
@@ -3533,7 +3728,8 @@
         "southCoordinates": {
           "latitude": 16.9336,
           "longitude": -173.8336
-        }
+        },
+        "kmDistance": 3.458751240721733
       },
       {
         "date": "2031Nov14",
@@ -3551,7 +3747,8 @@
         "southCoordinates": {
           "latitude": 16.0689,
           "longitude": -172.0342
-        }
+        },
+        "kmDistance": 3.8613631482699233
       },
       {
         "date": "2031Nov14",
@@ -3569,7 +3766,8 @@
         "southCoordinates": {
           "latitude": 15.285,
           "longitude": -170.4175
-        }
+        },
+        "kmDistance": 6.011955094417655
       },
       {
         "date": "2031Nov14",
@@ -3587,7 +3785,8 @@
         "southCoordinates": {
           "latitude": 14.5522,
           "longitude": -168.9353
-        }
+        },
+        "kmDistance": 8.312807493241568
       },
       {
         "date": "2031Nov14",
@@ -3605,7 +3804,8 @@
         "southCoordinates": {
           "latitude": 13.8683,
           "longitude": -167.5833
-        }
+        },
+        "kmDistance": 9.592832760990813
       },
       {
         "date": "2031Nov14",
@@ -3623,7 +3823,8 @@
         "southCoordinates": {
           "latitude": 13.2189,
           "longitude": -166.3025
-        }
+        },
+        "kmDistance": 11.76744318811582
       },
       {
         "date": "2031Nov14",
@@ -3641,7 +3842,8 @@
         "southCoordinates": {
           "latitude": 12.6167,
           "longitude": -165.1183
-        }
+        },
+        "kmDistance": 15.021283649960795
       },
       {
         "date": "2031Nov14",
@@ -3659,7 +3861,8 @@
         "southCoordinates": {
           "latitude": 12.0192,
           "longitude": -164.0011
-        }
+        },
+        "kmDistance": 14.220124059744569
       },
       {
         "date": "2031Nov14",
@@ -3677,7 +3880,8 @@
         "southCoordinates": {
           "latitude": 11.4681,
           "longitude": -162.9353
-        }
+        },
+        "kmDistance": 15.938005466581124
       },
       {
         "date": "2031Nov14",
@@ -3695,7 +3899,8 @@
         "southCoordinates": {
           "latitude": 10.9344,
           "longitude": -161.9336
-        }
+        },
+        "kmDistance": 17.581576270807826
       },
       {
         "date": "2031Nov14",
@@ -3713,7 +3918,8 @@
         "southCoordinates": {
           "latitude": 10.4183,
           "longitude": -160.9672
-        }
+        },
+        "kmDistance": 19.264917679414623
       },
       {
         "date": "2031Nov14",
@@ -3731,7 +3937,8 @@
         "southCoordinates": {
           "latitude": 9.9333,
           "longitude": -160.0353
-        }
+        },
+        "kmDistance": 21.388865148796754
       },
       {
         "date": "2031Nov14",
@@ -3749,7 +3956,8 @@
         "southCoordinates": {
           "latitude": 9.4511,
           "longitude": -159.1511
-        }
+        },
+        "kmDistance": 21.561091688091125
       },
       {
         "date": "2031Nov14",
@@ -3767,7 +3975,8 @@
         "southCoordinates": {
           "latitude": 8.9858,
           "longitude": -158.3
-        }
+        },
+        "kmDistance": 21.750318882001423
       },
       {
         "date": "2031Nov14",
@@ -3785,7 +3994,8 @@
         "southCoordinates": {
           "latitude": 8.5508,
           "longitude": -157.4678
-        }
+        },
+        "kmDistance": 23.382205949074912
       },
       {
         "date": "2031Nov14",
@@ -3803,7 +4013,8 @@
         "southCoordinates": {
           "latitude": 8.1181,
           "longitude": -156.6675
-        }
+        },
+        "kmDistance": 23.532309487232553
       },
       {
         "date": "2031Nov14",
@@ -3821,7 +4032,8 @@
         "southCoordinates": {
           "latitude": 7.7017,
           "longitude": -155.885
-        }
+        },
+        "kmDistance": 25.67138875017311
       },
       {
         "date": "2031Nov14",
@@ -3839,7 +4051,8 @@
         "southCoordinates": {
           "latitude": 7.3014,
           "longitude": -155.1342
-        }
+        },
+        "kmDistance": 25.829035635332218
       },
       {
         "date": "2031Nov14",
@@ -3857,7 +4070,8 @@
         "southCoordinates": {
           "latitude": 6.9167,
           "longitude": -154.4006
-        }
+        },
+        "kmDistance": 27.387737180983773
       },
       {
         "date": "2031Nov14",
@@ -3875,7 +4089,8 @@
         "southCoordinates": {
           "latitude": 6.5342,
           "longitude": -153.6836
-        }
+        },
+        "kmDistance": 27.527620613472823
       },
       {
         "date": "2031Nov14",
@@ -3893,7 +4108,8 @@
         "southCoordinates": {
           "latitude": 6.1672,
           "longitude": -152.9836
-        }
+        },
+        "kmDistance": 29.105694315799806
       },
       {
         "date": "2031Nov14",
@@ -3911,7 +4127,8 @@
         "southCoordinates": {
           "latitude": 5.8022,
           "longitude": -152.2858
-        }
+        },
+        "kmDistance": 28.347652627319157
       },
       {
         "date": "2031Nov14",
@@ -3929,7 +4146,8 @@
         "southCoordinates": {
           "latitude": 5.4667,
           "longitude": -151.6183
-        }
+        },
+        "kmDistance": 31.351899248663553
       },
       {
         "date": "2031Nov14",
@@ -3947,7 +4165,8 @@
         "southCoordinates": {
           "latitude": 5.1186,
           "longitude": -150.9669
-        }
+        },
+        "kmDistance": 29.476550509055865
       },
       {
         "date": "2031Nov14",
@@ -3965,7 +4184,8 @@
         "southCoordinates": {
           "latitude": 4.8003,
           "longitude": -150.3175
-        }
+        },
+        "kmDistance": 31.565393738071677
       },
       {
         "date": "2031Nov14",
@@ -3983,7 +4203,8 @@
         "southCoordinates": {
           "latitude": 4.4692,
           "longitude": -149.6836
-        }
+        },
+        "kmDistance": 31.64900367563682
       },
       {
         "date": "2031Nov14",
@@ -4001,7 +4222,8 @@
         "southCoordinates": {
           "latitude": 4.1675,
           "longitude": -149.0514
-        }
+        },
+        "kmDistance": 31.745469726941348
       },
       {
         "date": "2031Nov14",
@@ -4019,7 +4241,8 @@
         "southCoordinates": {
           "latitude": 3.8672,
           "longitude": -148.4347
-        }
+        },
+        "kmDistance": 33.28326001226097
       },
       {
         "date": "2031Nov14",
@@ -4037,7 +4260,8 @@
         "southCoordinates": {
           "latitude": 3.5686,
           "longitude": -147.8333
-        }
+        },
+        "kmDistance": 33.39980539430171
       },
       {
         "date": "2031Nov14",
@@ -4055,7 +4279,8 @@
         "southCoordinates": {
           "latitude": 3.2847,
           "longitude": -147.2192
-        }
+        },
+        "kmDistance": 33.984307618444355
       },
       {
         "date": "2031Nov14",
@@ -4073,7 +4298,8 @@
         "southCoordinates": {
           "latitude": 3.0025,
           "longitude": -146.6342
-        }
+        },
+        "kmDistance": 33.5245564702307
       },
       {
         "date": "2031Nov14",
@@ -4091,7 +4317,8 @@
         "southCoordinates": {
           "latitude": 2.7353,
           "longitude": -146.05
-        }
+        },
+        "kmDistance": 33.59200057622916
       },
       {
         "date": "2031Nov14",
@@ -4109,7 +4336,8 @@
         "southCoordinates": {
           "latitude": 2.4833,
           "longitude": -145.4669
-        }
+        },
+        "kmDistance": 35.13891286319042
       },
       {
         "date": "2031Nov14",
@@ -4127,7 +4355,8 @@
         "southCoordinates": {
           "latitude": 2.2189,
           "longitude": -144.8847
-        }
+        },
+        "kmDistance": 35.234463161721095
       },
       {
         "date": "2031Nov14",
@@ -4145,7 +4374,8 @@
         "southCoordinates": {
           "latitude": 1.9692,
           "longitude": -144.3169
-        }
+        },
+        "kmDistance": 35.277184571900776
       },
       {
         "date": "2031Nov14",
@@ -4163,7 +4393,8 @@
         "southCoordinates": {
           "latitude": 1.7347,
           "longitude": -143.75
-        }
+        },
+        "kmDistance": 35.33035087324555
       },
       {
         "date": "2031Nov14",
@@ -4181,7 +4412,8 @@
         "southCoordinates": {
           "latitude": 1.5014,
           "longitude": -143.1836
-        }
+        },
+        "kmDistance": 36.85309397825426
       },
       {
         "date": "2031Nov14",
@@ -4199,7 +4431,8 @@
         "southCoordinates": {
           "latitude": 1.2833,
           "longitude": -142.6181
-        }
+        },
+        "kmDistance": 36.92470343050289
       },
       {
         "date": "2031Nov14",
@@ -4217,7 +4450,8 @@
         "southCoordinates": {
           "latitude": 1.0522,
           "longitude": -142.0525
-        }
+        },
+        "kmDistance": 37.45537082387985
       },
       {
         "date": "2031Nov14",
@@ -4235,7 +4469,8 @@
         "southCoordinates": {
           "latitude": 0.8503,
           "longitude": -141.5014
-        }
+        },
+        "kmDistance": 38.50052451287485
       },
       {
         "date": "2031Nov14",
@@ -4253,7 +4488,8 @@
         "southCoordinates": {
           "latitude": 0.6353,
           "longitude": -140.9506
-        }
+        },
+        "kmDistance": 37.04579144565044
       },
       {
         "date": "2031Nov14",
@@ -4271,7 +4507,8 @@
         "southCoordinates": {
           "latitude": 0.4356,
           "longitude": -140.4
-        }
+        },
+        "kmDistance": 37.077689658092694
       },
       {
         "date": "2031Nov14",
@@ -4289,7 +4526,8 @@
         "southCoordinates": {
           "latitude": 0.2506,
           "longitude": -139.8358
-        }
+        },
+        "kmDistance": 37.102891068129004
       },
       {
         "date": "2031Nov14",
@@ -4307,7 +4545,8 @@
         "southCoordinates": {
           "latitude": 0.0669,
           "longitude": -139.2856
-        }
+        },
+        "kmDistance": 37.132071713674534
       },
       {
         "date": "2031Nov14",
@@ -4325,7 +4564,8 @@
         "southCoordinates": {
           "latitude": -0.1019,
           "longitude": -138.7353
-        }
+        },
+        "kmDistance": 38.611452727009606
       },
       {
         "date": "2031Nov14",
@@ -4343,7 +4583,8 @@
         "southCoordinates": {
           "latitude": -0.2833,
           "longitude": -138.185
-        }
+        },
+        "kmDistance": 38.66900723401892
       },
       {
         "date": "2031Nov14",
@@ -4361,7 +4602,8 @@
         "southCoordinates": {
           "latitude": -0.45,
           "longitude": -137.6344
-        }
+        },
+        "kmDistance": 38.658262296900766
       },
       {
         "date": "2031Nov14",
@@ -4379,7 +4621,8 @@
         "southCoordinates": {
           "latitude": -0.6017,
           "longitude": -137.0839
-        }
+        },
+        "kmDistance": 38.271371398728434
       },
       {
         "date": "2031Nov14",
@@ -4397,7 +4640,8 @@
         "southCoordinates": {
           "latitude": -0.7522,
           "longitude": -136.5192
-        }
+        },
+        "kmDistance": 38.6711171719147
       },
       {
         "date": "2031Nov14",
@@ -4415,7 +4659,8 @@
         "southCoordinates": {
           "latitude": -0.9017,
           "longitude": -135.9681
-        }
+        },
+        "kmDistance": 38.287166339194854
       },
       {
         "date": "2031Nov14",
@@ -4433,7 +4678,8 @@
         "southCoordinates": {
           "latitude": -1.05,
           "longitude": -135.4167
-        }
+        },
+        "kmDistance": 38.28162518685676
       },
       {
         "date": "2031Nov14",
@@ -4451,7 +4697,8 @@
         "southCoordinates": {
           "latitude": -1.1833,
           "longitude": -134.8511
-        }
+        },
+        "kmDistance": 38.265311467558654
       },
       {
         "date": "2031Nov14",
@@ -4469,7 +4716,8 @@
         "southCoordinates": {
           "latitude": -1.3017,
           "longitude": -134.2847
-        }
+        },
+        "kmDistance": 38.26788888452654
       },
       {
         "date": "2031Nov14",
@@ -4487,7 +4735,8 @@
         "southCoordinates": {
           "latitude": -1.4189,
           "longitude": -133.7181
-        }
+        },
+        "kmDistance": 39.75103151107967
       },
       {
         "date": "2031Nov14",
@@ -4505,7 +4754,8 @@
         "southCoordinates": {
           "latitude": -1.5353,
           "longitude": -133.1508
-        }
+        },
+        "kmDistance": 37.865648887388254
       },
       {
         "date": "2031Nov14",
@@ -4523,7 +4773,8 @@
         "southCoordinates": {
           "latitude": -1.6503,
           "longitude": -132.5689
-        }
+        },
+        "kmDistance": 38.19506184572726
       },
       {
         "date": "2031Nov14",
@@ -4541,7 +4792,8 @@
         "southCoordinates": {
           "latitude": -1.7503,
           "longitude": -132
-        }
+        },
+        "kmDistance": 37.85213844994029
       },
       {
         "date": "2031Nov14",
@@ -4559,7 +4811,8 @@
         "southCoordinates": {
           "latitude": -1.8353,
           "longitude": -131.4025
-        }
+        },
+        "kmDistance": 38.14921872266485
       },
       {
         "date": "2031Nov14",
@@ -4577,7 +4830,8 @@
         "southCoordinates": {
           "latitude": -1.9189,
           "longitude": -130.8183
-        }
+        },
+        "kmDistance": 37.80168509238516
       },
       {
         "date": "2031Nov14",
@@ -4595,7 +4849,8 @@
         "southCoordinates": {
           "latitude": -2.0017,
           "longitude": -130.2189
-        }
+        },
+        "kmDistance": 37.72963647202734
       },
       {
         "date": "2031Nov14",
@@ -4613,7 +4868,8 @@
         "southCoordinates": {
           "latitude": -2.0692,
           "longitude": -129.6186
-        }
+        },
+        "kmDistance": 37.70122806672413
       },
       {
         "date": "2031Nov14",
@@ -4631,7 +4887,8 @@
         "southCoordinates": {
           "latitude": -2.1356,
           "longitude": -129.0172
-        }
+        },
+        "kmDistance": 37.388038843128825
       },
       {
         "date": "2031Nov14",
@@ -4649,7 +4906,8 @@
         "southCoordinates": {
           "latitude": -2.2006,
           "longitude": -128.4006
-        }
+        },
+        "kmDistance": 35.82169024196271
       },
       {
         "date": "2031Nov14",
@@ -4667,7 +4925,8 @@
         "southCoordinates": {
           "latitude": -2.2506,
           "longitude": -127.7689
-        }
+        },
+        "kmDistance": 36.03535292485361
       },
       {
         "date": "2031Nov14",
@@ -4685,7 +4944,8 @@
         "southCoordinates": {
           "latitude": -2.2853,
           "longitude": -127.1356
-        }
+        },
+        "kmDistance": 35.96327899921727
       },
       {
         "date": "2031Nov14",
@@ -4703,7 +4963,8 @@
         "southCoordinates": {
           "latitude": -2.3186,
           "longitude": -126.5008
-        }
+        },
+        "kmDistance": 35.656010058175944
       },
       {
         "date": "2031Nov14",
@@ -4721,7 +4982,8 @@
         "southCoordinates": {
           "latitude": -2.3508,
           "longitude": -125.8506
-        }
+        },
+        "kmDistance": 35.56291446871243
       },
       {
         "date": "2031Nov14",
@@ -4739,7 +5001,8 @@
         "southCoordinates": {
           "latitude": -2.3675,
           "longitude": -125.1844
-        }
+        },
+        "kmDistance": 34.000589691943595
       },
       {
         "date": "2031Nov14",
@@ -4757,7 +5020,8 @@
         "southCoordinates": {
           "latitude": -2.3692,
           "longitude": -124.5167
-        }
+        },
+        "kmDistance": 35.21083860392077
       },
       {
         "date": "2031Nov14",
@@ -4775,7 +5039,8 @@
         "southCoordinates": {
           "latitude": -2.3692,
           "longitude": -123.8192
-        }
+        },
+        "kmDistance": 33.79787762687242
       },
       {
         "date": "2031Nov14",
@@ -4793,7 +5058,8 @@
         "southCoordinates": {
           "latitude": -2.3675,
           "longitude": -123.1333
-        }
+        },
+        "kmDistance": 33.511633120562614
       },
       {
         "date": "2031Nov14",
@@ -4811,7 +5077,8 @@
         "southCoordinates": {
           "latitude": -2.3506,
           "longitude": -122.4172
-        }
+        },
+        "kmDistance": 31.8843603834081
       },
       {
         "date": "2031Nov14",
@@ -4829,7 +5096,8 @@
         "southCoordinates": {
           "latitude": -2.3181,
           "longitude": -121.6847
-        }
+        },
+        "kmDistance": 31.78104495154572
       },
       {
         "date": "2031Nov14",
@@ -4847,7 +5115,8 @@
         "southCoordinates": {
           "latitude": -2.2839,
           "longitude": -120.9358
-        }
+        },
+        "kmDistance": 31.664090371613675
       },
       {
         "date": "2031Nov14",
@@ -4865,7 +5134,8 @@
         "southCoordinates": {
           "latitude": -2.2342,
           "longitude": -120.1839
-        }
+        },
+        "kmDistance": 29.991815207771083
       },
       {
         "date": "2031Nov14",
@@ -4883,7 +5153,8 @@
         "southCoordinates": {
           "latitude": -2.1686,
           "longitude": -119.4011
-        }
+        },
+        "kmDistance": 29.878760091934435
       },
       {
         "date": "2031Nov14",
@@ -4901,7 +5172,8 @@
         "southCoordinates": {
           "latitude": -2.1011,
           "longitude": -118.6008
-        }
+        },
+        "kmDistance": 29.75331965333229
       },
       {
         "date": "2031Nov14",
@@ -4919,7 +5191,8 @@
         "southCoordinates": {
           "latitude": -2.0175,
           "longitude": -117.7833
-        }
+        },
+        "kmDistance": 27.960116630821467
       },
       {
         "date": "2031Nov14",
@@ -4937,7 +5210,8 @@
         "southCoordinates": {
           "latitude": -1.9181,
           "longitude": -116.9339
-        }
+        },
+        "kmDistance": 27.80246687232167
       },
       {
         "date": "2031Nov14",
@@ -4955,7 +5229,8 @@
         "southCoordinates": {
           "latitude": -1.8025,
           "longitude": -116.0522
-        }
+        },
+        "kmDistance": 27.80728215520801
       },
       {
         "date": "2031Nov14",
@@ -4973,7 +5248,8 @@
         "southCoordinates": {
           "latitude": -1.6844,
           "longitude": -115.1519
-        }
+        },
+        "kmDistance": 25.957486678637117
       },
       {
         "date": "2031Nov14",
@@ -4991,7 +5267,8 @@
         "southCoordinates": {
           "latitude": -1.55,
           "longitude": -114.2186
-        }
+        },
+        "kmDistance": 24.22533961110261
       },
       {
         "date": "2031Nov14",
@@ -5009,7 +5286,8 @@
         "southCoordinates": {
           "latitude": -1.385,
           "longitude": -113.2517
-        }
+        },
+        "kmDistance": 24.04711464378235
       },
       {
         "date": "2031Nov14",
@@ -5027,7 +5305,8 @@
         "southCoordinates": {
           "latitude": -1.2169,
           "longitude": -112.2506
-        }
+        },
+        "kmDistance": 22.315415639338926
       },
       {
         "date": "2031Nov14",
@@ -5045,7 +5324,8 @@
         "southCoordinates": {
           "latitude": -1.0178,
           "longitude": -111.2006
-        }
+        },
+        "kmDistance": 20.584265365128907
       },
       {
         "date": "2031Nov14",
@@ -5063,7 +5343,8 @@
         "southCoordinates": {
           "latitude": -0.8011,
           "longitude": -110.1008
-        }
+        },
+        "kmDistance": 20.371868596845314
       },
       {
         "date": "2031Nov14",
@@ -5081,7 +5362,8 @@
         "southCoordinates": {
           "latitude": -0.5667,
           "longitude": -108.95
-        }
+        },
+        "kmDistance": 18.526689696000453
       },
       {
         "date": "2031Nov14",
@@ -5099,7 +5381,8 @@
         "southCoordinates": {
           "latitude": -0.3,
           "longitude": -107.7333
-        }
+        },
+        "kmDistance": 16.747432515618595
       },
       {
         "date": "2031Nov14",
@@ -5117,7 +5400,8 @@
         "southCoordinates": {
           "latitude": -0.0006,
           "longitude": -106.435
-        }
+        },
+        "kmDistance": 15.047512573014608
       },
       {
         "date": "2031Nov14",
@@ -5135,7 +5419,8 @@
         "southCoordinates": {
           "latitude": 0.3186,
           "longitude": -105.0667
-        }
+        },
+        "kmDistance": 13.122207445692048
       },
       {
         "date": "2031Nov14",
@@ -5153,7 +5438,8 @@
         "southCoordinates": {
           "latitude": 0.7003,
           "longitude": -103.5839
-        }
+        },
+        "kmDistance": 12.822168343697804
       },
       {
         "date": "2031Nov14",
@@ -5171,7 +5457,8 @@
         "southCoordinates": {
           "latitude": 1.1175,
           "longitude": -101.9689
-        }
+        },
+        "kmDistance": 11.065463229143436
       },
       {
         "date": "2031Nov14",
@@ -5189,7 +5476,8 @@
         "southCoordinates": {
           "latitude": 1.6003,
           "longitude": -100.2022
-        }
+        },
+        "kmDistance": 9.176867191723332
       },
       {
         "date": "2031Nov14",
@@ -5207,7 +5495,8 @@
         "southCoordinates": {
           "latitude": 2.1517,
           "longitude": -98.2342
-        }
+        },
+        "kmDistance": 5.5388561841414035
       },
       {
         "date": "2031Nov14",
@@ -5225,7 +5514,8 @@
         "southCoordinates": {
           "latitude": 2.8175,
           "longitude": -95.9675
-        }
+        },
+        "kmDistance": 1.947051854883105
       },
       {
         "date": "2031Nov14",
@@ -5243,7 +5533,8 @@
         "southCoordinates": {
           "latitude": 3.6342,
           "longitude": -93.2519
-        }
+        },
+        "kmDistance": 1.791097943234372
       },
       {
         "date": "2031Nov14",
@@ -5261,7 +5552,8 @@
         "southCoordinates": {
           "latitude": 4.7333,
           "longitude": -89.7353
-        }
+        },
+        "kmDistance": 6.046202149266739
       },
       {
         "date": "2031Nov14",
@@ -5279,7 +5571,8 @@
         "southCoordinates": {
           "latitude": 6.6344,
           "longitude": -83.8017
-        }
+        },
+        "kmDistance": 24.989939568760054
       },
       {
         "date": "2031Nov14",
@@ -5297,10 +5590,11 @@
         "southCoordinates": {
           "latitude": 8.2836,
           "longitude": -78.7842
-        }
+        },
+        "kmDistance": 17.255041003449854
       }
     ],
-    "_id": "63d399748db412d3660e1d08"
+    "_id": "63d3caffdda50c3cdc57b023"
   },
   {
     "date": "2026Aug12",
@@ -5322,7 +5616,8 @@
         "southCoordinates": {
           "latitude": 74.9022,
           "longitude": 117.9517
-        }
+        },
+        "kmDistance": 267.4536060155658
       },
       {
         "date": "2026Aug12",
@@ -5340,7 +5635,8 @@
         "southCoordinates": {
           "latitude": 85.3175,
           "longitude": 119.4178
-        }
+        },
+        "kmDistance": 1056.720141312785
       },
       {
         "date": "2026Aug12",
@@ -5358,7 +5654,8 @@
         "southCoordinates": {
           "latitude": 87.7506,
           "longitude": 108.4192
-        }
+        },
+        "kmDistance": 623.9538236494219
       },
       {
         "date": "2026Aug12",
@@ -5376,7 +5673,8 @@
         "southCoordinates": {
           "latitude": 89.0667,
           "longitude": 38.1358
-        }
+        },
+        "kmDistance": 515.6709165486666
       },
       {
         "date": "2026Aug12",
@@ -5394,7 +5692,8 @@
         "southCoordinates": {
           "latitude": 87.7842,
           "longitude": -19.5011
-        }
+        },
+        "kmDistance": 458.6012345276125
       },
       {
         "date": "2026Aug12",
@@ -5412,7 +5711,8 @@
         "southCoordinates": {
           "latitude": 86.1347,
           "longitude": -29.2167
-        }
+        },
+        "kmDistance": 420.9192499583843
       },
       {
         "date": "2026Aug12",
@@ -5430,7 +5730,8 @@
         "southCoordinates": {
           "latitude": 84.5525,
           "longitude": -32.2356
-        }
+        },
+        "kmDistance": 394.1974569210425
       },
       {
         "date": "2026Aug12",
@@ -5448,7 +5749,8 @@
         "southCoordinates": {
           "latitude": 83.0675,
           "longitude": -33.4167
-        }
+        },
+        "kmDistance": 373.7373009812106
       },
       {
         "date": "2026Aug12",
@@ -5466,7 +5768,8 @@
         "southCoordinates": {
           "latitude": 81.65,
           "longitude": -33.8342
-        }
+        },
+        "kmDistance": 357.81951714100524
       },
       {
         "date": "2026Aug12",
@@ -5484,7 +5787,8 @@
         "southCoordinates": {
           "latitude": 80.2847,
           "longitude": -33.8856
-        }
+        },
+        "kmDistance": 346.06958906740624
       },
       {
         "date": "2026Aug12",
@@ -5502,7 +5806,8 @@
         "southCoordinates": {
           "latitude": 78.9839,
           "longitude": -33.7517
-        }
+        },
+        "kmDistance": 336.0323532506893
       },
       {
         "date": "2026Aug12",
@@ -5520,7 +5825,8 @@
         "southCoordinates": {
           "latitude": 77.7183,
           "longitude": -33.5008
-        }
+        },
+        "kmDistance": 328.37356572511334
       },
       {
         "date": "2026Aug12",
@@ -5538,7 +5844,8 @@
         "southCoordinates": {
           "latitude": 76.5011,
           "longitude": -33.1686
-        }
+        },
+        "kmDistance": 321.43069836654513
       },
       {
         "date": "2026Aug12",
@@ -5556,7 +5863,8 @@
         "southCoordinates": {
           "latitude": 75.3178,
           "longitude": -32.8008
-        }
+        },
+        "kmDistance": 315.9690036816638
       },
       {
         "date": "2026Aug12",
@@ -5574,7 +5882,8 @@
         "southCoordinates": {
           "latitude": 74.1669,
           "longitude": -32.4
-        }
+        },
+        "kmDistance": 311.50829502764117
       },
       {
         "date": "2026Aug12",
@@ -5592,7 +5901,8 @@
         "southCoordinates": {
           "latitude": 73.035,
           "longitude": -31.9675
-        }
+        },
+        "kmDistance": 308.1196687448325
       },
       {
         "date": "2026Aug12",
@@ -5610,7 +5920,8 @@
         "southCoordinates": {
           "latitude": 71.9344,
           "longitude": -31.5183
-        }
+        },
+        "kmDistance": 304.4351563042977
       },
       {
         "date": "2026Aug12",
@@ -5628,7 +5939,8 @@
         "southCoordinates": {
           "latitude": 70.8517,
           "longitude": -31.0669
-        }
+        },
+        "kmDistance": 302.31679197787895
       },
       {
         "date": "2026Aug12",
@@ -5646,7 +5958,8 @@
         "southCoordinates": {
           "latitude": 69.7856,
           "longitude": -30.6
-        }
+        },
+        "kmDistance": 300.62389275056927
       },
       {
         "date": "2026Aug12",
@@ -5664,7 +5977,8 @@
         "southCoordinates": {
           "latitude": 68.7506,
           "longitude": -30.1172
-        }
+        },
+        "kmDistance": 298.32741227181486
       },
       {
         "date": "2026Aug12",
@@ -5682,7 +5996,8 @@
         "southCoordinates": {
           "latitude": 67.7178,
           "longitude": -29.6192
-        }
+        },
+        "kmDistance": 297.17392214327776
       },
       {
         "date": "2026Aug12",
@@ -5700,7 +6015,8 @@
         "southCoordinates": {
           "latitude": 66.7011,
           "longitude": -29.1333
-        }
+        },
+        "kmDistance": 297.2079455166653
       },
       {
         "date": "2026Aug12",
@@ -5718,7 +6034,8 @@
         "southCoordinates": {
           "latitude": 65.7006,
           "longitude": -28.6181
-        }
+        },
+        "kmDistance": 295.93227382118295
       },
       {
         "date": "2026Aug12",
@@ -5736,7 +6053,8 @@
         "southCoordinates": {
           "latitude": 64.7017,
           "longitude": -28.1011
-        }
+        },
+        "kmDistance": 296.2982478003914
       },
       {
         "date": "2026Aug12",
@@ -5754,7 +6072,8 @@
         "southCoordinates": {
           "latitude": 63.7183,
           "longitude": -27.5683
-        }
+        },
+        "kmDistance": 296.6379022175905
       },
       {
         "date": "2026Aug12",
@@ -5772,7 +6091,8 @@
         "southCoordinates": {
           "latitude": 62.75,
           "longitude": -27.0333
-        }
+        },
+        "kmDistance": 297.96172351406676
       },
       {
         "date": "2026Aug12",
@@ -5790,7 +6110,8 @@
         "southCoordinates": {
           "latitude": 61.7689,
           "longitude": -26.4683
-        }
+        },
+        "kmDistance": 298.8440481514153
       },
       {
         "date": "2026Aug12",
@@ -5808,7 +6129,8 @@
         "southCoordinates": {
           "latitude": 60.8167,
           "longitude": -25.9008
-        }
+        },
+        "kmDistance": 300.1931335952116
       },
       {
         "date": "2026Aug12",
@@ -5826,7 +6148,8 @@
         "southCoordinates": {
           "latitude": 59.8511,
           "longitude": -25.3167
-        }
+        },
+        "kmDistance": 302.5377462817429
       },
       {
         "date": "2026Aug12",
@@ -5844,7 +6167,8 @@
         "southCoordinates": {
           "latitude": 58.9,
           "longitude": -24.7011
-        }
+        },
+        "kmDistance": 304.54068097059826
       },
       {
         "date": "2026Aug12",
@@ -5862,7 +6186,8 @@
         "southCoordinates": {
           "latitude": 57.9353,
           "longitude": -24.0683
-        }
+        },
+        "kmDistance": 308.0526863396418
       },
       {
         "date": "2026Aug12",
@@ -5880,7 +6205,8 @@
         "southCoordinates": {
           "latitude": 56.9844,
           "longitude": -23.4175
-        }
+        },
+        "kmDistance": 311.91206390407905
       },
       {
         "date": "2026Aug12",
@@ -5898,7 +6224,8 @@
         "southCoordinates": {
           "latitude": 56.0339,
           "longitude": -22.7342
-        }
+        },
+        "kmDistance": 315.99883296526315
       },
       {
         "date": "2026Aug12",
@@ -5916,7 +6243,8 @@
         "southCoordinates": {
           "latitude": 55.0686,
           "longitude": -22.0181
-        }
+        },
+        "kmDistance": 321.0737176285197
       },
       {
         "date": "2026Aug12",
@@ -5934,7 +6262,8 @@
         "southCoordinates": {
           "latitude": 54.1169,
           "longitude": -21.2681
-        }
+        },
+        "kmDistance": 326.57727342859323
       },
       {
         "date": "2026Aug12",
@@ -5952,7 +6281,8 @@
         "southCoordinates": {
           "latitude": 53.1503,
           "longitude": -20.4836
-        }
+        },
+        "kmDistance": 333.4939625255486
       },
       {
         "date": "2026Aug12",
@@ -5970,7 +6300,8 @@
         "southCoordinates": {
           "latitude": 52.1683,
           "longitude": -19.6356
-        }
+        },
+        "kmDistance": 341.8033452709265
       },
       {
         "date": "2026Aug12",
@@ -5988,7 +6319,8 @@
         "southCoordinates": {
           "latitude": 51.185,
           "longitude": -18.7508
-        }
+        },
+        "kmDistance": 352.15733548157954
       },
       {
         "date": "2026Aug12",
@@ -6006,7 +6338,8 @@
         "southCoordinates": {
           "latitude": 50.1853,
           "longitude": -17.7858
-        }
+        },
+        "kmDistance": 363.2303925512791
       },
       {
         "date": "2026Aug12",
@@ -6024,7 +6357,8 @@
         "southCoordinates": {
           "latitude": 49.1692,
           "longitude": -16.7525
-        }
+        },
+        "kmDistance": 378.99697337378893
       },
       {
         "date": "2026Aug12",
@@ -6042,7 +6376,8 @@
         "southCoordinates": {
           "latitude": 48.1356,
           "longitude": -15.6342
-        }
+        },
+        "kmDistance": 398.0432802590857
       },
       {
         "date": "2026Aug12",
@@ -6060,7 +6395,8 @@
         "southCoordinates": {
           "latitude": 47.0833,
           "longitude": -14.3856
-        }
+        },
+        "kmDistance": 423.03927351039425
       },
       {
         "date": "2026Aug12",
@@ -6078,7 +6414,8 @@
         "southCoordinates": {
           "latitude": 45.9833,
           "longitude": -13.0014
-        }
+        },
+        "kmDistance": 459.5269001350161
       },
       {
         "date": "2026Aug12",
@@ -6096,7 +6433,8 @@
         "southCoordinates": {
           "latitude": 44.8192,
           "longitude": -11.4172
-        }
+        },
+        "kmDistance": 514.3384688070627
       },
       {
         "date": "2026Aug12",
@@ -6114,7 +6452,8 @@
         "southCoordinates": {
           "latitude": 43.6011,
           "longitude": -9.5503
-        }
+        },
+        "kmDistance": 609.4956926716003
       },
       {
         "date": "2026Aug12",
@@ -6132,7 +6471,8 @@
         "southCoordinates": {
           "latitude": 42.2522,
           "longitude": -7.2339
-        }
+        },
+        "kmDistance": 893.9247676868176
       },
       {
         "date": "2026Aug12",
@@ -6147,7 +6487,8 @@
         "southCoordinates": {
           "latitude": 40.6833,
           "longitude": -4.0344
-        }
+        },
+        "kmDistance": 611.2255876399056
       },
       {
         "date": "2026Aug12",
@@ -6165,10 +6506,11 @@
         "southCoordinates": {
           "latitude": 37.6844,
           "longitude": 4.5344
-        }
+        },
+        "kmDistance": 273.3091957253507
       }
     ],
-    "_id": "63d399748db412d3660e1d19"
+    "_id": "63d3caffdda50c3cdc57b034"
   },
   {
     "date": "1910May09",
@@ -6190,7 +6532,8 @@
         "southCoordinates": {
           "latitude": -72,
           "longitude": 119.2675
-        }
+        },
+        "kmDistance": 485.55251997731926
       },
       {
         "date": "1910May09",
@@ -6205,7 +6548,8 @@
           "latitude": -71.785,
           "longitude": 111.5011
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 956.7020133592227
       },
       {
         "date": "1910May09",
@@ -6220,7 +6564,8 @@
           "latitude": -68.0175,
           "longitude": 111.035
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 660.5991154318168
       },
       {
         "date": "1910May09",
@@ -6235,7 +6580,8 @@
           "latitude": -66.1514,
           "longitude": 111.3689
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 563.3922255590113
       },
       {
         "date": "1910May09",
@@ -6250,7 +6596,8 @@
           "latitude": -64.7186,
           "longitude": 111.8169
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 506.8400737285115
       },
       {
         "date": "1910May09",
@@ -6265,7 +6612,8 @@
           "latitude": -63.5183,
           "longitude": 112.2839
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 466.98884918628437
       },
       {
         "date": "1910May09",
@@ -6283,7 +6631,8 @@
         "southCoordinates": {
           "latitude": -69.1508,
           "longitude": 117.4692
-        }
+        },
+        "kmDistance": 1210.963752236385
       },
       {
         "date": "1910May09",
@@ -6301,7 +6650,8 @@
         "southCoordinates": {
           "latitude": -67.0014,
           "longitude": 117.0839
-        }
+        },
+        "kmDistance": 1052.0797138821345
       },
       {
         "date": "1910May09",
@@ -6319,7 +6669,8 @@
         "southCoordinates": {
           "latitude": -65.5003,
           "longitude": 117.15
-        }
+        },
+        "kmDistance": 961.8102490435934
       },
       {
         "date": "1910May09",
@@ -6337,7 +6688,8 @@
         "southCoordinates": {
           "latitude": -64.2678,
           "longitude": 117.3667
-        }
+        },
+        "kmDistance": 899.8832549836939
       },
       {
         "date": "1910May09",
@@ -6355,7 +6707,8 @@
         "southCoordinates": {
           "latitude": -63.2019,
           "longitude": 117.6514
-        }
+        },
+        "kmDistance": 851.6075102724398
       },
       {
         "date": "1910May09",
@@ -6373,7 +6726,8 @@
         "southCoordinates": {
           "latitude": -62.2525,
           "longitude": 117.985
-        }
+        },
+        "kmDistance": 814.3220220023117
       },
       {
         "date": "1910May09",
@@ -6391,7 +6745,8 @@
         "southCoordinates": {
           "latitude": -61.4011,
           "longitude": 118.3506
-        }
+        },
+        "kmDistance": 784.686924248572
       },
       {
         "date": "1910May09",
@@ -6409,7 +6764,8 @@
         "southCoordinates": {
           "latitude": -60.6025,
           "longitude": 118.7189
-        }
+        },
+        "kmDistance": 758.7049291836895
       },
       {
         "date": "1910May09",
@@ -6427,7 +6783,8 @@
         "southCoordinates": {
           "latitude": -59.8689,
           "longitude": 119.1169
-        }
+        },
+        "kmDistance": 738.5618456076148
       },
       {
         "date": "1910May09",
@@ -6445,7 +6802,8 @@
         "southCoordinates": {
           "latitude": -59.1844,
           "longitude": 119.5022
-        }
+        },
+        "kmDistance": 719.9495858048042
       },
       {
         "date": "1910May09",
@@ -6463,7 +6821,8 @@
         "southCoordinates": {
           "latitude": -58.5347,
           "longitude": 119.9025
-        }
+        },
+        "kmDistance": 704.9623904335616
       },
       {
         "date": "1910May09",
@@ -6481,7 +6840,8 @@
         "southCoordinates": {
           "latitude": -57.9183,
           "longitude": 120.3175
-        }
+        },
+        "kmDistance": 690.5954770773909
       },
       {
         "date": "1910May09",
@@ -6499,7 +6859,8 @@
         "southCoordinates": {
           "latitude": -57.335,
           "longitude": 120.7192
-        }
+        },
+        "kmDistance": 679.3392348267125
       },
       {
         "date": "1910May09",
@@ -6517,7 +6878,8 @@
         "southCoordinates": {
           "latitude": -56.7839,
           "longitude": 121.1353
-        }
+        },
+        "kmDistance": 668.6642618483642
       },
       {
         "date": "1910May09",
@@ -6535,7 +6897,8 @@
         "southCoordinates": {
           "latitude": -56.2508,
           "longitude": 121.5519
-        }
+        },
+        "kmDistance": 659.6299663055852
       },
       {
         "date": "1910May09",
@@ -6553,7 +6916,8 @@
         "southCoordinates": {
           "latitude": -55.7356,
           "longitude": 121.9689
-        }
+        },
+        "kmDistance": 650.7849135053337
       },
       {
         "date": "1910May09",
@@ -6571,7 +6935,8 @@
         "southCoordinates": {
           "latitude": -55.2514,
           "longitude": 122.4
-        }
+        },
+        "kmDistance": 645.6946558912224
       },
       {
         "date": "1910May09",
@@ -6589,7 +6954,8 @@
         "southCoordinates": {
           "latitude": -54.7842,
           "longitude": 122.8181
-        }
+        },
+        "kmDistance": 639.8965334677032
       },
       {
         "date": "1910May09",
@@ -6607,7 +6973,8 @@
         "southCoordinates": {
           "latitude": -54.3339,
           "longitude": 123.2503
-        }
+        },
+        "kmDistance": 635.0838582890499
       },
       {
         "date": "1910May09",
@@ -6625,7 +6992,8 @@
         "southCoordinates": {
           "latitude": -53.9003,
           "longitude": 123.6689
-        }
+        },
+        "kmDistance": 629.4978270910955
       },
       {
         "date": "1910May09",
@@ -6643,7 +7011,8 @@
         "southCoordinates": {
           "latitude": -53.4833,
           "longitude": 124.1022
-        }
+        },
+        "kmDistance": 626.3330180686687
       },
       {
         "date": "1910May09",
@@ -6661,7 +7030,8 @@
         "southCoordinates": {
           "latitude": -53.0686,
           "longitude": 124.5358
-        }
+        },
+        "kmDistance": 621.4296776850643
       },
       {
         "date": "1910May09",
@@ -6679,7 +7049,8 @@
         "southCoordinates": {
           "latitude": -52.6839,
           "longitude": 124.9842
-        }
+        },
+        "kmDistance": 620.2769041393167
       },
       {
         "date": "1910May09",
@@ -6697,7 +7068,8 @@
         "southCoordinates": {
           "latitude": -52.3017,
           "longitude": 125.4192
-        }
+        },
+        "kmDistance": 616.9372213043786
       },
       {
         "date": "1910May09",
@@ -6715,7 +7087,8 @@
         "southCoordinates": {
           "latitude": -51.9356,
           "longitude": 125.8689
-        }
+        },
+        "kmDistance": 614.7164984879789
       },
       {
         "date": "1910May09",
@@ -6733,7 +7106,8 @@
         "southCoordinates": {
           "latitude": -51.585,
           "longitude": 126.3333
-        }
+        },
+        "kmDistance": 613.8682301270562
       },
       {
         "date": "1910May09",
@@ -6751,7 +7125,8 @@
         "southCoordinates": {
           "latitude": -51.2506,
           "longitude": 126.7844
-        }
+        },
+        "kmDistance": 613.9127416443204
       },
       {
         "date": "1910May09",
@@ -6769,7 +7144,8 @@
         "southCoordinates": {
           "latitude": -50.9181,
           "longitude": 127.2506
-        }
+        },
+        "kmDistance": 613.289971550195
       },
       {
         "date": "1910May09",
@@ -6787,7 +7163,8 @@
         "southCoordinates": {
           "latitude": -50.6011,
           "longitude": 127.7178
-        }
+        },
+        "kmDistance": 612.7550756091896
       },
       {
         "date": "1910May09",
@@ -6805,7 +7182,8 @@
         "southCoordinates": {
           "latitude": -50.3,
           "longitude": 128.2
-        }
+        },
+        "kmDistance": 613.582675369258
       },
       {
         "date": "1910May09",
@@ -6823,7 +7201,8 @@
         "southCoordinates": {
           "latitude": -50.0008,
           "longitude": 128.6833
-        }
+        },
+        "kmDistance": 615.1363925534795
       },
       {
         "date": "1910May09",
@@ -6841,7 +7220,8 @@
         "southCoordinates": {
           "latitude": -49.7172,
           "longitude": 129.1678
-        }
+        },
+        "kmDistance": 616.1725206676944
       },
       {
         "date": "1910May09",
@@ -6859,7 +7239,8 @@
         "southCoordinates": {
           "latitude": -49.4353,
           "longitude": 129.6678
-        }
+        },
+        "kmDistance": 617.9223340847092
       },
       {
         "date": "1910May09",
@@ -6877,7 +7258,8 @@
         "southCoordinates": {
           "latitude": -49.1689,
           "longitude": 130.1692
-        }
+        },
+        "kmDistance": 619.7245529785457
       },
       {
         "date": "1910May09",
@@ -6895,7 +7277,8 @@
         "southCoordinates": {
           "latitude": -48.9183,
           "longitude": 130.7
-        }
+        },
+        "kmDistance": 623.5286585867404
       },
       {
         "date": "1910May09",
@@ -6913,7 +7296,8 @@
         "southCoordinates": {
           "latitude": -48.6692,
           "longitude": 131.2189
-        }
+        },
+        "kmDistance": 625.5732467579658
       },
       {
         "date": "1910May09",
@@ -6931,7 +7315,8 @@
         "southCoordinates": {
           "latitude": -48.4358,
           "longitude": 131.7672
-        }
+        },
+        "kmDistance": 630.2304020171691
       },
       {
         "date": "1910May09",
@@ -6949,7 +7334,8 @@
         "southCoordinates": {
           "latitude": -48.2183,
           "longitude": 132.3181
-        }
+        },
+        "kmDistance": 634.4140956586784
       },
       {
         "date": "1910May09",
@@ -6967,7 +7353,8 @@
         "southCoordinates": {
           "latitude": -48.0022,
           "longitude": 132.885
-        }
+        },
+        "kmDistance": 639.3577908777395
       },
       {
         "date": "1910May09",
@@ -6985,7 +7372,8 @@
         "southCoordinates": {
           "latitude": -47.8022,
           "longitude": 133.4681
-        }
+        },
+        "kmDistance": 645.6795046637397
       },
       {
         "date": "1910May09",
@@ -7003,7 +7391,8 @@
         "southCoordinates": {
           "latitude": -47.6178,
           "longitude": 134.0681
-        }
+        },
+        "kmDistance": 652.8273495116773
       },
       {
         "date": "1910May09",
@@ -7021,7 +7410,8 @@
         "southCoordinates": {
           "latitude": -47.4353,
           "longitude": 134.6853
-        }
+        },
+        "kmDistance": 658.923521613516
       },
       {
         "date": "1910May09",
@@ -7039,7 +7429,8 @@
         "southCoordinates": {
           "latitude": -47.2686,
           "longitude": 135.3333
-        }
+        },
+        "kmDistance": 668.3177784375869
       },
       {
         "date": "1910May09",
@@ -7057,7 +7448,8 @@
         "southCoordinates": {
           "latitude": -47.1181,
           "longitude": 135.9853
-        }
+        },
+        "kmDistance": 676.6914264160226
       },
       {
         "date": "1910May09",
@@ -7075,7 +7467,8 @@
         "southCoordinates": {
           "latitude": -46.9836,
           "longitude": 136.6833
-        }
+        },
+        "kmDistance": 687.9258273662516
       },
       {
         "date": "1910May09",
@@ -7093,7 +7486,8 @@
         "southCoordinates": {
           "latitude": -46.8517,
           "longitude": 137.4
-        }
+        },
+        "kmDistance": 700.2226344481116
       },
       {
         "date": "1910May09",
@@ -7111,7 +7505,8 @@
         "southCoordinates": {
           "latitude": -46.75,
           "longitude": 138.15
-        }
+        },
+        "kmDistance": 713.9145868314122
       },
       {
         "date": "1910May09",
@@ -7129,7 +7524,8 @@
         "southCoordinates": {
           "latitude": -46.6511,
           "longitude": 138.9339
-        }
+        },
+        "kmDistance": 728.352230671789
       },
       {
         "date": "1910May09",
@@ -7147,7 +7543,8 @@
         "southCoordinates": {
           "latitude": -46.5692,
           "longitude": 139.7669
-        }
+        },
+        "kmDistance": 745.1300091287212
       },
       {
         "date": "1910May09",
@@ -7165,7 +7562,8 @@
         "southCoordinates": {
           "latitude": -46.5189,
           "longitude": 140.6503
-        }
+        },
+        "kmDistance": 766.9697717605267
       },
       {
         "date": "1910May09",
@@ -7183,7 +7581,8 @@
         "southCoordinates": {
           "latitude": -46.5003,
           "longitude": 141.5856
-        }
+        },
+        "kmDistance": 790.0633690386666
       },
       {
         "date": "1910May09",
@@ -7201,7 +7600,8 @@
         "southCoordinates": {
           "latitude": -46.5006,
           "longitude": 142.6169
-        }
+        },
+        "kmDistance": 818.2899079307998
       },
       {
         "date": "1910May09",
@@ -7219,7 +7619,8 @@
         "southCoordinates": {
           "latitude": -46.5344,
           "longitude": 143.7339
-        }
+        },
+        "kmDistance": 851.772242292171
       },
       {
         "date": "1910May09",
@@ -7237,7 +7638,8 @@
         "southCoordinates": {
           "latitude": -46.6178,
           "longitude": 144.9833
-        }
+        },
+        "kmDistance": 895.5400423714557
       },
       {
         "date": "1910May09",
@@ -7255,7 +7657,8 @@
         "southCoordinates": {
           "latitude": -46.7672,
           "longitude": 146.4017
-        }
+        },
+        "kmDistance": 949.0284658417232
       },
       {
         "date": "1910May09",
@@ -7273,7 +7676,8 @@
         "southCoordinates": {
           "latitude": -47.0022,
           "longitude": 148.1169
-        }
+        },
+        "kmDistance": 1024.283741034263
       },
       {
         "date": "1910May09",
@@ -7291,7 +7695,8 @@
         "southCoordinates": {
           "latitude": -47.4339,
           "longitude": 150.3669
-        }
+        },
+        "kmDistance": 1140.9004885332658
       },
       {
         "date": "1910May09",
@@ -7309,7 +7714,8 @@
         "southCoordinates": {
           "latitude": -48.7025,
           "longitude": 155.2175
-        }
+        },
+        "kmDistance": 1466.0990604725162
       },
       {
         "date": "1910May09",
@@ -7324,7 +7730,8 @@
           "latitude": -43.9836,
           "longitude": 145.5856
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 499.1354828608805
       },
       {
         "date": "1910May09",
@@ -7339,7 +7746,8 @@
           "latitude": -44.2019,
           "longitude": 147.1844
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 546.3948488512661
       },
       {
         "date": "1910May09",
@@ -7354,7 +7762,8 @@
           "latitude": -44.5678,
           "longitude": 149.1686
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 620.4274804161362
       },
       {
         "date": "1910May09",
@@ -7369,7 +7778,8 @@
           "latitude": -45.2358,
           "longitude": 152.1167
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 764.3983519639021
       },
       {
         "date": "1910May09",
@@ -7387,10 +7797,11 @@
         "southCoordinates": {
           "latitude": -48.8508,
           "longitude": 155.6681
-        }
+        },
+        "kmDistance": 506.64394845361505
       }
     ],
-    "_id": "63d399748db412d3660e1d62"
+    "_id": "63d3caffdda50c3cdc57b07d"
   },
   {
     "date": "1995Oct24",
@@ -7412,7 +7823,8 @@
         "southCoordinates": {
           "latitude": 34.7672,
           "longitude": 51.0836
-        }
+        },
+        "kmDistance": 15.068782402564395
       },
       {
         "date": "1995Oct24",
@@ -7430,7 +7842,8 @@
         "southCoordinates": {
           "latitude": 33.5011,
           "longitude": 56.6186
-        }
+        },
+        "kmDistance": 66.92141568835984
       },
       {
         "date": "1995Oct24",
@@ -7448,7 +7861,8 @@
         "southCoordinates": {
           "latitude": 32.3189,
           "longitude": 61.1667
-        }
+        },
+        "kmDistance": 47.267459245310384
       },
       {
         "date": "1995Oct24",
@@ -7466,7 +7880,8 @@
         "southCoordinates": {
           "latitude": 31.5014,
           "longitude": 64.0508
-        }
+        },
+        "kmDistance": 42.364610413211466
       },
       {
         "date": "1995Oct24",
@@ -7484,7 +7899,8 @@
         "southCoordinates": {
           "latitude": 30.8181,
           "longitude": 66.3017
-        }
+        },
+        "kmDistance": 41.93527210170788
       },
       {
         "date": "1995Oct24",
@@ -7502,7 +7918,8 @@
         "southCoordinates": {
           "latitude": 30.2178,
           "longitude": 68.2006
-        }
+        },
+        "kmDistance": 41.05202330465612
       },
       {
         "date": "1995Oct24",
@@ -7520,7 +7937,8 @@
         "southCoordinates": {
           "latitude": 29.6681,
           "longitude": 69.8506
-        }
+        },
+        "kmDistance": 41.87026143679104
       },
       {
         "date": "1995Oct24",
@@ -7538,7 +7956,8 @@
         "southCoordinates": {
           "latitude": 29.1669,
           "longitude": 71.3186
-        }
+        },
+        "kmDistance": 41.710144491692425
       },
       {
         "date": "1995Oct24",
@@ -7556,7 +7975,8 @@
         "southCoordinates": {
           "latitude": 28.6847,
           "longitude": 72.6525
-        }
+        },
+        "kmDistance": 42.94698180040413
       },
       {
         "date": "1995Oct24",
@@ -7574,7 +7994,8 @@
         "southCoordinates": {
           "latitude": 28.2347,
           "longitude": 73.8853
-        }
+        },
+        "kmDistance": 44.4519792441181
       },
       {
         "date": "1995Oct24",
@@ -7592,7 +8013,8 @@
         "southCoordinates": {
           "latitude": 27.8022,
           "longitude": 75.0336
-        }
+        },
+        "kmDistance": 44.588096158083175
       },
       {
         "date": "1995Oct24",
@@ -7610,7 +8032,8 @@
         "southCoordinates": {
           "latitude": 27.4003,
           "longitude": 76.1
-        }
+        },
+        "kmDistance": 44.6601074593204
       },
       {
         "date": "1995Oct24",
@@ -7628,7 +8051,8 @@
         "southCoordinates": {
           "latitude": 27.0011,
           "longitude": 77.1003
-        }
+        },
+        "kmDistance": 46.30157695911446
       },
       {
         "date": "1995Oct24",
@@ -7646,7 +8070,8 @@
         "southCoordinates": {
           "latitude": 26.6178,
           "longitude": 78.0356
-        }
+        },
+        "kmDistance": 46.485386709219924
       },
       {
         "date": "1995Oct24",
@@ -7664,7 +8089,8 @@
         "southCoordinates": {
           "latitude": 26.2508,
           "longitude": 78.935
-        }
+        },
+        "kmDistance": 48.198496525802014
       },
       {
         "date": "1995Oct24",
@@ -7682,7 +8108,8 @@
         "southCoordinates": {
           "latitude": 25.8856,
           "longitude": 79.7856
-        }
+        },
+        "kmDistance": 48.41857567361037
       },
       {
         "date": "1995Oct24",
@@ -7700,7 +8127,8 @@
         "southCoordinates": {
           "latitude": 25.5356,
           "longitude": 80.6019
-        }
+        },
+        "kmDistance": 50.13073253015698
       },
       {
         "date": "1995Oct24",
@@ -7718,7 +8146,8 @@
         "southCoordinates": {
           "latitude": 25.2011,
           "longitude": 81.3847
-        }
+        },
+        "kmDistance": 50.41047336285351
       },
       {
         "date": "1995Oct24",
@@ -7736,7 +8165,8 @@
         "southCoordinates": {
           "latitude": 24.8683,
           "longitude": 82.1344
-        }
+        },
+        "kmDistance": 50.51956234985336
       },
       {
         "date": "1995Oct24",
@@ -7754,7 +8184,8 @@
         "southCoordinates": {
           "latitude": 24.5503,
           "longitude": 82.8519
-        }
+        },
+        "kmDistance": 50.87153141931713
       },
       {
         "date": "1995Oct24",
@@ -7772,7 +8203,8 @@
         "southCoordinates": {
           "latitude": 24.2336,
           "longitude": 83.5508
-        }
+        },
+        "kmDistance": 50.98598290432336
       },
       {
         "date": "1995Oct24",
@@ -7790,7 +8222,8 @@
         "southCoordinates": {
           "latitude": 23.9181,
           "longitude": 84.2181
-        }
+        },
+        "kmDistance": 52.839235025223346
       },
       {
         "date": "1995Oct24",
@@ -7808,7 +8241,8 @@
         "southCoordinates": {
           "latitude": 23.6175,
           "longitude": 84.8678
-        }
+        },
+        "kmDistance": 52.96907524957763
       },
       {
         "date": "1995Oct24",
@@ -7826,7 +8260,8 @@
         "southCoordinates": {
           "latitude": 23.3178,
           "longitude": 85.5003
-        }
+        },
+        "kmDistance": 54.59943752518285
       },
       {
         "date": "1995Oct24",
@@ -7844,7 +8279,8 @@
         "southCoordinates": {
           "latitude": 23.0189,
           "longitude": 86.1017
-        }
+        },
+        "kmDistance": 55.00114749911737
       },
       {
         "date": "1995Oct24",
@@ -7862,7 +8298,8 @@
         "southCoordinates": {
           "latitude": 22.735,
           "longitude": 86.7003
-        }
+        },
+        "kmDistance": 55.06356447291524
       },
       {
         "date": "1995Oct24",
@@ -7880,7 +8317,8 @@
         "southCoordinates": {
           "latitude": 22.4517,
           "longitude": 87.2681
-        }
+        },
+        "kmDistance": 55.51157224663871
       },
       {
         "date": "1995Oct24",
@@ -7898,7 +8336,8 @@
         "southCoordinates": {
           "latitude": 22.1692,
           "longitude": 87.8336
-        }
+        },
+        "kmDistance": 57.13732064016739
       },
       {
         "date": "1995Oct24",
@@ -7916,7 +8355,8 @@
         "southCoordinates": {
           "latitude": 21.9014,
           "longitude": 88.3689
-        }
+        },
+        "kmDistance": 57.584604332254266
       },
       {
         "date": "1995Oct24",
@@ -7934,7 +8374,8 @@
         "southCoordinates": {
           "latitude": 21.6342,
           "longitude": 88.9017
-        }
+        },
+        "kmDistance": 57.68671507076357
       },
       {
         "date": "1995Oct24",
@@ -7952,7 +8393,8 @@
         "southCoordinates": {
           "latitude": 21.3675,
           "longitude": 89.4186
-        }
+        },
+        "kmDistance": 57.804951851358666
       },
       {
         "date": "1995Oct24",
@@ -7970,7 +8412,8 @@
         "southCoordinates": {
           "latitude": 21.1017,
           "longitude": 89.9336
-        }
+        },
+        "kmDistance": 59.377973708586204
       },
       {
         "date": "1995Oct24",
@@ -7988,7 +8431,8 @@
         "southCoordinates": {
           "latitude": 20.8503,
           "longitude": 90.4189
-        }
+        },
+        "kmDistance": 58.38988665777036
       },
       {
         "date": "1995Oct24",
@@ -8006,7 +8450,8 @@
         "southCoordinates": {
           "latitude": 20.5856,
           "longitude": 90.9022
-        }
+        },
+        "kmDistance": 59.9665524560292
       },
       {
         "date": "1995Oct24",
@@ -8024,7 +8469,8 @@
         "southCoordinates": {
           "latitude": 20.3353,
           "longitude": 91.3842
-        }
+        },
+        "kmDistance": 60.05375334546861
       },
       {
         "date": "1995Oct24",
@@ -8042,7 +8488,8 @@
         "southCoordinates": {
           "latitude": 20.0856,
           "longitude": 91.8503
-        }
+        },
+        "kmDistance": 61.62832866188319
       },
       {
         "date": "1995Oct24",
@@ -8060,7 +8507,8 @@
         "southCoordinates": {
           "latitude": 19.8503,
           "longitude": 92.3011
-        }
+        },
+        "kmDistance": 60.679182215713915
       },
       {
         "date": "1995Oct24",
@@ -8078,7 +8526,8 @@
         "southCoordinates": {
           "latitude": 19.6017,
           "longitude": 92.7506
-        }
+        },
+        "kmDistance": 62.21474456776223
       },
       {
         "date": "1995Oct24",
@@ -8096,7 +8545,8 @@
         "southCoordinates": {
           "latitude": 19.3672,
           "longitude": 93.1847
-        }
+        },
+        "kmDistance": 62.306335214972215
       },
       {
         "date": "1995Oct24",
@@ -8114,7 +8564,8 @@
         "southCoordinates": {
           "latitude": 19.1333,
           "longitude": 93.6175
-        }
+        },
+        "kmDistance": 62.40444898739154
       },
       {
         "date": "1995Oct24",
@@ -8132,7 +8583,8 @@
         "southCoordinates": {
           "latitude": 18.9,
           "longitude": 94.0353
-        }
+        },
+        "kmDistance": 62.9527540198259
       },
       {
         "date": "1995Oct24",
@@ -8150,7 +8602,8 @@
         "southCoordinates": {
           "latitude": 18.6669,
           "longitude": 94.4517
-        }
+        },
+        "kmDistance": 63.05350290154285
       },
       {
         "date": "1995Oct24",
@@ -8168,7 +8621,8 @@
         "southCoordinates": {
           "latitude": 18.4344,
           "longitude": 94.8669
-        }
+        },
+        "kmDistance": 63.119349962194725
       },
       {
         "date": "1995Oct24",
@@ -8186,7 +8640,8 @@
         "southCoordinates": {
           "latitude": 18.2022,
           "longitude": 95.2672
-        }
+        },
+        "kmDistance": 64.66699784972202
       },
       {
         "date": "1995Oct24",
@@ -8204,7 +8659,8 @@
         "southCoordinates": {
           "latitude": 17.9844,
           "longitude": 95.6667
-        }
+        },
+        "kmDistance": 64.7247306857122
       },
       {
         "date": "1995Oct24",
@@ -8222,7 +8678,8 @@
         "southCoordinates": {
           "latitude": 17.7669,
           "longitude": 96.0511
-        }
+        },
+        "kmDistance": 65.30788398829864
       },
       {
         "date": "1995Oct24",
@@ -8240,7 +8697,8 @@
         "southCoordinates": {
           "latitude": 17.55,
           "longitude": 96.4344
-        }
+        },
+        "kmDistance": 65.37129277086079
       },
       {
         "date": "1995Oct24",
@@ -8258,7 +8716,8 @@
         "southCoordinates": {
           "latitude": 17.3333,
           "longitude": 96.8172
-        }
+        },
+        "kmDistance": 65.43097483732038
       },
       {
         "date": "1995Oct24",
@@ -8276,7 +8735,8 @@
         "southCoordinates": {
           "latitude": 17.1169,
           "longitude": 97.185
-        }
+        },
+        "kmDistance": 66.05767408296849
       },
       {
         "date": "1995Oct24",
@@ -8294,7 +8754,8 @@
         "southCoordinates": {
           "latitude": 16.9008,
           "longitude": 97.5519
-        }
+        },
+        "kmDistance": 66.1438460202895
       },
       {
         "date": "1995Oct24",
@@ -8312,7 +8773,8 @@
         "southCoordinates": {
           "latitude": 16.6853,
           "longitude": 97.9181
-        }
+        },
+        "kmDistance": 67.63012534568406
       },
       {
         "date": "1995Oct24",
@@ -8330,7 +8792,8 @@
         "southCoordinates": {
           "latitude": 16.4839,
           "longitude": 98.2836
-        }
+        },
+        "kmDistance": 67.68258931048857
       },
       {
         "date": "1995Oct24",
@@ -8348,7 +8811,8 @@
         "southCoordinates": {
           "latitude": 16.2689,
           "longitude": 98.6344
-        }
+        },
+        "kmDistance": 67.74741442239807
       },
       {
         "date": "1995Oct24",
@@ -8366,7 +8830,8 @@
         "southCoordinates": {
           "latitude": 16.0681,
           "longitude": 98.9844
-        }
+        },
+        "kmDistance": 67.83223006690734
       },
       {
         "date": "1995Oct24",
@@ -8384,7 +8849,8 @@
         "southCoordinates": {
           "latitude": 15.8675,
           "longitude": 99.3339
-        }
+        },
+        "kmDistance": 67.88056747479723
       },
       {
         "date": "1995Oct24",
@@ -8402,7 +8868,8 @@
         "southCoordinates": {
           "latitude": 15.6675,
           "longitude": 99.6686
-        }
+        },
+        "kmDistance": 68.50946875089679
       },
       {
         "date": "1995Oct24",
@@ -8420,7 +8887,8 @@
         "southCoordinates": {
           "latitude": 15.4675,
           "longitude": 100.0169
-        }
+        },
+        "kmDistance": 68.59371098129179
       },
       {
         "date": "1995Oct24",
@@ -8438,7 +8906,8 @@
         "southCoordinates": {
           "latitude": 15.2681,
           "longitude": 100.3506
-        }
+        },
+        "kmDistance": 70.0662359630781
       },
       {
         "date": "1995Oct24",
@@ -8456,7 +8925,8 @@
         "southCoordinates": {
           "latitude": 15.0686,
           "longitude": 100.6836
-        }
+        },
+        "kmDistance": 70.13157132120094
       },
       {
         "date": "1995Oct24",
@@ -8474,7 +8944,8 @@
         "southCoordinates": {
           "latitude": 14.8836,
           "longitude": 101.0022
-        }
+        },
+        "kmDistance": 69.35781696340885
       },
       {
         "date": "1995Oct24",
@@ -8492,7 +8963,8 @@
         "southCoordinates": {
           "latitude": 14.685,
           "longitude": 101.3344
-        }
+        },
+        "kmDistance": 70.23666435057316
       },
       {
         "date": "1995Oct24",
@@ -8510,7 +8982,8 @@
         "southCoordinates": {
           "latitude": 14.5003,
           "longitude": 101.6519
-        }
+        },
+        "kmDistance": 70.9108406039417
       },
       {
         "date": "1995Oct24",
@@ -8528,7 +9001,8 @@
         "southCoordinates": {
           "latitude": 14.3022,
           "longitude": 101.9692
-        }
+        },
+        "kmDistance": 72.37700850726615
       },
       {
         "date": "1995Oct24",
@@ -8546,7 +9020,8 @@
         "southCoordinates": {
           "latitude": 14.1181,
           "longitude": 102.2858
-        }
+        },
+        "kmDistance": 71.00349581243545
       },
       {
         "date": "1995Oct24",
@@ -8564,7 +9039,8 @@
         "southCoordinates": {
           "latitude": 13.9344,
           "longitude": 102.6019
-        }
+        },
+        "kmDistance": 71.07982056527715
       },
       {
         "date": "1995Oct24",
@@ -8582,7 +9058,8 @@
         "southCoordinates": {
           "latitude": 13.7508,
           "longitude": 102.9178
-        }
+        },
+        "kmDistance": 71.12846163402746
       },
       {
         "date": "1995Oct24",
@@ -8600,7 +9077,8 @@
         "southCoordinates": {
           "latitude": 13.5678,
           "longitude": 103.2333
-        }
+        },
+        "kmDistance": 72.57762715237298
       },
       {
         "date": "1995Oct24",
@@ -8618,7 +9096,8 @@
         "southCoordinates": {
           "latitude": 13.3847,
           "longitude": 103.5344
-        }
+        },
+        "kmDistance": 72.62581708987607
       },
       {
         "date": "1995Oct24",
@@ -8636,7 +9115,8 @@
         "southCoordinates": {
           "latitude": 13.2019,
           "longitude": 103.8353
-        }
+        },
+        "kmDistance": 73.28542461484808
       },
       {
         "date": "1995Oct24",
@@ -8654,7 +9134,8 @@
         "southCoordinates": {
           "latitude": 13.0333,
           "longitude": 104.1356
-        }
+        },
+        "kmDistance": 71.94955448133342
       },
       {
         "date": "1995Oct24",
@@ -8672,7 +9153,8 @@
         "southCoordinates": {
           "latitude": 12.8511,
           "longitude": 104.4358
-        }
+        },
+        "kmDistance": 73.38588278107365
       },
       {
         "date": "1995Oct24",
@@ -8690,7 +9172,8 @@
         "southCoordinates": {
           "latitude": 12.6692,
           "longitude": 104.7356
-        }
+        },
+        "kmDistance": 74.8318119050401
       },
       {
         "date": "1995Oct24",
@@ -8708,7 +9191,8 @@
         "southCoordinates": {
           "latitude": 12.5011,
           "longitude": 105.035
-        }
+        },
+        "kmDistance": 73.48706308866954
       },
       {
         "date": "1995Oct24",
@@ -8726,7 +9210,8 @@
         "southCoordinates": {
           "latitude": 12.3336,
           "longitude": 105.3342
-        }
+        },
+        "kmDistance": 73.52477403957135
       },
       {
         "date": "1995Oct24",
@@ -8744,7 +9229,8 @@
         "southCoordinates": {
           "latitude": 12.1522,
           "longitude": 105.6189
-        }
+        },
+        "kmDistance": 74.98422646601307
       },
       {
         "date": "1995Oct24",
@@ -8762,7 +9248,8 @@
         "southCoordinates": {
           "latitude": 11.985,
           "longitude": 105.9175
-        }
+        },
+        "kmDistance": 75.0361021988903
       },
       {
         "date": "1995Oct24",
@@ -8780,7 +9267,8 @@
         "southCoordinates": {
           "latitude": 11.8181,
           "longitude": 106.2019
-        }
+        },
+        "kmDistance": 75.07775419375893
       },
       {
         "date": "1995Oct24",
@@ -8798,7 +9286,8 @@
         "southCoordinates": {
           "latitude": 11.6514,
           "longitude": 106.5003
-        }
+        },
+        "kmDistance": 75.08563400300784
       },
       {
         "date": "1995Oct24",
@@ -8816,7 +9305,8 @@
         "southCoordinates": {
           "latitude": 11.4847,
           "longitude": 106.7842
-        }
+        },
+        "kmDistance": 75.14289676771233
       },
       {
         "date": "1995Oct24",
@@ -8834,7 +9324,8 @@
         "southCoordinates": {
           "latitude": 11.3186,
           "longitude": 107.0681
-        }
+        },
+        "kmDistance": 75.14041695278033
       },
       {
         "date": "1995Oct24",
@@ -8852,7 +9343,8 @@
         "southCoordinates": {
           "latitude": 11.1525,
           "longitude": 107.3514
-        }
+        },
+        "kmDistance": 75.19182565441139
       },
       {
         "date": "1995Oct24",
@@ -8870,7 +9362,8 @@
         "southCoordinates": {
           "latitude": 11.0006,
           "longitude": 107.635
-        }
+        },
+        "kmDistance": 75.85629031056985
       },
       {
         "date": "1995Oct24",
@@ -8888,7 +9381,8 @@
         "southCoordinates": {
           "latitude": 10.8347,
           "longitude": 107.9181
-        }
+        },
+        "kmDistance": 75.91851807193122
       },
       {
         "date": "1995Oct24",
@@ -8906,7 +9400,8 @@
         "southCoordinates": {
           "latitude": 10.6692,
           "longitude": 108.2011
-        }
+        },
+        "kmDistance": 77.35884056298178
       },
       {
         "date": "1995Oct24",
@@ -8924,7 +9419,8 @@
         "southCoordinates": {
           "latitude": 10.5181,
           "longitude": 108.4839
-        }
+        },
+        "kmDistance": 75.34135249674542
       },
       {
         "date": "1995Oct24",
@@ -8942,7 +9438,8 @@
         "southCoordinates": {
           "latitude": 10.3667,
           "longitude": 108.7667
-        }
+        },
+        "kmDistance": 75.40403531114985
       },
       {
         "date": "1995Oct24",
@@ -8960,7 +9457,8 @@
         "southCoordinates": {
           "latitude": 10.2019,
           "longitude": 109.0356
-        }
+        },
+        "kmDistance": 77.44987799824924
       },
       {
         "date": "1995Oct24",
@@ -8978,7 +9476,8 @@
         "southCoordinates": {
           "latitude": 10.0511,
           "longitude": 109.3181
-        }
+        },
+        "kmDistance": 76.08882727304523
       },
       {
         "date": "1995Oct24",
@@ -8996,7 +9495,8 @@
         "southCoordinates": {
           "latitude": 9.9006,
           "longitude": 109.6003
-        }
+        },
+        "kmDistance": 75.4875619903384
       },
       {
         "date": "1995Oct24",
@@ -9014,7 +9514,8 @@
         "southCoordinates": {
           "latitude": 9.7503,
           "longitude": 109.8686
-        }
+        },
+        "kmDistance": 76.15049342379253
       },
       {
         "date": "1995Oct24",
@@ -9032,7 +9533,8 @@
         "southCoordinates": {
           "latitude": 9.6003,
           "longitude": 110.1508
-        }
+        },
+        "kmDistance": 76.16173487213254
       },
       {
         "date": "1995Oct24",
@@ -9050,7 +9552,8 @@
         "southCoordinates": {
           "latitude": 9.4503,
           "longitude": 110.4192
-        }
+        },
+        "kmDistance": 76.19352991848434
       },
       {
         "date": "1995Oct24",
@@ -9068,7 +9571,8 @@
         "southCoordinates": {
           "latitude": 9.3006,
           "longitude": 110.7011
-        }
+        },
+        "kmDistance": 76.22993779774484
       },
       {
         "date": "1995Oct24",
@@ -9086,7 +9590,8 @@
         "southCoordinates": {
           "latitude": 9.1511,
           "longitude": 110.9692
-        }
+        },
+        "kmDistance": 77.64721000236575
       },
       {
         "date": "1995Oct24",
@@ -9104,7 +9609,8 @@
         "southCoordinates": {
           "latitude": 9.0017,
           "longitude": 111.2511
-        }
+        },
+        "kmDistance": 77.67336522857038
       },
       {
         "date": "1995Oct24",
@@ -9122,7 +9628,8 @@
         "southCoordinates": {
           "latitude": 8.8525,
           "longitude": 111.5192
-        }
+        },
+        "kmDistance": 77.68934879611042
       },
       {
         "date": "1995Oct24",
@@ -9140,7 +9647,8 @@
         "southCoordinates": {
           "latitude": 8.7175,
           "longitude": 111.8011
-        }
+        },
+        "kmDistance": 77.72482653956308
       },
       {
         "date": "1995Oct24",
@@ -9158,7 +9666,8 @@
         "southCoordinates": {
           "latitude": 8.5686,
           "longitude": 112.0689
-        }
+        },
+        "kmDistance": 77.75068798108667
       },
       {
         "date": "1995Oct24",
@@ -9176,7 +9685,8 @@
         "southCoordinates": {
           "latitude": 8.4342,
           "longitude": 112.3508
-        }
+        },
+        "kmDistance": 77.72556946610543
       },
       {
         "date": "1995Oct24",
@@ -9194,7 +9704,8 @@
         "southCoordinates": {
           "latitude": 8.2858,
           "longitude": 112.6186
-        }
+        },
+        "kmDistance": 77.7853633592025
       },
       {
         "date": "1995Oct24",
@@ -9212,7 +9723,8 @@
         "southCoordinates": {
           "latitude": 8.1514,
           "longitude": 112.9006
-        }
+        },
+        "kmDistance": 77.79643126763943
       },
       {
         "date": "1995Oct24",
@@ -9230,7 +9742,8 @@
         "southCoordinates": {
           "latitude": 8.0175,
           "longitude": 113.1686
-        }
+        },
+        "kmDistance": 77.80126280154177
       },
       {
         "date": "1995Oct24",
@@ -9248,7 +9761,8 @@
         "southCoordinates": {
           "latitude": 7.8836,
           "longitude": 113.4506
-        }
+        },
+        "kmDistance": 77.80601920464736
       },
       {
         "date": "1995Oct24",
@@ -9266,7 +9780,8 @@
         "southCoordinates": {
           "latitude": 7.7358,
           "longitude": 113.7183
-        }
+        },
+        "kmDistance": 79.2571994782694
       },
       {
         "date": "1995Oct24",
@@ -9284,7 +9799,8 @@
         "southCoordinates": {
           "latitude": 7.6025,
           "longitude": 114.0006
-        }
+        },
+        "kmDistance": 79.24792611556028
       },
       {
         "date": "1995Oct24",
@@ -9302,7 +9818,8 @@
         "southCoordinates": {
           "latitude": 7.4692,
           "longitude": 114.2686
-        }
+        },
+        "kmDistance": 79.24224688181796
       },
       {
         "date": "1995Oct24",
@@ -9320,7 +9837,8 @@
         "southCoordinates": {
           "latitude": 7.35,
           "longitude": 114.5506
-        }
+        },
+        "kmDistance": 77.85442094268396
       },
       {
         "date": "1995Oct24",
@@ -9338,7 +9856,8 @@
         "southCoordinates": {
           "latitude": 7.2169,
           "longitude": 114.8189
-        }
+        },
+        "kmDistance": 77.88897012389133
       },
       {
         "date": "1995Oct24",
@@ -9356,7 +9875,8 @@
         "southCoordinates": {
           "latitude": 7.0842,
           "longitude": 115.1011
-        }
+        },
+        "kmDistance": 77.91336526667988
       },
       {
         "date": "1995Oct24",
@@ -9374,7 +9894,8 @@
         "southCoordinates": {
           "latitude": 6.9517,
           "longitude": 115.3836
-        }
+        },
+        "kmDistance": 79.30555413585961
       },
       {
         "date": "1995Oct24",
@@ -9392,7 +9913,8 @@
         "southCoordinates": {
           "latitude": 6.8333,
           "longitude": 115.6519
-        }
+        },
+        "kmDistance": 77.93128725335558
       },
       {
         "date": "1995Oct24",
@@ -9410,7 +9932,8 @@
         "southCoordinates": {
           "latitude": 6.7011,
           "longitude": 115.9347
-        }
+        },
+        "kmDistance": 77.92126031276027
       },
       {
         "date": "1995Oct24",
@@ -9428,7 +9951,8 @@
         "southCoordinates": {
           "latitude": 6.5692,
           "longitude": 116.2172
-        }
+        },
+        "kmDistance": 79.3169955911656
       },
       {
         "date": "1995Oct24",
@@ -9446,7 +9970,8 @@
         "southCoordinates": {
           "latitude": 6.4514,
           "longitude": 116.5
-        }
+        },
+        "kmDistance": 77.27923457552625
       },
       {
         "date": "1995Oct24",
@@ -9464,7 +9989,8 @@
         "southCoordinates": {
           "latitude": 6.3336,
           "longitude": 116.7692
-        }
+        },
+        "kmDistance": 77.93206125844472
       },
       {
         "date": "1995Oct24",
@@ -9482,7 +10008,8 @@
         "southCoordinates": {
           "latitude": 6.2022,
           "longitude": 117.0522
-        }
+        },
+        "kmDistance": 79.35771331964763
       },
       {
         "date": "1995Oct24",
@@ -9500,7 +10027,8 @@
         "southCoordinates": {
           "latitude": 6.085,
           "longitude": 117.3356
-        }
+        },
+        "kmDistance": 79.34708999979453
       },
       {
         "date": "1995Oct24",
@@ -9518,7 +10046,8 @@
         "southCoordinates": {
           "latitude": 5.9678,
           "longitude": 117.6192
-        }
+        },
+        "kmDistance": 77.93421971627625
       },
       {
         "date": "1995Oct24",
@@ -9536,7 +10065,8 @@
         "southCoordinates": {
           "latitude": 5.8511,
           "longitude": 117.9167
-        }
+        },
+        "kmDistance": 77.27762085590766
       },
       {
         "date": "1995Oct24",
@@ -9554,7 +10084,8 @@
         "southCoordinates": {
           "latitude": 5.7342,
           "longitude": 118.2003
-        }
+        },
+        "kmDistance": 77.30524386351856
       },
       {
         "date": "1995Oct24",
@@ -9572,7 +10103,8 @@
         "southCoordinates": {
           "latitude": 5.6178,
           "longitude": 118.4844
-        }
+        },
+        "kmDistance": 77.93401005973732
       },
       {
         "date": "1995Oct24",
@@ -9590,7 +10122,8 @@
         "southCoordinates": {
           "latitude": 5.5017,
           "longitude": 118.7686
-        }
+        },
+        "kmDistance": 79.30877227429671
       },
       {
         "date": "1995Oct24",
@@ -9608,7 +10141,8 @@
         "southCoordinates": {
           "latitude": 5.3856,
           "longitude": 119.0669
-        }
+        },
+        "kmDistance": 78.68273014090788
       },
       {
         "date": "1995Oct24",
@@ -9626,7 +10160,8 @@
         "southCoordinates": {
           "latitude": 5.2833,
           "longitude": 119.3517
-        }
+        },
+        "kmDistance": 77.95235137661189
       },
       {
         "date": "1995Oct24",
@@ -9644,7 +10179,8 @@
         "southCoordinates": {
           "latitude": 5.1678,
           "longitude": 119.6506
-        }
+        },
+        "kmDistance": 77.2605565843345
       },
       {
         "date": "1995Oct24",
@@ -9662,7 +10198,8 @@
         "southCoordinates": {
           "latitude": 5.0522,
           "longitude": 119.9358
-        }
+        },
+        "kmDistance": 79.32663407244073
       },
       {
         "date": "1995Oct24",
@@ -9680,7 +10217,8 @@
         "southCoordinates": {
           "latitude": 4.9508,
           "longitude": 120.2353
-        }
+        },
+        "kmDistance": 77.90171519180545
       },
       {
         "date": "1995Oct24",
@@ -9698,7 +10236,8 @@
         "southCoordinates": {
           "latitude": 4.8358,
           "longitude": 120.535
-        }
+        },
+        "kmDistance": 78.66897643996617
       },
       {
         "date": "1995Oct24",
@@ -9716,7 +10255,8 @@
         "southCoordinates": {
           "latitude": 4.735,
           "longitude": 120.835
-        }
+        },
+        "kmDistance": 77.21308604327356
       },
       {
         "date": "1995Oct24",
@@ -9734,7 +10274,8 @@
         "southCoordinates": {
           "latitude": 4.6342,
           "longitude": 121.1353
-        }
+        },
+        "kmDistance": 77.20490397398197
       },
       {
         "date": "1995Oct24",
@@ -9752,7 +10293,8 @@
         "southCoordinates": {
           "latitude": 4.5336,
           "longitude": 121.4358
-        }
+        },
+        "kmDistance": 77.8429710439137
       },
       {
         "date": "1995Oct24",
@@ -9770,7 +10312,8 @@
         "southCoordinates": {
           "latitude": 4.4333,
           "longitude": 121.7506
-        }
+        },
+        "kmDistance": 77.20533342302825
       },
       {
         "date": "1995Oct24",
@@ -9788,7 +10331,8 @@
         "southCoordinates": {
           "latitude": 4.3333,
           "longitude": 122.0519
-        }
+        },
+        "kmDistance": 77.16767980884758
       },
       {
         "date": "1995Oct24",
@@ -9806,7 +10350,8 @@
         "southCoordinates": {
           "latitude": 4.2333,
           "longitude": 122.3675
-        }
+        },
+        "kmDistance": 77.16496397175935
       },
       {
         "date": "1995Oct24",
@@ -9824,7 +10369,8 @@
         "southCoordinates": {
           "latitude": 4.1336,
           "longitude": 122.6833
-        }
+        },
+        "kmDistance": 76.54385501935079
       },
       {
         "date": "1995Oct24",
@@ -9842,7 +10388,8 @@
         "southCoordinates": {
           "latitude": 4.0342,
           "longitude": 122.9858
-        }
+        },
+        "kmDistance": 77.11539787360155
       },
       {
         "date": "1995Oct24",
@@ -9860,7 +10407,8 @@
         "southCoordinates": {
           "latitude": 3.935,
           "longitude": 123.3025
-        }
+        },
+        "kmDistance": 77.11705836140793
       },
       {
         "date": "1995Oct24",
@@ -9878,7 +10426,8 @@
         "southCoordinates": {
           "latitude": 3.85,
           "longitude": 123.6336
-        }
+        },
+        "kmDistance": 76.46082361886931
       },
       {
         "date": "1995Oct24",
@@ -9896,7 +10445,8 @@
         "southCoordinates": {
           "latitude": 3.7514,
           "longitude": 123.9511
-        }
+        },
+        "kmDistance": 77.04555336297783
       },
       {
         "date": "1995Oct24",
@@ -9914,7 +10464,8 @@
         "southCoordinates": {
           "latitude": 3.6667,
           "longitude": 124.2692
-        }
+        },
+        "kmDistance": 75.623827179341
       },
       {
         "date": "1995Oct24",
@@ -9932,7 +10483,8 @@
         "southCoordinates": {
           "latitude": 3.5683,
           "longitude": 124.6017
-        }
+        },
+        "kmDistance": 77.00101224421556
       },
       {
         "date": "1995Oct24",
@@ -9950,7 +10502,8 @@
         "southCoordinates": {
           "latitude": 3.4842,
           "longitude": 124.9344
-        }
+        },
+        "kmDistance": 76.38293213656627
       },
       {
         "date": "1995Oct24",
@@ -9968,7 +10521,8 @@
         "southCoordinates": {
           "latitude": 3.4003,
           "longitude": 125.2681
-        }
+        },
+        "kmDistance": 74.91617153047694
       },
       {
         "date": "1995Oct24",
@@ -9986,7 +10540,8 @@
         "southCoordinates": {
           "latitude": 3.3167,
           "longitude": 125.6019
-        }
+        },
+        "kmDistance": 75.51137505842155
       },
       {
         "date": "1995Oct24",
@@ -10004,7 +10559,8 @@
         "southCoordinates": {
           "latitude": 3.2333,
           "longitude": 125.9503
-        }
+        },
+        "kmDistance": 74.85410842681684
       },
       {
         "date": "1995Oct24",
@@ -10022,7 +10578,8 @@
         "southCoordinates": {
           "latitude": 3.1503,
           "longitude": 126.2853
-        }
+        },
+        "kmDistance": 74.81133272077281
       },
       {
         "date": "1995Oct24",
@@ -10040,7 +10597,8 @@
         "southCoordinates": {
           "latitude": 3.0672,
           "longitude": 126.635
-        }
+        },
+        "kmDistance": 74.7729282710913
       },
       {
         "date": "1995Oct24",
@@ -10058,7 +10616,8 @@
         "southCoordinates": {
           "latitude": 2.9847,
           "longitude": 126.985
-        }
+        },
+        "kmDistance": 74.73009705520442
       },
       {
         "date": "1995Oct24",
@@ -10076,7 +10635,8 @@
         "southCoordinates": {
           "latitude": 2.9025,
           "longitude": 127.3358
-        }
+        },
+        "kmDistance": 76.10917164494091
       },
       {
         "date": "1995Oct24",
@@ -10094,7 +10654,8 @@
         "southCoordinates": {
           "latitude": 2.8342,
           "longitude": 127.7011
-        }
+        },
+        "kmDistance": 74.6573774128441
       },
       {
         "date": "1995Oct24",
@@ -10112,7 +10673,8 @@
         "southCoordinates": {
           "latitude": 2.7525,
           "longitude": 128.0672
-        }
+        },
+        "kmDistance": 74.0320506416931
       },
       {
         "date": "1995Oct24",
@@ -10130,7 +10692,8 @@
         "southCoordinates": {
           "latitude": 2.6847,
           "longitude": 128.4339
-        }
+        },
+        "kmDistance": 73.9892408860931
       },
       {
         "date": "1995Oct24",
@@ -10148,7 +10711,8 @@
         "southCoordinates": {
           "latitude": 2.6175,
           "longitude": 128.8011
-        }
+        },
+        "kmDistance": 74.55605958776516
       },
       {
         "date": "1995Oct24",
@@ -10166,7 +10730,8 @@
         "southCoordinates": {
           "latitude": 2.5506,
           "longitude": 129.1833
-        }
+        },
+        "kmDistance": 72.45667228428441
       },
       {
         "date": "1995Oct24",
@@ -10184,7 +10749,8 @@
         "southCoordinates": {
           "latitude": 2.4836,
           "longitude": 129.5522
-        }
+        },
+        "kmDistance": 73.0628184335389
       },
       {
         "date": "1995Oct24",
@@ -10202,7 +10768,8 @@
         "southCoordinates": {
           "latitude": 2.4172,
           "longitude": 129.95
-        }
+        },
+        "kmDistance": 72.39118208130223
       },
       {
         "date": "1995Oct24",
@@ -10220,7 +10787,8 @@
         "southCoordinates": {
           "latitude": 2.3511,
           "longitude": 130.3344
-        }
+        },
+        "kmDistance": 72.3524253364599
       },
       {
         "date": "1995Oct24",
@@ -10238,7 +10806,8 @@
         "southCoordinates": {
           "latitude": 2.2856,
           "longitude": 130.7339
-        }
+        },
+        "kmDistance": 72.27858548052231
       },
       {
         "date": "1995Oct24",
@@ -10256,7 +10825,8 @@
         "southCoordinates": {
           "latitude": 2.2339,
           "longitude": 131.1342
-        }
+        },
+        "kmDistance": 72.2046168525692
       },
       {
         "date": "1995Oct24",
@@ -10274,7 +10844,8 @@
         "southCoordinates": {
           "latitude": 2.1689,
           "longitude": 131.5356
-        }
+        },
+        "kmDistance": 72.1718034058113
       },
       {
         "date": "1995Oct24",
@@ -10292,7 +10863,8 @@
         "southCoordinates": {
           "latitude": 2.1181,
           "longitude": 131.9517
-        }
+        },
+        "kmDistance": 72.11062195357185
       },
       {
         "date": "1995Oct24",
@@ -10310,7 +10882,8 @@
         "southCoordinates": {
           "latitude": 2.0675,
           "longitude": 132.3689
-        }
+        },
+        "kmDistance": 70.62270054006987
       },
       {
         "date": "1995Oct24",
@@ -10328,7 +10901,8 @@
         "southCoordinates": {
           "latitude": 2.0172,
           "longitude": 132.8011
-        }
+        },
+        "kmDistance": 70.5836891606035
       },
       {
         "date": "1995Oct24",
@@ -10346,7 +10920,8 @@
         "southCoordinates": {
           "latitude": 1.9675,
           "longitude": 133.2344
-        }
+        },
+        "kmDistance": 70.50962254779742
       },
       {
         "date": "1995Oct24",
@@ -10364,7 +10939,8 @@
         "southCoordinates": {
           "latitude": 1.9181,
           "longitude": 133.6689
-        }
+        },
+        "kmDistance": 70.47930436769917
       },
       {
         "date": "1995Oct24",
@@ -10382,7 +10958,8 @@
         "southCoordinates": {
           "latitude": 1.8692,
           "longitude": 134.1186
-        }
+        },
+        "kmDistance": 70.38475922013008
       },
       {
         "date": "1995Oct24",
@@ -10400,7 +10977,8 @@
         "southCoordinates": {
           "latitude": 1.8344,
           "longitude": 134.5836
-        }
+        },
+        "kmDistance": 68.33308382720668
       },
       {
         "date": "1995Oct24",
@@ -10418,7 +10996,8 @@
         "southCoordinates": {
           "latitude": 1.8003,
           "longitude": 135.05
-        }
+        },
+        "kmDistance": 68.22807847355665
       },
       {
         "date": "1995Oct24",
@@ -10436,7 +11015,8 @@
         "southCoordinates": {
           "latitude": 1.7667,
           "longitude": 135.5178
-        }
+        },
+        "kmDistance": 68.1539019551342
       },
       {
         "date": "1995Oct24",
@@ -10454,7 +11034,8 @@
         "southCoordinates": {
           "latitude": 1.7333,
           "longitude": 136.0008
-        }
+        },
+        "kmDistance": 66.65628364685679
       },
       {
         "date": "1995Oct24",
@@ -10472,7 +11053,8 @@
         "southCoordinates": {
           "latitude": 1.7006,
           "longitude": 136.4856
-        }
+        },
+        "kmDistance": 66.57181222577266
       },
       {
         "date": "1995Oct24",
@@ -10490,7 +11072,8 @@
         "southCoordinates": {
           "latitude": 1.6681,
           "longitude": 137
-        }
+        },
+        "kmDistance": 66.50781411607286
       },
       {
         "date": "1995Oct24",
@@ -10508,7 +11091,8 @@
         "southCoordinates": {
           "latitude": 1.6503,
           "longitude": 137.5019
-        }
+        },
+        "kmDistance": 66.4303519225318
       },
       {
         "date": "1995Oct24",
@@ -10526,7 +11110,8 @@
         "southCoordinates": {
           "latitude": 1.6189,
           "longitude": 138.0339
-        }
+        },
+        "kmDistance": 66.3517621775288
       },
       {
         "date": "1995Oct24",
@@ -10544,7 +11129,8 @@
         "southCoordinates": {
           "latitude": 1.6022,
           "longitude": 138.5678
-        }
+        },
+        "kmDistance": 66.26128662437905
       },
       {
         "date": "1995Oct24",
@@ -10562,7 +11148,8 @@
         "southCoordinates": {
           "latitude": 1.5858,
           "longitude": 139.1175
-        }
+        },
+        "kmDistance": 66.21020188650071
       },
       {
         "date": "1995Oct24",
@@ -10580,7 +11167,8 @@
         "southCoordinates": {
           "latitude": 1.5842,
           "longitude": 139.6836
-        }
+        },
+        "kmDistance": 64.08385182462249
       },
       {
         "date": "1995Oct24",
@@ -10598,7 +11186,8 @@
         "southCoordinates": {
           "latitude": 1.5692,
           "longitude": 140.2519
-        }
+        },
+        "kmDistance": 64.60383663982304
       },
       {
         "date": "1995Oct24",
@@ -10616,7 +11205,8 @@
         "southCoordinates": {
           "latitude": 1.5689,
           "longitude": 140.8506
-        }
+        },
+        "kmDistance": 63.91933960576691
       },
       {
         "date": "1995Oct24",
@@ -10634,7 +11224,8 @@
         "southCoordinates": {
           "latitude": 1.5833,
           "longitude": 141.4522
-        }
+        },
+        "kmDistance": 62.98382164348226
       },
       {
         "date": "1995Oct24",
@@ -10652,7 +11243,8 @@
         "southCoordinates": {
           "latitude": 1.5844,
           "longitude": 142.0844
-        }
+        },
+        "kmDistance": 62.9072419809809
       },
       {
         "date": "1995Oct24",
@@ -10670,7 +11262,8 @@
         "southCoordinates": {
           "latitude": 1.6003,
           "longitude": 142.7336
-        }
+        },
+        "kmDistance": 60.77248668529063
       },
       {
         "date": "1995Oct24",
@@ -10688,7 +11281,8 @@
         "southCoordinates": {
           "latitude": 1.6172,
           "longitude": 143.4003
-        }
+        },
+        "kmDistance": 60.66027157217169
       },
       {
         "date": "1995Oct24",
@@ -10706,7 +11300,8 @@
         "southCoordinates": {
           "latitude": 1.6347,
           "longitude": 144.0844
-        }
+        },
+        "kmDistance": 61.21836093142718
       },
       {
         "date": "1995Oct24",
@@ -10724,7 +11319,8 @@
         "southCoordinates": {
           "latitude": 1.6675,
           "longitude": 144.8006
-        }
+        },
+        "kmDistance": 59.05396311961803
       },
       {
         "date": "1995Oct24",
@@ -10742,7 +11338,8 @@
         "southCoordinates": {
           "latitude": 1.7014,
           "longitude": 145.535
-        }
+        },
+        "kmDistance": 59.59911087631631
       },
       {
         "date": "1995Oct24",
@@ -10760,7 +11357,8 @@
         "southCoordinates": {
           "latitude": 1.7503,
           "longitude": 146.3022
-        }
+        },
+        "kmDistance": 58.080377548072036
       },
       {
         "date": "1995Oct24",
@@ -10778,7 +11376,8 @@
         "southCoordinates": {
           "latitude": 1.8006,
           "longitude": 147.1025
-        }
+        },
+        "kmDistance": 57.97542190567662
       },
       {
         "date": "1995Oct24",
@@ -10796,7 +11395,8 @@
         "southCoordinates": {
           "latitude": 1.8522,
           "longitude": 147.9508
-        }
+        },
+        "kmDistance": 57.86063979479417
       },
       {
         "date": "1995Oct24",
@@ -10814,7 +11414,8 @@
         "southCoordinates": {
           "latitude": 1.9333,
           "longitude": 148.8336
-        }
+        },
+        "kmDistance": 56.383776573718386
       },
       {
         "date": "1995Oct24",
@@ -10832,7 +11433,8 @@
         "southCoordinates": {
           "latitude": 2.0022,
           "longitude": 149.7519
-        }
+        },
+        "kmDistance": 56.275790200349334
       },
       {
         "date": "1995Oct24",
@@ -10850,7 +11452,8 @@
         "southCoordinates": {
           "latitude": 2.1014,
           "longitude": 150.7347
-        }
+        },
+        "kmDistance": 54.77396139068747
       },
       {
         "date": "1995Oct24",
@@ -10868,7 +11471,8 @@
         "southCoordinates": {
           "latitude": 2.2025,
           "longitude": 151.7833
-        }
+        },
+        "kmDistance": 54.707911621926264
       },
       {
         "date": "1995Oct24",
@@ -10886,7 +11490,8 @@
         "southCoordinates": {
           "latitude": 2.3347,
           "longitude": 152.9003
-        }
+        },
+        "kmDistance": 53.99148120257874
       },
       {
         "date": "1995Oct24",
@@ -10904,7 +11509,8 @@
         "southCoordinates": {
           "latitude": 2.4839,
           "longitude": 154.1014
-        }
+        },
+        "kmDistance": 53.427984066458095
       },
       {
         "date": "1995Oct24",
@@ -10922,7 +11528,8 @@
         "southCoordinates": {
           "latitude": 2.6514,
           "longitude": 155.4186
-        }
+        },
+        "kmDistance": 53.35428445146152
       },
       {
         "date": "1995Oct24",
@@ -10940,7 +11547,8 @@
         "southCoordinates": {
           "latitude": 2.8519,
           "longitude": 156.8847
-        }
+        },
+        "kmDistance": 52.961300506551105
       },
       {
         "date": "1995Oct24",
@@ -10958,7 +11566,8 @@
         "southCoordinates": {
           "latitude": 3.1014,
           "longitude": 158.5506
-        }
+        },
+        "kmDistance": 52.725542237216004
       },
       {
         "date": "1995Oct24",
@@ -10976,7 +11585,8 @@
         "southCoordinates": {
           "latitude": 3.4169,
           "longitude": 160.5008
-        }
+        },
+        "kmDistance": 53.89600092735137
       },
       {
         "date": "1995Oct24",
@@ -10994,7 +11604,8 @@
         "southCoordinates": {
           "latitude": 3.8339,
           "longitude": 162.9511
-        }
+        },
+        "kmDistance": 59.041832177143384
       },
       {
         "date": "1995Oct24",
@@ -11012,7 +11623,8 @@
         "southCoordinates": {
           "latitude": 4.5167,
           "longitude": 166.6186
-        }
+        },
+        "kmDistance": 81.78390790787275
       },
       {
         "date": "1995Oct24",
@@ -11030,10 +11642,11 @@
         "southCoordinates": {
           "latitude": 5.5525,
           "longitude": 171.8003
-        }
+        },
+        "kmDistance": 22.03585007146199
       }
     ],
-    "_id": "63d399748db412d3660e1d80"
+    "_id": "63d3caffdda50c3cdc57b09b"
   },
   {
     "date": "1990Jan26",
@@ -11055,7 +11668,8 @@
         "southCoordinates": {
           "latitude": -71.0014,
           "longitude": 66.7175
-        }
+        },
+        "kmDistance": 504.3787492671996
       },
       {
         "date": "1990Jan26",
@@ -11070,7 +11684,8 @@
           "latitude": -74.585,
           "longitude": 71.7017
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 591.3327498977335
       },
       {
         "date": "1990Jan26",
@@ -11085,7 +11700,8 @@
           "latitude": -76.5672,
           "longitude": 68.2678
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 469.70583689384466
       },
       {
         "date": "1990Jan26",
@@ -11100,7 +11716,8 @@
           "latitude": -77.8692,
           "longitude": 64.5167
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 406.73154056823404
       },
       {
         "date": "1990Jan26",
@@ -11115,7 +11732,8 @@
           "latitude": -78.8669,
           "longitude": 60.3844
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 362.7886863914021
       },
       {
         "date": "1990Jan26",
@@ -11133,7 +11751,8 @@
         "southCoordinates": {
           "latitude": -74.5503,
           "longitude": 62.5836
-        }
+        },
+        "kmDistance": 921.0586592594418
       },
       {
         "date": "1990Jan26",
@@ -11151,7 +11770,8 @@
         "southCoordinates": {
           "latitude": -76.1689,
           "longitude": 58.3511
-        }
+        },
+        "kmDistance": 789.130801773972
       },
       {
         "date": "1990Jan26",
@@ -11169,7 +11789,8 @@
         "southCoordinates": {
           "latitude": -77.2342,
           "longitude": 54.0683
-        }
+        },
+        "kmDistance": 709.2807900251316
       },
       {
         "date": "1990Jan26",
@@ -11187,7 +11808,8 @@
         "southCoordinates": {
           "latitude": -77.9858,
           "longitude": 49.6519
-        }
+        },
+        "kmDistance": 654.0324088803957
       },
       {
         "date": "1990Jan26",
@@ -11205,7 +11827,8 @@
         "southCoordinates": {
           "latitude": -78.5506,
           "longitude": 45.1189
-        }
+        },
+        "kmDistance": 610.4138711946387
       },
       {
         "date": "1990Jan26",
@@ -11223,7 +11846,8 @@
         "southCoordinates": {
           "latitude": -78.9358,
           "longitude": 40.5336
-        }
+        },
+        "kmDistance": 578.1581166902897
       },
       {
         "date": "1990Jan26",
@@ -11241,7 +11865,8 @@
         "southCoordinates": {
           "latitude": -79.2017,
           "longitude": 35.9344
-        }
+        },
+        "kmDistance": 549.9539322059907
       },
       {
         "date": "1990Jan26",
@@ -11259,7 +11884,8 @@
         "southCoordinates": {
           "latitude": -79.3517,
           "longitude": 31.4025
-        }
+        },
+        "kmDistance": 526.7270806521207
       },
       {
         "date": "1990Jan26",
@@ -11277,7 +11903,8 @@
         "southCoordinates": {
           "latitude": -79.4017,
           "longitude": 27.0175
-        }
+        },
+        "kmDistance": 507.1362083609217
       },
       {
         "date": "1990Jan26",
@@ -11295,7 +11922,8 @@
         "southCoordinates": {
           "latitude": -79.3681,
           "longitude": 22.8169
-        }
+        },
+        "kmDistance": 489.95373208737675
       },
       {
         "date": "1990Jan26",
@@ -11313,7 +11941,8 @@
         "southCoordinates": {
           "latitude": -79.2667,
           "longitude": 18.8353
-        }
+        },
+        "kmDistance": 474.5381427793844
       },
       {
         "date": "1990Jan26",
@@ -11331,7 +11960,8 @@
         "southCoordinates": {
           "latitude": -79.085,
           "longitude": 15.1186
-        }
+        },
+        "kmDistance": 462.6150128435253
       },
       {
         "date": "1990Jan26",
@@ -11349,7 +11979,8 @@
         "southCoordinates": {
           "latitude": -78.8669,
           "longitude": 11.6692
-        }
+        },
+        "kmDistance": 450.6896549568084
       },
       {
         "date": "1990Jan26",
@@ -11367,7 +11998,8 @@
         "southCoordinates": {
           "latitude": -78.5853,
           "longitude": 8.5019
-        }
+        },
+        "kmDistance": 441.33188334997004
       },
       {
         "date": "1990Jan26",
@@ -11385,7 +12017,8 @@
         "southCoordinates": {
           "latitude": -78.2836,
           "longitude": 5.6014
-        }
+        },
+        "kmDistance": 431.8713702096063
       },
       {
         "date": "1990Jan26",
@@ -11403,7 +12036,8 @@
         "southCoordinates": {
           "latitude": -77.9344,
           "longitude": 2.9519
-        }
+        },
+        "kmDistance": 425.2563182607586
       },
       {
         "date": "1990Jan26",
@@ -11421,7 +12055,8 @@
         "southCoordinates": {
           "latitude": -77.5669,
           "longitude": 0.5514
-        }
+        },
+        "kmDistance": 416.957029936056
       },
       {
         "date": "1990Jan26",
@@ -11439,7 +12074,8 @@
         "southCoordinates": {
           "latitude": -77.1678,
           "longitude": -1.6178
-        }
+        },
+        "kmDistance": 411.23900075656394
       },
       {
         "date": "1990Jan26",
@@ -11457,7 +12093,8 @@
         "southCoordinates": {
           "latitude": -76.7514,
           "longitude": -3.5856
-        }
+        },
+        "kmDistance": 405.82730466463477
       },
       {
         "date": "1990Jan26",
@@ -11475,7 +12112,8 @@
         "southCoordinates": {
           "latitude": -76.3186,
           "longitude": -5.3692
-        }
+        },
+        "kmDistance": 400.87351416727813
       },
       {
         "date": "1990Jan26",
@@ -11493,7 +12131,8 @@
         "southCoordinates": {
           "latitude": -75.8836,
           "longitude": -6.985
-        }
+        },
+        "kmDistance": 396.08518944227427
       },
       {
         "date": "1990Jan26",
@@ -11511,7 +12150,8 @@
         "southCoordinates": {
           "latitude": -75.4186,
           "longitude": -8.4503
-        }
+        },
+        "kmDistance": 392.1363320636082
       },
       {
         "date": "1990Jan26",
@@ -11529,7 +12169,8 @@
         "southCoordinates": {
           "latitude": -74.9522,
           "longitude": -9.7667
-        }
+        },
+        "kmDistance": 388.8601858373292
       },
       {
         "date": "1990Jan26",
@@ -11547,7 +12188,8 @@
         "southCoordinates": {
           "latitude": -74.4844,
           "longitude": -10.9508
-        }
+        },
+        "kmDistance": 386.04617980140085
       },
       {
         "date": "1990Jan26",
@@ -11565,7 +12207,8 @@
         "southCoordinates": {
           "latitude": -74.0014,
           "longitude": -12.0183
-        }
+        },
+        "kmDistance": 383.3216483071284
       },
       {
         "date": "1990Jan26",
@@ -11583,7 +12226,8 @@
         "southCoordinates": {
           "latitude": -73.5178,
           "longitude": -12.985
-        }
+        },
+        "kmDistance": 381.19396872257823
       },
       {
         "date": "1990Jan26",
@@ -11601,7 +12245,8 @@
         "southCoordinates": {
           "latitude": -73.0192,
           "longitude": -13.8522
-        }
+        },
+        "kmDistance": 379.6656896094392
       },
       {
         "date": "1990Jan26",
@@ -11619,7 +12264,8 @@
         "southCoordinates": {
           "latitude": -72.5336,
           "longitude": -14.6356
-        }
+        },
+        "kmDistance": 378.1600761009651
       },
       {
         "date": "1990Jan26",
@@ -11637,7 +12283,8 @@
         "southCoordinates": {
           "latitude": -72.0336,
           "longitude": -15.3358
-        }
+        },
+        "kmDistance": 377.38088765419815
       },
       {
         "date": "1990Jan26",
@@ -11655,7 +12302,8 @@
         "southCoordinates": {
           "latitude": -71.5192,
           "longitude": -15.9686
-        }
+        },
+        "kmDistance": 376.8505957961999
       },
       {
         "date": "1990Jan26",
@@ -11673,7 +12321,8 @@
         "southCoordinates": {
           "latitude": -71.0181,
           "longitude": -16.5342
-        }
+        },
+        "kmDistance": 376.092932483243
       },
       {
         "date": "1990Jan26",
@@ -11691,7 +12340,8 @@
         "southCoordinates": {
           "latitude": -70.5167,
           "longitude": -17.0342
-        }
+        },
+        "kmDistance": 375.9126616067263
       },
       {
         "date": "1990Jan26",
@@ -11709,7 +12359,8 @@
         "southCoordinates": {
           "latitude": -70.0008,
           "longitude": -17.4689
-        }
+        },
+        "kmDistance": 376.66147059427635
       },
       {
         "date": "1990Jan26",
@@ -11727,7 +12378,8 @@
         "southCoordinates": {
           "latitude": -69.4844,
           "longitude": -17.8669
-        }
+        },
+        "kmDistance": 377.06679050126576
       },
       {
         "date": "1990Jan26",
@@ -11745,7 +12397,8 @@
         "southCoordinates": {
           "latitude": -68.9678,
           "longitude": -18.2008
-        }
+        },
+        "kmDistance": 378.2440185142008
       },
       {
         "date": "1990Jan26",
@@ -11763,7 +12416,8 @@
         "southCoordinates": {
           "latitude": -68.4506,
           "longitude": -18.4853
-        }
+        },
+        "kmDistance": 379.6880682982879
       },
       {
         "date": "1990Jan26",
@@ -11781,7 +12435,8 @@
         "southCoordinates": {
           "latitude": -67.9192,
           "longitude": -18.7347
-        }
+        },
+        "kmDistance": 381.14162918755505
       },
       {
         "date": "1990Jan26",
@@ -11799,7 +12454,8 @@
         "southCoordinates": {
           "latitude": -67.4011,
           "longitude": -18.9356
-        }
+        },
+        "kmDistance": 383.28683330529947
       },
       {
         "date": "1990Jan26",
@@ -11817,7 +12473,8 @@
         "southCoordinates": {
           "latitude": -66.8689,
           "longitude": -19.1014
-        }
+        },
+        "kmDistance": 386.0870919641858
       },
       {
         "date": "1990Jan26",
@@ -11835,7 +12492,8 @@
         "southCoordinates": {
           "latitude": -66.35,
           "longitude": -19.2336
-        }
+        },
+        "kmDistance": 388.4409278745839
       },
       {
         "date": "1990Jan26",
@@ -11853,7 +12511,8 @@
         "southCoordinates": {
           "latitude": -65.8025,
           "longitude": -19.3175
-        }
+        },
+        "kmDistance": 392.43441066789603
       },
       {
         "date": "1990Jan26",
@@ -11871,7 +12530,8 @@
         "southCoordinates": {
           "latitude": -65.2686,
           "longitude": -19.3678
-        }
+        },
+        "kmDistance": 395.9908517400296
       },
       {
         "date": "1990Jan26",
@@ -11889,7 +12549,8 @@
         "southCoordinates": {
           "latitude": -64.7342,
           "longitude": -19.3844
-        }
+        },
+        "kmDistance": 400.1573728221871
       },
       {
         "date": "1990Jan26",
@@ -11907,7 +12568,8 @@
         "southCoordinates": {
           "latitude": -64.185,
           "longitude": -19.3675
-        }
+        },
+        "kmDistance": 405.2069585287767
       },
       {
         "date": "1990Jan26",
@@ -11925,7 +12587,8 @@
         "southCoordinates": {
           "latitude": -63.6353,
           "longitude": -19.3169
-        }
+        },
+        "kmDistance": 410.2383310625972
       },
       {
         "date": "1990Jan26",
@@ -11943,7 +12606,8 @@
         "southCoordinates": {
           "latitude": -63.0844,
           "longitude": -19.2189
-        }
+        },
+        "kmDistance": 416.55704701259936
       },
       {
         "date": "1990Jan26",
@@ -11961,7 +12625,8 @@
         "southCoordinates": {
           "latitude": -62.5189,
           "longitude": -19.1011
-        }
+        },
+        "kmDistance": 423.2033871908834
       },
       {
         "date": "1990Jan26",
@@ -11979,7 +12644,8 @@
         "southCoordinates": {
           "latitude": -61.9522,
           "longitude": -18.9358
-        }
+        },
+        "kmDistance": 431.463600423688
       },
       {
         "date": "1990Jan26",
@@ -11997,7 +12663,8 @@
         "southCoordinates": {
           "latitude": -61.3844,
           "longitude": -18.7503
-        }
+        },
+        "kmDistance": 439.7356435313575
       },
       {
         "date": "1990Jan26",
@@ -12015,7 +12682,8 @@
         "southCoordinates": {
           "latitude": -60.8017,
           "longitude": -18.5167
-        }
+        },
+        "kmDistance": 449.0978713618729
       },
       {
         "date": "1990Jan26",
@@ -12033,7 +12701,8 @@
         "southCoordinates": {
           "latitude": -60.2169,
           "longitude": -18.2347
-        }
+        },
+        "kmDistance": 460.3193419171774
       },
       {
         "date": "1990Jan26",
@@ -12051,7 +12720,8 @@
         "southCoordinates": {
           "latitude": -59.6169,
           "longitude": -17.9175
-        }
+        },
+        "kmDistance": 472.03221796821185
       },
       {
         "date": "1990Jan26",
@@ -12069,7 +12739,8 @@
         "southCoordinates": {
           "latitude": -59.0008,
           "longitude": -17.5506
-        }
+        },
+        "kmDistance": 486.01779654757786
       },
       {
         "date": "1990Jan26",
@@ -12087,7 +12758,8 @@
         "southCoordinates": {
           "latitude": -58.3683,
           "longitude": -17.1333
-        }
+        },
+        "kmDistance": 502.4366416486973
       },
       {
         "date": "1990Jan26",
@@ -12105,7 +12777,8 @@
         "southCoordinates": {
           "latitude": -57.7333,
           "longitude": -16.6506
-        }
+        },
+        "kmDistance": 523.7750656434348
       },
       {
         "date": "1990Jan26",
@@ -12123,7 +12796,8 @@
         "southCoordinates": {
           "latitude": -57.0669,
           "longitude": -16.1008
-        }
+        },
+        "kmDistance": 542.4600486664431
       },
       {
         "date": "1990Jan26",
@@ -12141,7 +12815,8 @@
         "southCoordinates": {
           "latitude": -56.3683,
           "longitude": -15.4678
-        }
+        },
+        "kmDistance": 568.9998533580016
       },
       {
         "date": "1990Jan26",
@@ -12159,7 +12834,8 @@
         "southCoordinates": {
           "latitude": -55.6506,
           "longitude": -14.7347
-        }
+        },
+        "kmDistance": 599.8464432906334
       },
       {
         "date": "1990Jan26",
@@ -12177,7 +12853,8 @@
         "southCoordinates": {
           "latitude": -54.8839,
           "longitude": -13.8692
-        }
+        },
+        "kmDistance": 638.717804725178
       },
       {
         "date": "1990Jan26",
@@ -12195,7 +12872,8 @@
         "southCoordinates": {
           "latitude": -54.0517,
           "longitude": -12.8353
-        }
+        },
+        "kmDistance": 689.0850871373038
       },
       {
         "date": "1990Jan26",
@@ -12213,7 +12891,8 @@
         "southCoordinates": {
           "latitude": -53.1342,
           "longitude": -11.5336
-        }
+        },
+        "kmDistance": 757.010312592048
       },
       {
         "date": "1990Jan26",
@@ -12231,7 +12910,8 @@
         "southCoordinates": {
           "latitude": -52.0339,
           "longitude": -9.7172
-        }
+        },
+        "kmDistance": 863.7452305708741
       },
       {
         "date": "1990Jan26",
@@ -12249,7 +12929,8 @@
         "southCoordinates": {
           "latitude": -50.2181,
           "longitude": -5.9339
-        }
+        },
+        "kmDistance": 1128.3173481393712
       },
       {
         "date": "1990Jan26",
@@ -12264,7 +12945,8 @@
           "latitude": -52.0844,
           "longitude": -15.1189
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 391.3714999533492
       },
       {
         "date": "1990Jan26",
@@ -12279,7 +12961,8 @@
           "latitude": -51.1336,
           "longitude": -13.6686
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 446.4181871101332
       },
       {
         "date": "1990Jan26",
@@ -12294,7 +12977,8 @@
           "latitude": -49.9525,
           "longitude": -11.6336
         },
-        "southCoordinates": null
+        "southCoordinates": null,
+        "kmDistance": 542.0471771954111
       },
       {
         "date": "1990Jan26",
@@ -12312,9 +12996,10 @@
         "southCoordinates": {
           "latitude": -49.5189,
           "longitude": -4.1011
-        }
+        },
+        "kmDistance": 512.600752576694
       }
     ],
-    "_id": "63d399748db412d3660e1dc7"
+    "_id": "63d3caffdda50c3cdc57b0e2"
   }
 ]
