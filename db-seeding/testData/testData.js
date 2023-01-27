@@ -1,4 +1,4 @@
-const testData = [
+[
   {
     "date": "1912Apr17",
     "type": "hybrid",
@@ -3406,7 +3406,7 @@ const testData = [
         }
       }
     ],
-    "_id": "63d2b1478db4e53141215465"
+    "_id": "63d399748db412d3660e1cfe"
   },
   {
     "date": "2031Nov14",
@@ -5300,7 +5300,7 @@ const testData = [
         }
       }
     ],
-    "_id": "63d2b1478db4e5314121546f"
+    "_id": "63d399748db412d3660e1d08"
   },
   {
     "date": "2026Aug12",
@@ -6168,7 +6168,7 @@ const testData = [
         }
       }
     ],
-    "_id": "63d2b1478db4e53141215480"
+    "_id": "63d399748db412d3660e1d19"
   },
   {
     "date": "1910May09",
@@ -7390,7 +7390,7 @@ const testData = [
         }
       }
     ],
-    "_id": "63d2b1478db4e531412154c9"
+    "_id": "63d399748db412d3660e1d62"
   },
   {
     "date": "1995Oct24",
@@ -11033,7 +11033,7 @@ const testData = [
         }
       }
     ],
-    "_id": "63d2b1478db4e531412154e7"
+    "_id": "63d399748db412d3660e1d80"
   },
   {
     "date": "1990Jan26",
@@ -12315,8 +12315,6 @@ const testData = [
         }
       }
     ],
-    "_id": "63d2b1478db4e5314121552e"
+    "_id": "63d399748db412d3660e1dc7"
   }
 ]
-
-module.exports = testData

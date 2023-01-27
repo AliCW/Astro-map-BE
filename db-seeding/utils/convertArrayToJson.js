@@ -1,6 +1,7 @@
 const fs = require('fs/promises')
 //const { convertCoordinates } = require('./formatCoordinates.js')
 const { convert, createEclipseObjects, formatCoordinates, convertFromFile } = require('./convert.js')
+const { distance } = require('../distance')
 
 
 const convertFromStrings = (array) => {

@@ -1,4 +1,5 @@
 const { convertCoordinates } = require("./formatCoordinates");
+const { distance } = require('../distance')
 
 const convert = (arrayOfStrings) => {
   const arrayOfArrays = arrayOfStrings.map((string) => {
@@ -141,6 +142,13 @@ const formatCoordinates = (eclipseObjectArray) => {
     delete obj.southLong;
     delete obj.southLatDegrees;
     delete obj.southLongDegrees;
+
+    if (obj.northCoordinates === null) {
+      obj.kmDistance = distance(obj.centerCoordinates.latitude, obj.centerCoordinates.longitude, obj.southCoordinates.latitude, obj.southCoordinates.longitude)
+    } else if (obj.southCoordinates === null) {
+      obj.kmDistance = distance(obj.northCoordinates.latitude, obj.northCoordinates.longitude, obj.centerCoordinates.latitude, obj.centerCoordinates.longitude)
+    } else obj.kmDistance = distance(obj.northCoordinates.latitude, obj.northCoordinates.longitude, obj.southCoordinates.latitude, obj.southCoordinates.longitude)
+
     return obj;
   });
   return convertedArray;

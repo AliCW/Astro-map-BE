@@ -1,7 +1,7 @@
 //const request = require("supertest")
-const { convert, createEclipseObjects, formatCoordinates } = require("../convert");
-const { MAR203420A } = require("../data/MAR203420A");
-const { MAY200331A } = require("../data/MAY200331A")
+const { convert, createEclipseObjects, formatCoordinates } = require("../../utils/convert");
+// const { MAR203420A } = require("../../data/MAR203420A");
+// const { MAY200331A } = require("../../data/MAY200331A")
 
 describe("convert: refactor co-ordinate data into JSON object", () => {
   test("returns an array", () => {
@@ -235,5 +235,71 @@ describe("formatCoordinates", () => {
       const testedObject = formatCoordinates(testObject)
     expect(testedObject[0].hasOwnProperty('centerLong')).toBe(false);
   });
+  test.only('object will have a distance between north and south property', () => {
+    const testObject = [{
+      date: "20240408",
+      time: "1642",
+      northLat: "20.5S",
+      northLatDegrees: "04",
+      northLong: "29.6W",
+      northLongDegrees: "145",
+      southLat: "11.7S",
+      southLatDegrees: "06",
+      southLong: "38.0W",
+      southLongDegrees: "146",
+      centerLat: "50.2S",
+      centerLatDegrees: "05",
+      centerLong: "07.8W",
+      centerLongDegrees: "148",
+      pathWidth: "159",
+      centerDuration: "02m27.5s"
+    }]
+    const testedObject = formatCoordinates(testObject)
+    expect(typeof testedObject[0].kmDistance).toBe('number')
+  })
+  test.only('will ignore null north coordinate values in distance calculation', () => {
+    const testObject = [{
+      date: "20240408",
+      time: "1642",
+      northLat: null,
+      northLatDegrees: null,
+      northLong: null,
+      northLongDegrees: null,
+      southLat: "11.7S",
+      southLatDegrees: "06",
+      southLong: "38.0W",
+      southLongDegrees: "146",
+      centerLat: "50.2S",
+      centerLatDegrees: "05",
+      centerLong: "07.8W",
+      centerLongDegrees: "148",
+      pathWidth: "159",
+      centerDuration: "02m27.5s"
+    }]
+    const testedObject = formatCoordinates(testObject)
+    expect(typeof testedObject[0].kmDistance).toBe('number')
+  })
+  test.only('will ignore null south coordinate values in distance calculation', () => {
+    const testObject = [{
+      date: "20240408",
+      time: "1642",
+      northLat: "20.5S",
+      northLatDegrees: "04",
+      northLong: "29.6W",
+      northLongDegrees: "145",
+      southLat: null,
+      southLatDegrees: null,
+      southLong: null,
+      southLongDegrees: null,
+      centerLat: "50.2S",
+      centerLatDegrees: "05",
+      centerLong: "07.8W",
+      centerLongDegrees: "148",
+      pathWidth: "159",
+      centerDuration: "02m27.5s"
+    }]
+    const testedObject = formatCoordinates(testObject)
+    expect(typeof testedObject[0].kmDistance).toBe('number')
+  })
 });
 
