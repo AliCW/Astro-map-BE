@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 // Create a new schema for our eclipse data
 const eclipseSchema = new mongoose.Schema({
     date: {
-        type: String,
+        type: Date,
         required: true
     },
     type: {

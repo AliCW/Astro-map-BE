@@ -17,8 +17,34 @@ const convert = (arrayOfStrings) => {
 
 const createEclipseObjects = (convertedArray) => {
   const info = convertedArray[0];
+  let month = info[info.length - 2]
+  if (month === "Jan"){
+    month = "01"
+  } else if (month === "Feb"){
+    month = "02"
+  } else if (month === "Mar"){
+    month = "03"
+  } else if (month === "Apr"){
+    month = "04"
+  } else if (month === "May"){
+    month = "05"
+  } else if (month === "Jun"){
+    month = "06"
+  } else if (month === "Jul"){
+    month = "07"
+  } else if (month === "Aug"){
+    month = "08"
+  } else if (month === "Sep"){
+    month = "09"
+  } else if (month === "Oct"){
+    month = "10"
+  } else if (month === "Nov"){
+    month = "11"
+  } else if (month === "Dec"){
+    month = "12"
+  }
   const date =
-    info[info.length - 3] + info[info.length - 2] + info[info.length - 1];
+    info[info.length - 3] + "-" + month + "-" + info[info.length - 1];
   const eclipseObjectArray = [];
   convertedArray.map((array) => {
     if (/\d\d:\d\d/.test(array[0]) || /Limits/.test(array[0])) {
