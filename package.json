@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "node backend/server.js",
-    "test": "NODE_ENV=test mocha __tests__"
+    "start": "node db-seeding/backend/server.js",
+    "server": "node db-seeding/backend/server.js",
+    "test": "NODE_ENV=test mocha db-seeding/__tests__"
   },
   "author": "",
   "license": "ISC",
