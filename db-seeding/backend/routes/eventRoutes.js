@@ -2,14 +2,14 @@ const express = require("express");
 const router = express.Router();
 const {
   getEvents,
-  addEvents,
   getEventsById,
-  updateEvents,
-  deleteEvents,
+  getEventsInNextFiveYears
 } = require("../controllers/eventsController");
 
-router.route("/").get(getEvents).post(addEvents);
+router.route("/").get(getEvents);
 
 router.route("/:id").get(getEventsById);
+
+router.route("/all/:date").get(getEventsInNextFiveYears);
 
 module.exports = router;

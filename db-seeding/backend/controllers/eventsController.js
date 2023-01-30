@@ -1,4 +1,5 @@
 const asyncHandler = require("express-async-handler");
+const { addFiveYears } = require('../../utils/add5Years');
 
 const Eclipse = require("../models/eclipse-schema");
 
@@ -7,21 +8,21 @@ const getEvents = async (req, res) => {
   res.status(200).json(events);
 };
 
-const getEventsInNextYear = async (req, res) => {
-
-  const events = await Eclipse.find({});
+const getEventsInNextFiveYears = async (req, res) => {
+  if (Object.keys(req.params.date).length > 0){
+    const {fiveYearsAhead, thisYear} = addFiveYears();
+    const events = await Eclipse.find({ date: {
+    $gte: thisYear,
+    $lte: fiveYearsAhead,
+  } });
   res.status(200).json(events);
+  }
 };
 
 const getEventsById = async (req, res) => {
-  // console.log(req.query)
-  // console.log(Object.keys(req.query))
-  console.log(Object.keys(req.query)[0])
   if (Object.keys(req.query)[0] === 'date') { //<--query posed
-    const events = await Eclipse.find({ date: "1912-Apr-17" })
-    console.log(events)
+    const events = await Eclipse.find({ date: "1912-04-17" })
     res.status(200).json(events)
-    //console.log(req.query.date, '<<<<')
   }
   const events = await Eclipse.find({ type: req.params.id })
   if (events.length === 0) {
@@ -30,52 +31,9 @@ const getEventsById = async (req, res) => {
   res.status(200).json(events);
 };
 
-const addEvents = asyncHandler(async (req, res) => {
-  if (!req.query) {
-    res.status(400);
-    throw new Error("Please add an event");
-  }
-  const event = await Event.create({
-    date: req.query.date,
-    time: req.query.time,
-    northLat: req.query.northLat,
-    northLong: req.query.northLong,
-    southLat: req.query.southLat,
-    southLong: req.query.southLong,
-    centerLat: req.query.centerLat,
-    centerLong: req.query.centerLong,
-    pathWidth: req.query.pathWidth,
-    centerDuration: req.query.centerDuration,
-  });
-  res.status(200).json(event);
-});
-
-const updateEvents = asyncHandler(async (req, res) => {
-  const event = await Event.findById(req.params.id);
-  if (!event) {
-    res.status(400);
-    throw new Error("Event not found");
-  }
-  const updatedEvent = await Event.findByIdAndUpdate(req.params.id, req.query, {
-    new: true,
-  });
-  res.status(200).json(updatedEvent);
-});
-
-const deleteEvents = asyncHandler(async(req, res) => {
-    const event = await Event.findById(req.params.id);
-    if (!event) {
-        res.status(400);
-        throw new Error("Event not found");
-      }
-      await Event.remove()
-  res.status(200).json({ id: req.params.id });
-});
 
 module.exports = {
   getEvents,
   getEventsById,
-  addEvents,
-  updateEvents,
-  deleteEvents,
+  getEventsInNextFiveYears,
 };

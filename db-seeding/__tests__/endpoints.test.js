@@ -100,15 +100,13 @@ describe('Testing for /api/eclipses endpoint retrieving all eclipse data - sad p
 })
 
 describe('Testing for /api/eclipses/:type retrieving eclipse by data type - happy path', () => {
-    it.only('returns only hybrid eclipses when searching for hybrid types', () => {
+    it('returns only hybrid eclipses when searching for hybrid types', () => {
         return request(app)
         .get('/api/eclipses/hybrid')
         .expect(200)
         .then(({ body: msg }) => {
-            console.log(msg)
             expect(msg).to.have.lengthOf(2)
             msg.forEach((obj) => {
-
                 expect(obj.type).to.eql('hybrid')
             })
         })
@@ -130,14 +128,27 @@ describe('Testing for /api/eclipses/:type retrieving eclipse by data type - sad 
 describe('Testing for /api/eclipses/:type?date=DATE to retrieve eclipse data for a specific date - happy path', () => {
     it('tests for 1912-Apr-17 eclipse data point', () => {
         return request(app)
-        .get('/api/eclipses/hybrid?date=1912-Apr-17')
+        .get('/api/eclipses/hybrid?date=1912-04-17')
         .expect(200)
-        .then(({body: msg}) => {
+        .then(({ body: msg }) => {
             expect(msg).have.length(1)
-            //console.log(msg)
         })
     })
 })
+
+
+describe('testing for /api/eclipses/all?date=DATE to retreive data for eclipses in the next 12 months', () => {
+    it.only('tests for all elipse events in the next 12 months - landing page carousel', () => {
+        return request(app)
+        .get('/api/eclipses/all/2023-01-30')
+        .expect(200)
+        .then(({ body: msg }) => {
+            expect(msg).have.length(1)
+        })
+    })
+})
+
+
 // // const { getEvents } = require('../backend/controllers/eventsController')
 // // const app = require('../app')
 // const request = require("supertest");
