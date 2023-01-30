@@ -18,7 +18,6 @@ require('dotenv').config({
 function runSeed(array) {
     
     
-    console.log(process.env.MONGOURI, "mongouri")
     mongoose.connect(process.env.MONGOURI, {
         useNewUrlParser: true,
         useUnifiedTopology: true
@@ -57,15 +56,9 @@ const allArraysSchema = allArrays.map((object) => {
 })
 
 
-const smallArraysSchema = [allArraysSchema[0], allArraysSchema[10], allArraysSchema[27], allArraysSchema[100], allArraysSchema[130], allArraysSchema[201]]
+// const smallArraysSchema = [allArraysSchema[0], allArraysSchema[10], allArraysSchema[27], allArraysSchema[100], allArraysSchema[130], allArraysSchema[201]]
 
-// const writeAllSchema = () => {
-//     fs.writeFile('./testData/testData.js', JSON.stringify(smallArraysSchema, null, 2))
-// }
-
-// writeAllSchema()
-
-runSeed(allArraysSchema)
+// runSeed(allArraysSchema)
 
 module.exports = { runSeed };
 
