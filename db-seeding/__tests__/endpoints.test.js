@@ -94,20 +94,21 @@ describe('Testing for /api/eclipses endpoint retrieving all eclipse data - sad p
         .get('/api/eplplida')
         .expect(404)
         .then(( { body: { msg } }) => {
-            //console.log(msg)
             expect(msg).to.eql('404 - Not found')
         })
     })
 })
 
 describe('Testing for /api/eclipses/:type retrieving eclipse by data type - happy path', () => {
-    it('returns only hybrid eclipses when searching for hybrid types', () => {
+    it.only('returns only hybrid eclipses when searching for hybrid types', () => {
         return request(app)
         .get('/api/eclipses/hybrid')
         .expect(200)
         .then(({ body: msg }) => {
+            console.log(msg)
             expect(msg).to.have.lengthOf(2)
             msg.forEach((obj) => {
+
                 expect(obj.type).to.eql('hybrid')
             })
         })
@@ -132,8 +133,8 @@ describe('Testing for /api/eclipses/:type?date=DATE to retrieve eclipse data for
         .get('/api/eclipses/hybrid?date=1912-Apr-17')
         .expect(200)
         .then(({body: msg}) => {
-           // expect(msg).have.length(1)
-            console.log(msg)
+            expect(msg).have.length(1)
+            //console.log(msg)
         })
     })
 })

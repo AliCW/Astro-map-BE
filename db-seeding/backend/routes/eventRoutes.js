@@ -10,6 +10,6 @@ const {
 
 router.route("/").get(getEvents).post(addEvents);
 
-router.route("/:id").get(getEventsById).put(updateEvents).delete(deleteEvents);
+router.route("/:id").get(getEventsById);
 
 module.exports = router;
