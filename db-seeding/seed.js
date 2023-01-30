@@ -65,7 +65,7 @@ const smallArraysSchema = [allArraysSchema[0], allArraysSchema[10], allArraysSch
 
 // writeAllSchema()
 
-// runSeed(allArraysSchema)
+runSeed(allArraysSchema)
 
 module.exports = { runSeed };
 
