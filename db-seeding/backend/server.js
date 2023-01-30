@@ -10,10 +10,18 @@ connectDB();
 const app = express();
 
 app.use(express.json());
+
 app.use(express.urlencoded({ extended: false }));
 
 app.use('/api/eclipses', require('./routes/eventRoutes'))
 
+app.all("/*", (request, response, next) => {
+    response.status(404).send({ msg: "404 - Not found" });
+    next();
+  });
+
 app.use(errorHandler)
 
 app.listen(port, () => console.log(`server started on port ${port}`));
+
+module.exports = app;
