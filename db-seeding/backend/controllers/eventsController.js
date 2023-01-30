@@ -14,7 +14,10 @@ const getEventsInNextYear = async (req, res) => {
 };
 
 const getEventsById = async (req, res) => {
-  const events = await Event.find({ _id: req.params.id });
+  const events = await Eclipse.find({ type: req.params.id }).sort();
+  if (events.length === 0) {
+    res.status(404).send({msg: '404 - Not found'})
+  }
   res.status(200).json(events);
 };
 

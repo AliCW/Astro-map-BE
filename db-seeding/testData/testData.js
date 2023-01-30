@@ -1,6 +1,6 @@
 const testData = [
   {
-    "date": "1912Apr17",
+    "date": "1912-Apr-17",
     "type": "hybrid",
     "coordinateData": [
       {
@@ -3598,7 +3598,7 @@ const testData = [
     "_id": "63d3eb1b5599da37be158ef8"
   },
   {
-    "date": "2031Nov14",
+    "date": "2031-Nov-14",
     "type": "hybrid",
     "coordinateData": [
       {
@@ -5597,7 +5597,7 @@ const testData = [
     "_id": "63d3eb1b5599da37be158f02"
   },
   {
-    "date": "2026Aug12",
+    "date": "2026-Aug-12",
     "type": "total",
     "coordinateData": [
       {
@@ -6513,7 +6513,7 @@ const testData = [
     "_id": "63d3eb1b5599da37be158f13"
   },
   {
-    "date": "1910May09",
+    "date": "1910-May-09",
     "type": "total",
     "coordinateData": [
       {
@@ -7804,7 +7804,7 @@ const testData = [
     "_id": "63d3eb1b5599da37be158f5c"
   },
   {
-    "date": "1995Oct24",
+    "date": "1995-Oct-24",
     "type": "total",
     "coordinateData": [
       {
@@ -11649,7 +11649,7 @@ const testData = [
     "_id": "63d3eb1b5599da37be158f7a"
   },
   {
-    "date": "1990Jan26",
+    "date": "1990-Jan-26",
     "type": "annular",
     "coordinateData": [
       {

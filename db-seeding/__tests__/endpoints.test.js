@@ -89,7 +89,7 @@ describe('Testing for /api/eclipses endpoint retrieving all eclipse data - happy
 })
 
 describe('Testing for /api/eclipses endpoint retrieving all eclipse data - sad path (incorrect path)', () => {
-    it('404: route does not exist', () => {
+    it('404: route does not exist - bad path test', () => {
         return request(app)
         .get('/api/eplplida')
         .expect(404)
@@ -100,6 +100,43 @@ describe('Testing for /api/eclipses endpoint retrieving all eclipse data - sad p
     })
 })
 
+describe('Testing for /api/eclipses/:type retrieving eclipse by data type - happy path', () => {
+    it('returns only hybrid eclipses when searching for hybrid types', () => {
+        return request(app)
+        .get('/api/eclipses/hybrid')
+        .expect(200)
+        .then(({ body: msg }) => {
+            expect(msg).to.have.lengthOf(2)
+            msg.forEach((obj) => {
+                expect(obj.type).to.eql('hybrid')
+            })
+        })
+    })
+})
+
+describe('Testing for /api/eclipses/:type retrieving eclipse by data type - sad path', () => {
+    it('tests for a eclipse type that is not a valid eclipse type', () => {
+        return request(app)
+        .get('/api/eclipses/completemadmanstyleorwhatever')
+        .expect(404)
+        .then(({ body: {msg} }) => {
+            expect(msg).to.eql('404 - Not found')
+        })
+        
+    })
+})
+
+describe('Testing for /api/eclipses/:type?date=DATE to retrieve eclipse data for a specific date - happy path', () => {
+    it('tests for 1912-Apr-17 eclipse data point', () => {
+        return request(app)
+        .get('/api/eclipses/hybrid?date=1912-Apr-17')
+        .expect(200)
+        .then(({body: msg}) => {
+           // expect(msg).have.length(1)
+            console.log(msg)
+        })
+    })
+})
 // // const { getEvents } = require('../backend/controllers/eventsController')
 // // const app = require('../app')
 // const request = require("supertest");
