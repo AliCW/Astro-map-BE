@@ -1,9 +1,13 @@
 const express = require("express");
 const colors = require("colors");
-const dotenv = require("dotenv").config();
-const { errorHandler } = require('./middleware/errorMiddleware')
+const { errorHandler } = require("./middleware/errorMiddleware");
 const connectDB = require("./config/db");
 const port = process.env.PORT || 5000;
+const ENV = process.env.NODE_ENV || "development";
+
+require("dotenv").config({
+  path: `${__dirname}/.env.${ENV}`,
+});
 
 connectDB();
 
@@ -13,14 +17,14 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: false }));
 
-app.use('/api/eclipses', require('./routes/eventRoutes'))
+app.use("/api/eclipses", require("./routes/eventRoutes"));
 
 app.all("/*", (request, response, next) => {
-    response.status(404).send({ msg: "404 - Not found" });
-    next();
-  });
+  response.status(404).send({ msg: "404 - Not found" });
+  next();
+});
 
-app.use(errorHandler)
+app.use(errorHandler);
 
 app.listen(port, () => console.log(`server started on port ${port}`));
 
