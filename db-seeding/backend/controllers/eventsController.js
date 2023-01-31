@@ -7,7 +7,7 @@ const Eclipse = require("../models/eclipse-schema");
 const User = require("../models/user-schema");
 
 const getEvents = async (req, res) => {
-  const events = await Eclipse.find({ type: "hybrid" });
+  const events = await Eclipse.find({});
   res.status(200).json(events);
 };
 
