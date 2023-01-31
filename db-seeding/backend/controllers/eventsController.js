@@ -7,14 +7,14 @@ const Eclipse = require("../models/eclipse-schema");
 const User = require("../models/user-schema");
 
 const getEvents = async (req, res) => {
-  const events = await Eclipse.find({ type: "hybrid" });
+  const events = await Eclipse.find();
   res.status(200).json(events);
 };
 
 const getEventsById = async (req, res) => {
   if (Object.keys(req.query)[0] === "date") {
     //<--query posed
-    const events = await Eclipse.find({ date: "1912-04-17" });
+    const events = await Eclipse.find({ date: req.query.date });
     res.status(200).json(events);
   }
   const events = await Eclipse.find({ type: req.params.id });
@@ -74,7 +74,7 @@ const loginUser = (req, res) => {
       if (bool === true) {
         res.status(200).json(user[0].username);
       } else {
-        res.status(400).json({ msg: "password incorrect" });
+        res.status(400).json({ msg: "Password incorrect" });
       }
     })
     .catch((err) => {

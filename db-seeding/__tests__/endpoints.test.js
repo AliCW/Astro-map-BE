@@ -222,7 +222,7 @@ describe('/api/users/login', () => {
     .send(user)
     .expect(400)
     .then(({ body }) => {
-      expect(body.msg).to.eql('password incorrect')
+      expect(body.msg).to.eql('Password incorrect')
     })
   })
 })
