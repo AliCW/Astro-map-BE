@@ -3,7 +3,7 @@ const router = express.Router();
 const {
   getEvents,
   getEventsById,
-  getEventsInNextFiveYears
+  getEventsInNextFiveYears,
 } = require("../controllers/eventsController");
 
 router.route("/").get(getEvents);
