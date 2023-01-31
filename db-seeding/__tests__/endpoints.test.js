@@ -167,13 +167,12 @@ describe("testing if user is added somewhere", () => {
       .send(newUser)
       .expect(201)
       .then(({ body }) => {
-        console.log(body, '<< body')
         expect(body.username).to.eql(newUser.username);
       });
   });
   it("tests if password is hashed in the database", () => {
     const newUser = {
-      username: "pat",
+      username: "jamie",
       password: "blackoutcrew",
     };
     return request(app)
@@ -182,6 +181,19 @@ describe("testing if user is added somewhere", () => {
       .expect(201)
       .then(({ body }) => {
         expect(body.password).to.not.eql(newUser.password);
+      });
+  });
+  it("will not add duplicate usernames", () => {
+    const newUser = {
+      username: "pat",
+      password: "blackoutcrew",
+    };
+    return request(app)
+      .post("/api/users/signup")
+      .send(newUser)
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).to.eql('Username taken');
       });
   });
 });
@@ -197,7 +209,20 @@ describe('/api/users/login', () => {
     .send(user)
     .expect(200)
     .then(({ body }) => {
-      expect(body.boolean).to.eql(true)
+      expect(body).to.eql('pat')
+    })
+  })
+  it('will return true if the supplied password matches the database hashed password', () => {
+    const user = {
+      username: 'pat',
+      password: 'gibblets'
+    }
+    return request(app)
+    .post('/api/users/login')
+    .send(user)
+    .expect(400)
+    .then(({ body }) => {
+      expect(body.msg).to.eql('password incorrect')
     })
   })
 })
