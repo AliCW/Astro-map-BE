@@ -36,7 +36,6 @@ const getEventsInNextFiveYears = async (req, res) => {
 };
 
 const addUser = (req, res) => {
-  
   const user = new User({ 
     username: req.body.username,
   });
@@ -45,22 +44,24 @@ const addUser = (req, res) => {
     return user;
    })
   .then((user) => {
-    console.log(user, "user")
     return user.save()
   })
   .then((result) => {
       res.status(201).json(result);
-      console.log(result, "result")
     })
   .catch((err) => {
       res.status(500).json(err);
-      console.log(err, "err")
     });
   }
+
+const loginUser = (req, res) => {
+
+}
 
 module.exports = {
   getEvents,
   getEventsById,
   getEventsInNextFiveYears,
-  addUser
+  addUser,
+  loginUser
 };

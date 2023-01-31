@@ -157,7 +157,7 @@ describe("testing for /api/eclipses/all?date=DATE to retreive data for eclipses 
 });
 
 describe("testing if user is added somewhere", () => {
-  it.only("tests if user is added somewhere", () => {
+  it("tests if user is added somewhere", () => {
     const newUser = {
       username: "pat",
       password: "blackoutcrew",
@@ -167,10 +167,40 @@ describe("testing if user is added somewhere", () => {
       .send(newUser)
       .expect(201)
       .then(({ body }) => {
+        console.log(body, '<< body')
         expect(body.username).to.eql(newUser.username);
       });
   });
+  it("tests if password is hashed in the database", () => {
+    const newUser = {
+      username: "pat",
+      password: "blackoutcrew",
+    };
+    return request(app)
+      .post("/api/users/signup")
+      .send(newUser)
+      .expect(201)
+      .then(({ body }) => {
+        expect(body.password).to.not.eql(newUser.password);
+      });
+  });
 });
+
+describe('/api/users/login', () => {
+  it('will return true if the supplied password matches the database hashed password', () => {
+    const user = {
+      username: 'pat',
+      password: 'blackoutcrew'
+    }
+    return request(app)
+    .post('/api/users/login')
+    .send(user)
+    .expect(200)
+    .then(({ body }) => {
+      expect(body.boolean).to.eql(true)
+    })
+  })
+})
 
 // // const { getEvents } = require('../backend/controllers/eventsController')
 // // const app = require('../app')
