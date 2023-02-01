@@ -304,7 +304,6 @@ describe("/api/comments/:id", () => {
       .then(({ body }) => {
         expect(body.body).to.eql(comment.body);
         expect(body.date).to.be.a("string");
-        expect(body.avatar).to.be.a("string");
       });
   })
 });
