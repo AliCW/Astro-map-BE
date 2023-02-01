@@ -1,14 +1,16 @@
 const express = require("express");
 const router = express.Router();
 const {
-    postComment
+    postComment,
+    getCommentsByEventId,
+    deleteCommentByEvent
 } = require("../controllers/eventsController");
 
-// router.route("/:id").get(getCommentsByEvent);
+router.route("/:id").get(getCommentsByEventId);
 
 router.route("/:id").post(postComment);
 
-// router.route("/:id").delete(deleteCommentByEvent);
+router.route("/:id").delete(deleteCommentByEvent);
 
 
 
