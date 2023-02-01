@@ -15,6 +15,10 @@ const userSchema = new mongoose.Schema({
     type: Array,
     required: false,
   },
+  avatarURL: {
+    type: String,
+    required: false,
+  },
 });
 
 // hash the password

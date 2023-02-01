@@ -326,3 +326,19 @@ describe("allows a user to delete comments", () => {
   });
 });
 
+describe("allows a user to add avatars to their account", () => {
+  it("adds avatars to specific user accounts", () => {
+    const user = {
+      username: "pat",
+      avatarURL: "https://avatars.githubusercontent.com/u/1234",
+    };
+    return request(app)
+      .patch(`/api/users/pat/avatar`)
+      .send(user)
+      .expect(200)
+      .then(({ body }) => {
+        console.log(body, "body");
+        expect(body.avatarURL).to.eql(user.avatarURL);
+      });
+  });
+});

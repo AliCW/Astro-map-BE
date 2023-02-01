@@ -79,11 +79,11 @@ const loginUser = (req, res) => {
     .then((user) => {
       const bool = bcrypt.compareSync(req.body.password, user[0].password);
       if (bool === true) {
-        const userObj = { 
+        const userObj = {
           username: user[0].username,
           favourites: user[0].favourites,
-        }
-        console.log(userObj, "userObj")
+        };
+        console.log(userObj, "userObj");
         res.status(200).json(userObj);
       } else {
         res.status(400).json({ msg: "Password incorrect" });
@@ -175,6 +175,18 @@ const deleteCommentByEvent = (req, res) => {
   });
 };
 
+const addAvatar = (req, res) => {
+  console.log(req.body, "req.body");
+  return User.findOneAndUpdate(
+    { username: req.body.username },
+    {$set : {avatarURL: req.body.avatarURL}},
+    { new: true }
+  ).then((user) => {
+    console.log(user, "user");
+    res.status(200).json(user);
+  });
+};
+
 module.exports = {
   getEvents,
   getEventsById,
@@ -186,4 +198,5 @@ module.exports = {
   postComment,
   getCommentsByEventId,
   deleteCommentByEvent,
+  addAvatar
 };
