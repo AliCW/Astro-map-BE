@@ -306,7 +306,7 @@ describe("/api/comments/:id", () => {
         expect(body.date).to.be.a("string");
         expect(body.avatar).to.be.a("string");
       });
-  });
+  })
 });
 
 describe("/api/comments/:id", () => {

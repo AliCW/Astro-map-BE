@@ -154,8 +154,10 @@ const postComment = (req, res) => {
         body: req.body.body,
         event: req.body.event,
         date: today,
-        avatar: user[0].avatarURL,
       });
+      if(user[0].avatarURL !== undefined){
+        comment.avatar = user[0].avatarURL;
+      }
       return comment.save();
     })
     .then((comment) => {
