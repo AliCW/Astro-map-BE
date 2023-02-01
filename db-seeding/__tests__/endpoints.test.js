@@ -141,12 +141,23 @@ describe("Testing for /api/eclipses/:type?date=DATE to retrieve eclipse data for
       .expect(200)
       .then(({ body: msg }) => {
         expect(msg).have.length(1);
+        expect(msg[0].date).to.eql("1912-04-17")
       });
   });
 });
+describe("testing for /api/eclipses/all?dateDATE to retreive data for a specific date - sad path", () => {
+  it("tests for all eclipse events in the next 5 years - landing page carousel - sad path", () => {
+    return request(app)
+    .get("/api/eclipses/all?date=2080-09-12")
+    .expect(404)
+    .then(({ body: { msg } }) => {
+      expect(msg).to.eql("404 - Not found")
+    })
+})
+})
 
-describe("testing for /api/eclipses/all?date=DATE to retreive data for eclipses in the next 12 months", () => {
-  it("tests for all elipse events in the next 12 months - landing page carousel", () => {
+describe("testing for /api/eclipses/all?date=DATE to retreive data for eclipses in the next 5 years from current year", () => {
+  it("tests for all elipse events in the next 5 years - landing page carousel", () => {
     return request(app)
       .get("/api/eclipses/all/2023-01-30")
       .expect(200)
@@ -155,6 +166,7 @@ describe("testing for /api/eclipses/all?date=DATE to retreive data for eclipses 
       });
   });
 });
+
 
 describe("testing if user is added somewhere", () => {
   it("tests if user is added somewhere", () => {
