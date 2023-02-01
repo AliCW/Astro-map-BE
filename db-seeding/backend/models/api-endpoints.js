@@ -45,6 +45,13 @@ const apiEndpoints = () => {
           ],
         },
       },
+      {
+        "/api/comments/:id": {
+          path: "GET /api/comments/:id",
+          description: "lists all comments by event date id",
+          queries: ["/api/comments/2024-04-01"],
+        },
+      },
     ],
     POST: [
       {
@@ -65,6 +72,48 @@ const apiEndpoints = () => {
           examplePost: { username: "pat", password: "blackoutcrew" },
         },
       },
+      {
+        "/api/comments/:id": {
+          path: "POST /api/comments/:id",
+          description: "allows users to post a comment by event date id",
+          queries: ["/api/comments/2024-04-01"],
+          examplePost: {event: "2024-04-01",
+                        body: "now thats what I call an eclipse",
+                        username: "pat",}
+        },
+      },
     ],
+    PATCH: [
+      {
+        "/api/users/:user/favourites": {
+          path: "PATCH /api/users/:user/favourites",
+          description:
+           "allows users to add a favourite event by date ID, returns a 400 error if the user already exists",
+           queries: ["/api/users/pat/favourites",
+                    "/api/users/jamie/favourites",
+                    "/api/users/ali/favourites"],
+           examplePatch: { username: "pat", favourite: "2024-04-01" }
+        },
+      },
+      {
+        "/api/users/:user/favourites/remove": {
+          path: "PATCH /api/users/:user/favourites/remove",
+          description: "allows users to remove a favourite event by date ID",
+          queries: ["/api/users/pat/favourites/remove",
+                    "/api/users/ali/favourites/remove",
+                    "/api/users/jamie/favourites/remove",],
+          examplePatch: { username: "pat", favourite: "2024-04-01" },
+        },
+      },
+    ],
+    DELETE: [
+      {
+        "/api/comments/:id": {
+          path: "DELETE /api/comments/:id",
+          description: "delete comment by mongo hexideciaml id",
+          queries: ["/api/comments/63da52f36154389f0f2d0673"],
+        },
+      },
+    ]
   };
 };
