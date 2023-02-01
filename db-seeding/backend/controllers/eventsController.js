@@ -15,6 +15,9 @@ const getEventsById = async (req, res) => {
   if (Object.keys(req.query)[0] === "date") {
     //<--query posed
     const events = await Eclipse.find({ date: req.query.date });
+    if (events.length === 0) {
+      res.status(404).send({ msg: "404 - Not found" });
+    }
     res.status(200).json(events);
   }
   const events = await Eclipse.find({ type: req.params.id });
@@ -33,6 +36,7 @@ const getEventsInNextFiveYears = async (req, res) => {
         $lte: fiveYearsAhead,
       },
     });
+
     res.status(200).json(events);
   }
 };
