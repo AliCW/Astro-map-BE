@@ -140,15 +140,21 @@ const removeFavourite = (req, res) => {
 };
 
 const postComment = (req, res) => {
+  
   return User.find({ username: req.body.username })
     .then((user) => {
       if (user.length === 0) {
         throw "404";
       }
+    
+      const date = new Date();
+      const today = date.toString()
       const comment = new Comment({
         username: req.body.username,
         body: req.body.body,
         event: req.body.event,
+        date: today,
+        avatar: user[0].avatarURL,
       });
       return comment.save();
     })
@@ -179,13 +185,11 @@ const deleteCommentByEvent = (req, res) => {
 };
 
 const addAvatar = (req, res) => {
-  console.log(req.body, "req.body");
   return User.findOneAndUpdate(
     { username: req.body.username },
     {$set : {avatarURL: req.body.avatarURL}},
     { new: true }
   ).then((user) => {
-    console.log(user, "user");
     res.status(200).json(user);
   });
 };

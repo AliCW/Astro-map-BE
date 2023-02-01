@@ -14,6 +14,14 @@ const commentSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  date: {
+    type: String,
+    required: true,
+  },
+  avatar: {
+    type: String,
+    required: false,
+  },
 });
 
 // Create a mongoose model based on the above schema

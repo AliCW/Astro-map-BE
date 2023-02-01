@@ -289,10 +289,13 @@ describe("allows a user to remove favourited events", () => {
 
 describe("/api/comments/:id", () => {
   it("posts a comment to the database", () => {
+    const date = new Date();
+    const today = date.toString()
     const comment = {
       event: "2024-04-01",
       body: "now thats what I call an eclipse",
       username: "pat",
+      date: today,
     };
     return request(app)
       .post("/api/comments/2024-04-01")
@@ -300,11 +303,13 @@ describe("/api/comments/:id", () => {
       .expect(201)
       .then(({ body }) => {
         expect(body.body).to.eql(comment.body);
+        expect(body.date).to.be.a("string");
+        expect(body.avatar).to.be.a("string");
       });
   });
 });
 
-describe.only("/api/comments/:id", () => {
+describe("/api/comments/:id", () => {
   it("gets all comments for each event", () => {
     return request(app)
       .get("/api/comments/2024-04-01")
@@ -353,7 +358,6 @@ describe("allows a user to add avatars to their account", () => {
       .send(user)
       .expect(200)
       .then(({ body }) => {
-        console.log(body, "body");
         expect(body.avatarURL).to.eql(user.avatarURL);
       });
   });
