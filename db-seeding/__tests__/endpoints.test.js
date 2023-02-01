@@ -213,7 +213,7 @@ describe("testing if user is added somewhere", () => {
 });
 
 describe("/api/users/login", () => {
-  it("will return true if the supplied password matches the database hashed password", () => {
+  it("will return the user object if the supplied password matches the database hashed password", () => {
     const user = {
       username: "pat",
       password: "blackoutcrew",
@@ -223,10 +223,11 @@ describe("/api/users/login", () => {
       .send(user)
       .expect(200)
       .then(({ body }) => {
-        expect(body).to.eql("pat");
+        expect(body.username).to.eql("pat");
+        expect(body.favourites).to.be.a("array");
       });
   });
-  it("will return true if the supplied password matches the database hashed password", () => {
+  it("will return the user object if the supplied password matches the database hashed password", () => {
     const user = {
       username: "pat",
       password: "gibblets",
@@ -324,3 +325,4 @@ describe("allows a user to delete comments", () => {
       });
   });
 });
+

@@ -79,7 +79,12 @@ const loginUser = (req, res) => {
     .then((user) => {
       const bool = bcrypt.compareSync(req.body.password, user[0].password);
       if (bool === true) {
-        res.status(200).json(user[0]);
+        const userObj = { 
+          username: user[0].username,
+          favourites: user[0].favourites,
+        }
+        console.log(userObj, "userObj")
+        res.status(200).json(userObj);
       } else {
         res.status(400).json({ msg: "Password incorrect" });
       }
