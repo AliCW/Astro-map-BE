@@ -285,3 +285,42 @@ describe("allows a user to remove favourited events", () => {
       });
   });
 });
+
+describe("/api/comments/:id", () => {
+  it("posts a comment to the database", () => {
+    const comment = {
+      event: "2024-04-01",
+      body: "now thats what I call an eclipse",
+      username: "pat",
+    };
+    return request(app)
+      .post("/api/comments/2024-04-01")
+      .send(comment)
+      .expect(201)
+      .then(({ body }) => {
+        expect(body.body).to.eql(comment.body);
+      });
+  });
+});
+
+describe("/api/comments/:id", () => {
+  it("gets all comments for each event", () => {
+    return request(app)
+      .get("/api/comments/2024-04-01")
+      .expect(200)
+      .then(({ body }) => {
+        expect(body).to.be.a("array");
+      });
+  });
+});
+
+describe("allows a user to delete comments", () => {
+  it("deletes specific comments for an event by object id", () => {
+    return request(app)
+      .delete("/api/comments/63da52f36154389f0f2d0673")
+      .expect(204)
+      .then((comment) => {
+        expect(comment.noContent).to.eql(true);
+      });
+  });
+});

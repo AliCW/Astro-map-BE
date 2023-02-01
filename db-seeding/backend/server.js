@@ -16,6 +16,8 @@ app.use("/api/users", require("./routes/users"));
 
 app.use("/api/eclipses", require("./routes/eventRoutes"));
 
+app.use("/api/comments", require("./routes/commentRoutes"))
+
 app.all("/*", (request, response, next) => {
   response.status(404).send({ msg: "404 - Not found" });
   next();
