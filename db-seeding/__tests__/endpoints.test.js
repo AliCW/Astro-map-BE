@@ -141,20 +141,20 @@ describe("Testing for /api/eclipses/:type?date=DATE to retrieve eclipse data for
       .expect(200)
       .then(({ body: msg }) => {
         expect(msg).have.length(1);
-        expect(msg[0].date).to.eql("1912-04-17")
+        expect(msg[0].date).to.eql("1912-04-17");
       });
   });
 });
 describe("testing for /api/eclipses/all?dateDATE to retreive data for a specific date - sad path", () => {
   it("tests for all eclipse events in the next 5 years - landing page carousel - sad path", () => {
     return request(app)
-    .get("/api/eclipses/all?date=2080-09-12")
-    .expect(404)
-    .then(({ body: { msg } }) => {
-      expect(msg).to.eql("404 - Not found")
-    })
-})
-})
+      .get("/api/eclipses/all?date=2080-09-12")
+      .expect(404)
+      .then(({ body: { msg } }) => {
+        expect(msg).to.eql("404 - Not found");
+      });
+  });
+});
 
 describe("testing for /api/eclipses/all?date=DATE to retreive data for eclipses in the next 5 years from current year", () => {
   it("tests for all elipse events in the next 5 years - landing page carousel", () => {
@@ -167,12 +167,12 @@ describe("testing for /api/eclipses/all?date=DATE to retreive data for eclipses 
   });
 });
 
-
 describe("testing if user is added somewhere", () => {
   it("tests if user is added somewhere", () => {
     const newUser = {
       username: "pat",
       password: "blackoutcrew",
+      favourites: [],
     };
     return request(app)
       .post("/api/users/signup")
@@ -186,6 +186,7 @@ describe("testing if user is added somewhere", () => {
     const newUser = {
       username: "jamie",
       password: "blackoutcrew",
+      favourites: [],
     };
     return request(app)
       .post("/api/users/signup")
@@ -199,42 +200,88 @@ describe("testing if user is added somewhere", () => {
     const newUser = {
       username: "pat",
       password: "blackoutcrew",
+      favourites: [],
     };
     return request(app)
       .post("/api/users/signup")
       .send(newUser)
       .expect(400)
       .then(({ body }) => {
-        expect(body.msg).to.eql('Username taken');
+        expect(body.msg).to.eql("Username taken");
       });
   });
 });
 
-describe('/api/users/login', () => {
-  it('will return true if the supplied password matches the database hashed password', () => {
+describe("/api/users/login", () => {
+  it("will return true if the supplied password matches the database hashed password", () => {
     const user = {
-      username: 'pat',
-      password: 'blackoutcrew'
-    }
+      username: "pat",
+      password: "blackoutcrew",
+    };
     return request(app)
-    .post('/api/users/login')
-    .send(user)
-    .expect(200)
-    .then(({ body }) => {
-      expect(body).to.eql('pat')
-    })
-  })
-  it('will return true if the supplied password matches the database hashed password', () => {
+      .post("/api/users/login")
+      .send(user)
+      .expect(200)
+      .then(({ body }) => {
+        expect(body).to.eql("pat");
+      });
+  });
+  it("will return true if the supplied password matches the database hashed password", () => {
     const user = {
-      username: 'pat',
-      password: 'gibblets'
-    }
+      username: "pat",
+      password: "gibblets",
+    };
     return request(app)
-    .post('/api/users/login')
-    .send(user)
-    .expect(400)
-    .then(({ body }) => {
-      expect(body.msg).to.eql('Password incorrect')
-    })
-  })
-})
+      .post("/api/users/login")
+      .send(user)
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).to.eql("Password incorrect");
+      });
+  });
+});
+
+describe("finds a users favourites and updates them", () => {
+  it("finds a users favourites and updates them", () => {
+    const user = {
+      username: "pat",
+      favourite: "2024-04-01",
+    };
+    return request(app)
+      .patch(`/api/users/pat/favourites`)
+      .send(user)
+      .expect(200)
+      .then(({ body }) => {
+        expect(body.favourites[0]).to.eql(user.favourite);
+      });
+  });
+  it("does not allow duplicate favourites", () => {
+    const user = {
+      username: "pat",
+      favourite: "2024-04-01",
+    };
+    return request(app)
+      .patch(`/api/users/pat/favourites`)
+      .send(user)
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).to.eql("Favourite already exists");
+      });
+  });
+});
+
+describe("allows a user to remove favourited events", () => {
+  it("deletes favourites when user wants to remove them", () => {
+    const user = {
+      username: "pat",
+      favourite: "2024-04-01",
+    };
+    return request(app)
+      .patch(`/api/users/pat/favourites/remove`)
+      .send(user)
+      .expect(204)
+      .then((user) => {
+        expect(user.noContent).to.eql(true);
+      });
+  });
+});

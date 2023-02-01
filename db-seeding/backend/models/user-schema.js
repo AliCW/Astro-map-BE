@@ -11,6 +11,10 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
+  favourites: {
+    type: Array,
+    required: false,
+  },
 });
 
 // hash the password

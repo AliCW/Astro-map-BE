@@ -45,7 +45,7 @@ const addUser = (req, res) => {
   User.find({ username: req.body.username })
     .then((user) => {
       if (user.length > 0) {
-        throw '400';
+        throw "400";
       }
     })
     .then(() => {
@@ -54,6 +54,7 @@ const addUser = (req, res) => {
     .then((hash) => {
       const user = new User({
         username: req.body.username,
+        favourites: [],
       });
       user.password = hash;
       return user;
@@ -65,9 +66,9 @@ const addUser = (req, res) => {
       res.status(201).json(result);
     })
     .catch((err) => {
-      if (err === '400') {
-        res.status(400).json({msg: 'Username taken'})
-      } else res.status(500)
+      if (err === "400") {
+        res.status(400).json({ msg: "Username taken" });
+      } else res.status(500);
     });
 };
 
@@ -86,10 +87,58 @@ const loginUser = (req, res) => {
     });
 };
 
+const addFavourite = (req, res) => {
+  return User.find({ username: req.body.username })
+  .then((user) => {
+    const favourites = req.body.favourite;
+    if(user[0].favourites.includes(favourites)) {
+      throw "400";
+    }
+      return User.findOneAndUpdate(
+        { username: req.body.username },
+        { favourites: [favourites, ...user[0].favourites] },
+        { new: true }
+      );
+    })
+    .then((user) => {
+      console.log(user, "user");
+      res.status(200).json(user);
+    })
+    .catch((err) => {
+      if(err === "400") {
+      res.status(400).json({ msg: "Favourite already exists" });
+      console.log(err);
+      }
+    });
+};
+
+const removeFavourite = (req, res) => {
+  return User.find({ username: req.body.username })
+ .then((user) => {
+    const favourites = user[0].favourites;
+    const newFavourites = favourites.filter((favourite) => {
+      if(favourite !== req.body.favourite) {
+        return favourite;
+      }
+    })
+    return User.findOneAndUpdate(
+        { username: req.body.username },
+        { favourites: newFavourites },
+        { new: true }
+    )
+ }).then((user) => {
+  res.status(204);
+  res.send(user)
+  console.log(user, "user");
+ })
+}
+
 module.exports = {
   getEvents,
   getEventsById,
   getEventsInNextFiveYears,
   addUser,
   loginUser,
+  addFavourite,
+  removeFavourite,
 };
