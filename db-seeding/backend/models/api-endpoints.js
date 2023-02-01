@@ -105,6 +105,15 @@ const apiEndpoints = () => {
           examplePatch: { username: "pat", favourite: "2024-04-01" },
         },
       },
+      {
+        "/api/users/:user/avatar": {
+          path: "PATCH /api/users/:user/avatar",
+          description: "allows users to add an avatarURL",
+          queries: ["/api/users/pat/avatar",
+                    "/api/users/jamie/avatar",],
+          examplePatch: { username: "pat", avatarURL: "https://avatars.githubusercontent.com/u/1234" },
+        },
+      },
     ],
     DELETE: [
       {
