@@ -285,3 +285,20 @@ describe("allows a user to remove favourited events", () => {
       });
   });
 });
+
+describe('/api/comments/:id', () => {
+  it('posts a comment to the database', () => {
+    const comment = {
+      event: "2024-04-01",
+      body: 'now thats what I call an eclipse',
+      user: 'pat'
+    }
+    return request(app)
+    .post('api/comments/2024-04-01')
+    .send(comment)
+    .expect(201)
+    .then(({body}) => {
+      expect(body.body).to.eql(comment.body)
+    })
+  })
+})

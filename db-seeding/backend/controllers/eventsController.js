@@ -133,6 +133,27 @@ const removeFavourite = (req, res) => {
  })
 }
 
+const postComment = (req, res) => {
+  return User.find({ username: req.body.username })
+  .then((user) => {
+    if (user.length === 0) {
+      throw '404'
+    }
+    comment = new Comment({
+      username: req.body.username,
+      body: req.body.body,
+      event: req.body.event
+    })
+    comment.save()
+  }).then((comment) => {
+    res.status(201).json(comment)
+  }).catch((err) => {
+    if (err === '404') {
+      res.status(404).json({msg: 'User not found'})
+    }
+  })
+}
+
 module.exports = {
   getEvents,
   getEventsById,
@@ -141,4 +162,5 @@ module.exports = {
   loginUser,
   addFavourite,
   removeFavourite,
+  postComment
 };
