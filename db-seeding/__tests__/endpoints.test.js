@@ -304,7 +304,7 @@ describe("/api/comments/:id", () => {
   });
 });
 
-describe("/api/comments/:id", () => {
+describe.only("/api/comments/:id", () => {
   it("gets all comments for each event", () => {
     return request(app)
       .get("/api/comments/2024-04-01")
@@ -313,6 +313,22 @@ describe("/api/comments/:id", () => {
         expect(body).to.be.a("array");
       });
   });
+  it("returns a 404 Not found when no comments are posted on the associated eclipse - sad path", () => {
+    return request(app)
+    .get("/api/comments/1912-04-17")
+    .expect(404)
+    .then(({body}) => {
+      expect(body.msg).to.eql("404 - Not found")
+    })
+  })
+  it("returns a 404 Not found if the eclipse id is invalid", () => {
+    return request(app)
+    .get("/api/comments/2018-2110-22310")
+    .expect(404)
+    .then(({ body}) => {
+      expect(body.msg).to.eql("404 - Not found")
+    })
+  })
 });
 
 describe("allows a user to delete comments", () => {

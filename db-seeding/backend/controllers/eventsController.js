@@ -164,6 +164,9 @@ const postComment = (req, res) => {
 
 const getCommentsByEventId = async (req, res) => {
   return Comment.find({ event: req.params.id }).then((comments) => {
+    if (comments.length === 0) {
+      res.status(404).send({ msg: "404 - Not found" });
+    }
     res.status(200).json(comments);
   });
 };
