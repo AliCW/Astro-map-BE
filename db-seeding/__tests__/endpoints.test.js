@@ -213,7 +213,7 @@ describe("testing if user is added somewhere", () => {
 });
 
 describe("/api/users/login", () => {
-  it("will return the user object if the supplied password matches the database hashed password", () => {
+  it.only("will return the user object if the supplied password matches the database hashed password", () => {
     const user = {
       username: "pat",
       password: "blackoutcrew",

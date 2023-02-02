@@ -26,5 +26,13 @@
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliCW/Astro-map-BE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AliCW/Astro-map-BE/issues"
+  },
+  "homepage": "https://github.com/AliCW/Astro-map-BE#readme"
 }

@@ -82,6 +82,7 @@ const loginUser = (req, res) => {
         const userObj = {
           username: user[0].username,
           favourites: user[0].favourites,
+          avatarURL: user[0].avatarURL,
         };
         console.log(userObj, "userObj");
         res.status(200).json(userObj);
