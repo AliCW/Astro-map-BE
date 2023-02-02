@@ -29,19 +29,19 @@ The base link for the hosted api is below:
     (find all eclipses - lists all the eclipse data for the center shadow stretching from 1900-2100)
     https://astro-map-be.onrender.com/api/eclipses
     
-2.  
+2.
 
     GET /api/eclipses/:type
     (filters eclipse data by type; annual, total, hybrid)
     https://astro-map-be.onrender.com/api/eclipses/total
     
-3.    
+3.
     
     GET /api/eclipses/:type?date=DATE
     (filters eclipse data by type & date, date input must be specific, type can be non-specific)
     https://astro-map-be.onrender.com/api/eclipses/all?date=1958-04-19
     
-4.    
+4.
     
     GET /api/eclipses/all/:date
     (finds eclipse events in the next five year date is auto added by backend functionality & the query will not impact the result)
