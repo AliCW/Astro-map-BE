@@ -32,7 +32,7 @@ The base link for the hosted api is below:
 2.
 
     GET /api/eclipses/:type
-    (filters eclipse data by type; annual, total, hybrid)
+    (filters eclipse data by type; annular, total, hybrid)
     https://astro-map-be.onrender.com/api/eclipses/total
     
 3.
