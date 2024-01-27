@@ -110,7 +110,7 @@ The base link for the hosted api is below:
     # clone the repo
     git clone https://github.com/AliCW/Astro-map-BE.git
     ```
-2. Create your environment varaibles and place them in the root directory
+2. Create your environment varaibles and place them in the root directory or /db-seeding/ folder depending on your setup. You can get your mongouri link by clicking 'connect' on your mongodb console & select the 'drivers' connection method. You can addtionally change the name of your database by editing the link as follows: mongodb+srv://<USERNAME>:<PASSWORD>@example.cluster.name.mongodb.net/<DATABASE_NAME>?retryWrites=dvbbfh&w=fffsds
 
     ```bash
     .env.development - 
