@@ -1,13 +1,9 @@
-const express = require('express');
-const app = express();
 const mongoose = require('mongoose');
-const Eclipse = require('./backend/models/eclipse-schema')
-const { convertArrayOfStringsToJson } = require('./utils/convertArrayToJson')
-const { distance } = require('./distance')
-const { hybridArrays } = require('./data/hybrid-arrays-all/hybrid-arrays-all')
-const { totalArrays } = require('./data/total-arrays-all/total-arrays-all')
-const { annularArrays } = require('./data/annular-arrays-all/annular-arrays')
-const fs = require('fs/promises')
+const Eclipse = require('./backend/models/eclipse-schema');
+const { convertArrayOfStringsToJson } = require('./utils/convertArrayToJson');
+const { hybridArrays } = require('./data/hybrid-arrays-all/hybrid-arrays-all');
+const { totalArrays } = require('./data/total-arrays-all/total-arrays-all');
+const { annularArrays } = require('./data/annular-arrays-all/annular-arrays');
 const ENV = process.env.NODE_ENV || 'development';
 
 
@@ -16,7 +12,6 @@ require('dotenv').config({
 });
 
 function runSeed(array) {
-    
     
     mongoose.connect(process.env.MONGOURI, {
         useNewUrlParser: true,
@@ -35,7 +30,8 @@ function runSeed(array) {
     .catch((err) => {
         console.log(err)
     })
-}
+};
+
 // creates objects from raw data 
 // and concats all arrays together
 
@@ -52,13 +48,10 @@ const allArraysSchema = allArrays.map((object) => {
         'type': object.type,
         'coordinateData': object.coordinateData
     })
-    return newObj
+    return newObj;
 })
 
-
-// const smallArraysSchema = [allArraysSchema[0], allArraysSchema[10], allArraysSchema[27], allArraysSchema[100], allArraysSchema[130], allArraysSchema[201]]
-
-// runSeed(allArraysSchema)
+runSeed(allArraysSchema);
 
 module.exports = { runSeed };
 
